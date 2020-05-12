@@ -10,6 +10,7 @@
 ## References
 
 * [Battlesnake API](references/battlesnake-api.md)
+* [Battlesnake API \(v0\)](references/battlesnake-api-v0.md)
 
 ## Community
 

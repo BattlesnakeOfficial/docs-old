@@ -1,64 +1,22 @@
 ---
-description: Reference for the HTTP API implemented by Battlesnakes.
+description: Official Reference for the Battlesnake API (Version 1)
 ---
 
 # Battlesnake API
 
-{% api-method method="get" host="https://your-battlesnake.com" path="/ping" %}
+The Battlesnake API is an inverted HTTP API. Developers implement this API and the game engine will make HTTP requests to your server during each game. How your server responds will control how your Battlesnake behaves.
+
+{% api-method method="get" host="https://your.battlesnake.server.com" path="/" %}
 {% api-method-summary %}
-Ping
+/
 {% endapi-method-summary %}
 
 {% api-method-description %}
-A heartbeat call to check if your snake server is running.
+This command is used by the game engine to retrieve information about your Battlesnake, including its author and display options.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Response body is ignored
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="post" host="https://your-battlesnake.com" path="/start" %}
-{% api-method-summary %}
-Start New Game
-{% endapi-method-summary %}
-
-{% api-method-description %}
-Called when your Battlesnake has been entered into a new game.
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="you" type="object" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="board" type="object" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="turn" type="integer" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="game" type="object" required=true %}
-
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
 
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
@@ -68,9 +26,11 @@ application/json
 
 ```javascript
 {
-  "color": "#ff00ff",
-  "headType": "bendr",
-  "tailType": "pixel"
+    "apiversion": "1",
+    "author": "your-username",
+    "color": "#888888",
+    "head": "default",
+    "tail": "default"
 }
 ```
 {% endapi-method-response-example %}
@@ -78,95 +38,15 @@ application/json
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="post" host="https://your-battlesnake.com" path="/move" %}
-{% api-method-summary %}
-Take a turn within a game
-{% endapi-method-summary %}
+**Response Parameters**
 
-{% api-method-description %}
-Take a turn within a game
-{% endapi-method-description %}
+| **Parameter** | **Type** | **Description** |
+| :--- | :--- | :--- |
+| apiversion | string | Version of the Battlesnake API implemented by this Battlesnake. |
+| author | string \(optional\) | Username of the author of this Battlesnake. If provided, this will be used to verify ownership. |
+| color | string \(optional\) | Hex color code used to display this Battlesnake. Must start with "\#" and be 7 characters long.  |
+| head | string \(optional\) | Displayed head of this Battlesnake. See REFERENCE HERE for available options. |
+| tail | string \(optional\) | Displayed tail of this Battlesnake. See REFERENCE HERE for available options. |
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="you" type="object" required=true %}
 
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="board" type="object" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="turn" type="integer" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="game" type="object" required=true %}
-
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-application/json
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-  "move": "right", 
-  "shout": "I am moving left!"
-}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
-{% api-method method="post" host="https://your-battlesnake.com" path="/end" %}
-{% api-method-summary %}
-Signal game has ended
-{% endapi-method-summary %}
-
-{% api-method-description %}
-Signals a game has ended
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="you" type="object" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="board" type="object" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="turn" type="integer" required=true %}
-
-{% endapi-method-parameter %}
-
-{% api-method-parameter name="game" type="object" required=true %}
-
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-  
-Response body is ignored.
-{% endapi-method-response-example-description %}
-
-```
-
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 
