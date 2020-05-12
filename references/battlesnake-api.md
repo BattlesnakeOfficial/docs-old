@@ -42,11 +42,11 @@ application/json
 
 | **Parameter** | **Type** | **Description** |
 | :--- | :--- | :--- |
-| apiversion | string | Version of the Battlesnake API implemented by this Battlesnake. |
-| author | string \(optional\) | Username of the author of this Battlesnake. If provided, this will be used to verify ownership. |
-| color | string \(optional\) | Hex color code used to display this Battlesnake. Must start with "\#" and be 7 characters long.  |
-| head | string \(optional\) | Displayed head of this Battlesnake. See REFERENCE HERE for available options. |
-| tail | string \(optional\) | Displayed tail of this Battlesnake. See REFERENCE HERE for available options. |
+| **apiversion** | string | Version of the Battlesnake API implemented by this Battlesnake. |
+| **author** | string \(optional\) | Username of the author of this Battlesnake. If provided, this will be used to verify ownership. |
+| **color** | string \(optional\) | Hex color code used to display this Battlesnake. Must start with "\#" and be 7 characters long.  |
+| **head** | string \(optional\) | Displayed head of this Battlesnake. See REFERENCE HERE for available options. |
+| **tail** | string \(optional\) | Displayed tail of this Battlesnake. See REFERENCE HERE for available options. |
 
 
 
