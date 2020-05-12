@@ -6,19 +6,38 @@ description: Official Reference for the Battlesnake API (Version 1)
 
 The Battlesnake API is an inverted HTTP API. Developers implement this API and the game engine will make HTTP requests to your server during each game. How your server responds will control how your Battlesnake behaves.
 
-## API Objects
+## API Object Definitions
 
 ### Game
 
+| **Property** | **Type** | **Description** |
+| :--- | :--- | :--- |
+| **id** | string | A unique identifier for this Game. |
+| **timeout** | integer \(milliseconds\) | How much time your snake has to respond to requests for this Game. |
+
+{% code title="Example Game Object" %}
 ```javascript
 {
   "id": "unique-game-id",
   "timeout": 500
 }
 ```
+{% endcode %}
 
 ### Battlesnake
 
+| **Property** | **Type** | **Description** |
+| :--- | :--- | :--- |
+| **id** | string | Unique identifier for this Battlesnake in the context of the current Game. |
+| **name** | string | Name given to this Battlesnake by its author. |
+| **health** | integer | Health value of this Battlesnake, between 0 and 100 inclusively. |
+| **body** | array | Array of coordinates representing this Battlesnake's location on the game board. This array is ordered from head to tail. |
+| **head** | object | Coordinates for this Battlesnake's head. Equivalent to the first element of the body array. |
+| **tail** | object | Coordinates for this Battlesnake's tail. Equivalent to the last element of the body array. |
+| **length** | integer | Length of this Battlesnake from head to tail. Equivalent to the length of the body array. |
+| **shout** | string | Message shouted by this Battlesnake on the previous turn. |
+
+{% code title="Example Battlesnake Object" %}
 ```javascript
 {
   "id": ...,
@@ -31,9 +50,18 @@ The Battlesnake API is an inverted HTTP API. Developers implement this API and t
   "shout": ...
 }
 ```
+{% endcode %}
 
 ### Board
 
+| **Property** | **Type** | **Description** |
+| :--- | :--- | :--- |
+| **height** | integer | Height of the game board. |
+| **width** | integer | Width of the game board. |
+| **food** | array | Array of coordinates representing food locations on the game board. |
+| **snakes** | array | Array of \[BATTLESNAKE OBJECTS\] representing all Battlesnakes on the game board \(including yourself if applicable\). |
+
+{% code title="Example Board Object" %}
 ```javascript
 {
   "height": ...,
@@ -42,6 +70,11 @@ The Battlesnake API is an inverted HTTP API. Developers implement this API and t
   "snakes": ...,
 }
 ```
+{% endcode %}
+
+## Battlesnake API Calls
+
+To play Battlesnake your server should implement the following HTTP API Calls.
 
 {% api-method method="get" host="https://your.battlesnake.server.com" path="/" %}
 {% api-method-summary %}
