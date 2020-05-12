@@ -8,6 +8,8 @@ The Battlesnake API is an inverted HTTP API. Developers implement this API and t
 
 ## API Object Definitions
 
+The game engine uses the following object definitions when communicating with your Battlesnake.
+
 ### Game
 
 | **Property** | **Type** | **Description** |
