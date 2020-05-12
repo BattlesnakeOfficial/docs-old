@@ -10,8 +10,8 @@
 
 ## References
 
-* [Battlesnake API](references/battlesnake-api.md)
-* [Battlesnake API \(v0\)](references/battlesnake-api-v0.md)
+* [Battlesnake API](references/api.md)
+* [Battlesnake API \(v0\)](references/api-v0.md)
 
 ## Community
 
