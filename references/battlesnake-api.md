@@ -6,6 +6,43 @@ description: Official Reference for the Battlesnake API (Version 1)
 
 The Battlesnake API is an inverted HTTP API. Developers implement this API and the game engine will make HTTP requests to your server during each game. How your server responds will control how your Battlesnake behaves.
 
+## API Objects
+
+### Game
+
+```javascript
+{
+  "id": "unique-game-id",
+  "timeout": 500
+}
+```
+
+### Battlesnake
+
+```javascript
+{
+  "id": ...,
+  "name": ...,
+  "health": ...,
+  "body": ...,
+  "head": ...,
+  "tail": ...,
+  "length": ...,
+  "shout": ...
+}
+```
+
+### Board
+
+```javascript
+{
+  "height": ...,
+  "width": ...,
+  "food": ...,
+  "snakes": ...,
+}
+```
+
 {% api-method method="get" host="https://your.battlesnake.server.com" path="/" %}
 {% api-method-summary %}
 /
@@ -189,39 +226,4 @@ Responses to this command are ignored by the game engine.
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
-
-## Game Objects
-
-```javascript
-{
-  "id": "unique-game-id",
-  "timeout": 500
-}
-```
-
-## Battlesnake Objects
-
-```javascript
-{
-  "id": ...,
-  "name": ...,
-  "health": ...,
-  "body": ...,
-  "head": ...,
-  "tail": ...,
-  "length": ...,
-  "shout": ...
-}
-```
-
-## Board Objects
-
-```javascript
-{
-  "height": ...,
-  "width": ...,
-  "food": ...,
-  "snakes": ...,
-}
-```
 
