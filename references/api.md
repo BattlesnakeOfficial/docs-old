@@ -67,7 +67,8 @@ application/json
     <tr>
       <td style="text-align:left"><b>author</b>
       </td>
-      <td style="text-align:left">string (optional)</td>
+      <td style="text-align:left">string <em>(optional)</em>
+      </td>
       <td style="text-align:left">
         <p>Username of the author of this Battlesnake. If provided, this will be
           used to verify ownership.</p>
@@ -78,7 +79,8 @@ application/json
     <tr>
       <td style="text-align:left"><b>color</b>
       </td>
-      <td style="text-align:left">string (optional)</td>
+      <td style="text-align:left">string <em>(optional)</em>
+      </td>
       <td style="text-align:left">
         <p>Hex color code used to display this Battlesnake. Must start with &quot;#&quot;
           and be 7 characters long.</p>
@@ -89,9 +91,11 @@ application/json
     <tr>
       <td style="text-align:left"><b>head</b>
       </td>
-      <td style="text-align:left">string (optional)</td>
+      <td style="text-align:left">string <em>(optional)</em>
+      </td>
       <td style="text-align:left">
-        <p>Displayed head of this Battlesnake. See REFERENCE HERE for available options.</p>
+        <p>Displayed head of this Battlesnake. See [REFERENCE HERE] for available
+          options.</p>
         <p><em>Example: &quot;default&quot;</em>
         </p>
       </td>
@@ -99,9 +103,11 @@ application/json
     <tr>
       <td style="text-align:left"><b>tail</b>
       </td>
-      <td style="text-align:left">string (optional)</td>
+      <td style="text-align:left">string <em>(optional)</em>
+      </td>
       <td style="text-align:left">
-        <p>Displayed tail of this Battlesnake. See REFERENCE HERE for available options.</p>
+        <p>Displayed tail of this Battlesnake. See [LINK REFERENCE HERE] for available
+          options.</p>
         <p><em>Example: &quot;default&quot;</em>
         </p>
       </td>
@@ -120,7 +126,7 @@ Your Battlesnake will receive this request when it has been entered into a new g
 {% api-method-request %}
 {% api-method-body-parameters %}
 {% api-method-parameter name="game" type="object" required=false %}
-\[GAME OBJECT\] describing the game being played.
+Game Object describing the game being played.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="turn" type="integer" required=false %}
@@ -128,11 +134,11 @@ Turn number of the game being played \(0 for new games\).
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="board" type="object" required=false %}
-\[BOARD OBJECT\] describing the initial state of the game board.
+Board Object describing the initial state of the game board.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="you" type="object" required=false %}
-\[SNAKE OBJECT\] describing your Battlesnake.
+Battlesnake Object describing your Battlesnake.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -168,7 +174,7 @@ This request will be sent for every turn of the game. Use the information provid
 {% api-method-request %}
 {% api-method-body-parameters %}
 {% api-method-parameter name="game" type="string" required=false %}
-\[GAME OBJECT\] describing the game being played.
+Game Object describing the game being played.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="turn" type="integer" required=false %}
@@ -176,11 +182,11 @@ Turn number for this move.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="board" type="object" required=false %}
-\[BOARD OBJECT\] describing the game board on this turn.
+Board Object describing the game board on this turn.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="you" type="object" required=false %}
-\[SNAKE OBJECT\] describing your Battlesnake.
+Battlesnake Object describing your Battlesnake.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -230,7 +236,8 @@ application/json
     <tr>
       <td style="text-align:left"><b>shout</b>
       </td>
-      <td style="text-align:left">string (optional)</td>
+      <td style="text-align:left">string <em>(optional)</em>
+      </td>
       <td style="text-align:left">
         <p>An optional message sent to all other Battlesnakes on the next turn. Must
           be 256 characters or less.</p>
@@ -252,7 +259,7 @@ Your Battlesnake will receive this request whenever a game it was playing has en
 {% api-method-request %}
 {% api-method-body-parameters %}
 {% api-method-parameter name="game" type="object" required=false %}
-\[GAME OBJECT\[ describing the game being played.
+Game Object describing the game being played.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="turn" type="integer" required=false %}
@@ -260,11 +267,11 @@ Turn number for the last turn of this game.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="board" type="object" required=false %}
-\[BOARD OBJECT\] describing the final turn of this game.
+Board Object describing the final turn of this game.
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="you" type="object" required=false %}
-\[SNAKE OBJECT\] describing your Battlesnake.
+Battlesnake Object describing your Battlesnake.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -327,7 +334,8 @@ The Battlesnake API uses the following object definitions when communicating wit
     <tr>
       <td style="text-align:left"><b>timeout</b>
       </td>
-      <td style="text-align:left">integer (milliseconds)</td>
+      <td style="text-align:left">integer <em>(milliseconds)</em>
+      </td>
       <td style="text-align:left">
         <p>How much time your snake has to respond to requests for this Game.</p>
         <p><em>Example: 500</em>
@@ -521,16 +529,16 @@ The Battlesnake API uses the following object definitions when communicating wit
       </td>
       <td style="text-align:left">array</td>
       <td style="text-align:left">
-        <p>Array of [BATTLESNAKE OBJECTS] representing all Battlesnakes on the game
-          board (including yourself if applicable).</p>
+        <p>Array of <a href="api.md#battlesnake">Battlesnake Objects</a> representing
+          all Battlesnakes on the game board (including yourself if applicable).</p>
         <p><em>Example: [{&quot;id&quot;: &quot;snake-one&quot;, ...}, ...]</em>
         </p>
       </td>
     </tr>
   </tbody>
-</table>## Full Example - Move Request
+</table>## Example Move Request
 
-Here's a complete example of a request made to **/move** and a valid response.
+Here's a complete example of a request made to [POST /move](api.md#move) and a valid Battlesnake response to move up.
 
 ### Request
 
