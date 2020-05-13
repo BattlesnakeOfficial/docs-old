@@ -20,7 +20,7 @@ You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors_
 
 ![\#4C89C8](../.gitbook/assets/screenshot-2020-05-13-09.20.29.png)
 
-## Head and Tail Themes
+## Heads and Tails
 
 Several personalization options are available for how your Battlesnake's head and tail will display on the game board. You can mix and match them however you like.
 
