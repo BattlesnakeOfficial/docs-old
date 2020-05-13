@@ -29,14 +29,23 @@ Just like [choosing a color](personalization.md#color), your head and tail are p
 If an invalid value is returned \(or no value at all\) the `default` options will be displayed.
 
 {% hint style="success" %}
-**New Theme Releases**
-
+**New Theme Releases**  
 We regularly release new head and tail options, often as part of specific Battlesnake events and competitions.
 {% endhint %}
 
 ### Stand**ard Theme**
 
 _These were the first heads and tails ever released, as part of Battlesnake Victoria 2018. They hold a special spot in all our hearts._
+
+![pixel](https://media.battlesnake.com/play/img/snake/heads/pixel.svg)
+
+![regular](https://media.battlesnake.com/play/img/snake/heads/regular.svg)
+
+![bendr](https://media.battlesnake.com/play/img/snake/heads/bendr.svg)
+
+![dead](https://media.battlesnake.com/play/img/snake/heads/dead.svg)
+
+![evil](https://media.battlesnake.com/play/img/snake/heads/evil.svg)
 
 ### **Winter Classic 2019 Theme**
 
