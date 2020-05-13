@@ -6,6 +6,7 @@
 
 * [Getting Started](guides-and-tutorials/getting-started.md)
 * [Customizing Your Battlesnake](guides-and-tutorials/customizing-your-battlesnake.md)
+* [FAQ](guides-and-tutorials/faq.md)
 * [Tips & Tricks](guides-and-tutorials/tips-and-tricks.md)
 
 ## References
