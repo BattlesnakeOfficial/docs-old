@@ -27,10 +27,12 @@ Several personalization options are available for how your Battlesnake's head an
 Just like [choosing a color](personalization.md#color), your head and tail are provided in response to the [GET /](api.md#undefined) command of the [Battlesnake API](api.md). Each value is a string, matching one of the available options shown below. If an invalid value is returned \(or no value at all\) the `default` options will be displayed.
 
 {% hint style="success" %}
-**We periodically release new head and tail options, often connected to Battlesnake events and competitions.**
+**New Options Released Periodically**
+
+We sometimes release new head and tail options, often connected to Battlesnake events and competitions. Check back often for new ways to personalize your Battlesnake.
 {% endhint %}
 
-### **Standard Theme**
+### Stand**ard Theme**
 
 _These were the first heads and tails ever released, as part of Battlesnake Victoria 2018. They hold a special spot in all our hearts._
 
