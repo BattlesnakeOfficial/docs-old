@@ -6,9 +6,9 @@ description: Official Reference for the Battlesnake API (Version 1)
 
 The Battlesnake API is an inverted HTTP API. Developers build a web server that implements this API and the game engine will act as an API client during each game. How your server responds to these requests controls how your Battlesnake behaves.
 
-## Battlesnake API Calls
+## Battlesnake API Requests
 
-Your Battlesnake server should implement the following HTTP calls.
+Your Battlesnake server must implement the following HTTP calls to play the game.
 
 {% api-method method="get" host="https://your.battlesnake.server.com" path="/" %}
 {% api-method-summary %}
@@ -16,7 +16,7 @@ Your Battlesnake server should implement the following HTTP calls.
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This request will be made periodically to retrieve information about your Battlesnake, including its display options and author.
+This request will be made periodically to retrieve information about your Battlesnake, including its display options, author, etc.
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -61,7 +61,6 @@ application/json
       </td>
       <td style="text-align:left">string</td>
       <td style="text-align:left">Version of the Battlesnake API implemented by this Battlesnake.
-        <br />
         <br /><em>Example: &quot;1&quot;</em>
       </td>
     </tr>
@@ -72,7 +71,6 @@ application/json
       <td style="text-align:left">
         <p>Username of the author of this Battlesnake. If provided, this will be
           used to verify ownership.</p>
-        <p></p>
         <p><em>Example: &quot;BattlesnakeOfficial&quot;</em>
         </p>
       </td>
@@ -84,7 +82,6 @@ application/json
       <td style="text-align:left">
         <p>Hex color code used to display this Battlesnake. Must start with &quot;#&quot;
           and be 7 characters long.</p>
-        <p></p>
         <p><em>Example: &quot;#888888&quot;</em>
         </p>
       </td>
@@ -95,7 +92,6 @@ application/json
       <td style="text-align:left">string (optional)</td>
       <td style="text-align:left">
         <p>Displayed head of this Battlesnake. See REFERENCE HERE for available options.</p>
-        <p></p>
         <p><em>Example: &quot;default&quot;</em>
         </p>
       </td>
@@ -106,7 +102,6 @@ application/json
       <td style="text-align:left">string (optional)</td>
       <td style="text-align:left">
         <p>Displayed tail of this Battlesnake. See REFERENCE HERE for available options.</p>
-        <p></p>
         <p><em>Example: &quot;default&quot;</em>
         </p>
       </td>
@@ -156,6 +151,10 @@ Responses to this command are ignored by the game engine.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+**Response Properties**
+
+Responses to this request are ignored by the game engine.
+
 {% api-method method="post" host="https://your.battlesnake.server.com" path="/move" %}
 {% api-method-summary %}
 /move
@@ -203,14 +202,44 @@ application/json
 {% endapi-method-spec %}
 {% endapi-method %}
 
-**Response Parameters**
+**Response Properties**
 
-| **Parameter** | **Type** | **Description** |
-| :--- | :--- | :--- |
-| **move** | string | Your Battlesnake's move for this turn. Must be one of "up", "down", "left", or "right". |
-| **shout** | string \(optional\) | An optional message sent to all other Battlesnakes on the next turn. Must be 256 characters or less. |
-
-{% api-method method="post" host="https://your.battlesnake.server.com" path="/end" %}
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Parameter</b>
+      </th>
+      <th style="text-align:left"><b>Type</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>move</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p>Your Battlesnake&apos;s move for this turn. Valid moves are up, down,
+          left, or right.</p>
+        <p><em>Example: &quot;up&quot;</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>shout</b>
+      </td>
+      <td style="text-align:left">string (optional)</td>
+      <td style="text-align:left">
+        <p>An optional message sent to all other Battlesnakes on the next turn. Must
+          be 256 characters or less.</p>
+        <p><em>Example: &quot;I am moving up!&quot;</em>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>{% api-method method="post" host="https://your.battlesnake.server.com" path="/end" %}
 {% api-method-summary %}
 /end
 {% endapi-method-summary %}
@@ -254,70 +283,330 @@ Responses to this command are ignored by the game engine.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-## API Object Definitions
+**Response Properties**
 
-The game engine uses the following object definitions when communicating with your Battlesnake.
+Responses to this request are ignored by the game engine.
+
+## Object Definitions
+
+The Battlesnake API uses the following object definitions when communicating with your Battlesnake web server.
 
 ### Game
 
-| **Property** | **Type** | **Description** |
-| :--- | :--- | :--- |
-| **id** | string | A unique identifier for this Game. |
-| **timeout** | integer \(milliseconds\) | How much time your snake has to respond to requests for this Game. |
-
-{% code title="Example Game Object" %}
+{% code title="example-game-object.json" %}
 ```javascript
 {
-  "id": "unique-game-id",
+  "id": "totally-unique-game-id",
   "timeout": 500
 }
 ```
 {% endcode %}
 
-### Battlesnake
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Property</b>
+      </th>
+      <th style="text-align:left"><b>Type</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>id</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p>A unique identifier for this Game.</p>
+        <p><em>Example: &quot;totally-unique-game-id&quot;</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>timeout</b>
+      </td>
+      <td style="text-align:left">integer (milliseconds)</td>
+      <td style="text-align:left">
+        <p>How much time your snake has to respond to requests for this Game.</p>
+        <p><em>Example: 500</em>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>### Battlesnake
 
-| **Property** | **Type** | **Description** |
-| :--- | :--- | :--- |
-| **id** | string | Unique identifier for this Battlesnake in the context of the current Game. |
-| **name** | string | Name given to this Battlesnake by its author. |
-| **health** | integer | Health value of this Battlesnake, between 0 and 100 inclusively. |
-| **body** | array | Array of coordinates representing this Battlesnake's location on the game board. This array is ordered from head to tail. |
-| **head** | object | Coordinates for this Battlesnake's head. Equivalent to the first element of the body array. |
-| **tail** | object | Coordinates for this Battlesnake's tail. Equivalent to the last element of the body array. |
-| **length** | integer | Length of this Battlesnake from head to tail. Equivalent to the length of the body array. |
-| **shout** | string | Message shouted by this Battlesnake on the previous turn. |
-
-{% code title="Example Battlesnake Object" %}
+{% code title="example-battlesnake-object.json" %}
 ```javascript
 {
-  "id": ...,
-  "name": ...,
-  "health": ...,
-  "body": ...,
-  "head": ...,
-  "tail": ...,
-  "length": ...,
-  "shout": ...
+  "id": "totally-unique-snake-id",
+  "name": "Sneky McSnek Face",
+  "health": 54,
+  "body": [
+    {"x": 0, "y": 0}, 
+    {"x": 1, "y": 0}, 
+    {"x": 2, "y": 0}
+  ],
+  "head": {"x": 0, "y": 0},
+  "tail": {"x": 2, "y": 0},
+  "length": 3,
+  "shout": "why are we shouting??"
 }
 ```
 {% endcode %}
 
-### Board
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Property</b>
+      </th>
+      <th style="text-align:left"><b>Type</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>id</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p>Unique identifier for this Battlesnake in the context of the current Game.</p>
+        <p><em>Example: &quot;totally-unique-snake-id&quot;</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>name</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p>Name given to this Battlesnake by its author.</p>
+        <p><em>Example: &quot;Sneky McSnek Face&quot;</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>health</b>
+      </td>
+      <td style="text-align:left">integer</td>
+      <td style="text-align:left">
+        <p>Health value of this Battlesnake, between 0 and 100 inclusively.</p>
+        <p><em>Example: 54</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>body</b>
+      </td>
+      <td style="text-align:left">array</td>
+      <td style="text-align:left">
+        <p>Array of coordinates representing this Battlesnake&apos;s location on
+          the game board. This array is ordered from head to tail.</p>
+        <p><em>Example: [{&quot;x&quot;: 0, &quot;y&quot;: 0}, ..., {&quot;x&quot;: 2, &quot;y&quot;: 0}]</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>head</b>
+      </td>
+      <td style="text-align:left">object</td>
+      <td style="text-align:left">
+        <p>Coordinates for this Battlesnake&apos;s head. Equivalent to the first
+          element of the body array.</p>
+        <p><em>Example: {&quot;x&quot;: 0, &quot;y&quot;: 0}</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>tail</b>
+      </td>
+      <td style="text-align:left">object</td>
+      <td style="text-align:left">
+        <p>Coordinates for this Battlesnake&apos;s tail. Equivalent to the last element
+          of the body array.</p>
+        <p><em>Example: {&quot;x&quot;: 2, &quot;y&quot;: 0}</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>length</b>
+      </td>
+      <td style="text-align:left">integer</td>
+      <td style="text-align:left">
+        <p>Length of this Battlesnake from head to tail. Equivalent to the length
+          of the body array.</p>
+        <p><em>Example: 3</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>shout</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p>Message shouted by this Battlesnake on the previous turn.</p>
+        <p><em>Example: &quot;why are we shouting??&quot;</em>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>### Board
 
-| **Property** | **Type** | **Description** |
-| :--- | :--- | :--- |
-| **height** | integer | Height of the game board. |
-| **width** | integer | Width of the game board. |
-| **food** | array | Array of coordinates representing food locations on the game board. |
-| **snakes** | array | Array of \[BATTLESNAKE OBJECTS\] representing all Battlesnakes on the game board \(including yourself if applicable\). |
-
-{% code title="Example Board Object" %}
+{% code title="example-board-object.json" %}
 ```javascript
 {
-  "height": ...,
-  "width": ...,
-  "food": ...,
-  "snakes": ...,
+  "height": 11,
+  "width": 11,
+  "food": [
+    {"x": 5, "y": 5}, 
+    {"x": 9, "y": 0}, 
+    {"x": 2, "y": 6}
+  ],
+  "snakes": [
+    {"id": "snake-one", ... },
+    {"id": "snake-two", ... },
+    {"id": "snake-three", ... }
+  ]
+}
+```
+{% endcode %}
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Property</b>
+      </th>
+      <th style="text-align:left"><b>Type</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>height</b>
+      </td>
+      <td style="text-align:left">integer</td>
+      <td style="text-align:left">
+        <p>Height of the game board.</p>
+        <p><em>Example: 11</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>width</b>
+      </td>
+      <td style="text-align:left">integer</td>
+      <td style="text-align:left">
+        <p>Width of the game board.</p>
+        <p><em>Example: 11</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>food</b>
+      </td>
+      <td style="text-align:left">array</td>
+      <td style="text-align:left">
+        <p>Array of coordinates representing food locations on the game board.</p>
+        <p><em>Example: [{&quot;x&quot;: 5, &quot;y&quot;: 5}, ..., {&quot;x&quot;: 2, &quot;y&quot;: 6}]</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>snakes</b>
+      </td>
+      <td style="text-align:left">array</td>
+      <td style="text-align:left">
+        <p>Array of [BATTLESNAKE OBJECTS] representing all Battlesnakes on the game
+          board (including yourself if applicable).</p>
+        <p><em>Example: [{&quot;id&quot;: &quot;snake-one&quot;, ...}, ...]</em>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>## Full Example - Move Request
+
+Here's a complete example of a request made to **/move** and a valid response.
+
+### Request
+
+{% code title="POST https://your.battlesnake.server.com/move" %}
+```javascript
+{
+  "game": {
+    "id": "game-00fe20da-94ad-11ea-bb37",
+    "timeout": 500
+  },
+  "turn": 14,
+  "board": {
+    "height": 11,
+    "width": 11,
+    "food": [
+      {"x": 5, "y": 5}, 
+      {"x": 9, "y": 0}, 
+      {"x": 2, "y": 6}
+    ],
+    "snakes": [
+      {
+        "id": "snake-508e96ac-94ad-11ea-bb37",
+        "name": "My Snake",
+        "health": 54,
+        "body": [
+          {"x": 0, "y": 0}, 
+          {"x": 1, "y": 0}, 
+          {"x": 2, "y": 0}
+        ],
+        "head": {"x": 0, "y": 0},
+        "tail": {"x": 2, "y": 0},
+        "length": 3,
+        "shout": "why are we shouting??"
+      }, 
+      {
+        "id": "snake-b67f4906-94ae-11ea-bb37",
+        "name": "Another Snake",
+        "health": 16,
+        "body": [
+          {"x": 5, "y": 4}, 
+          {"x": 5, "y": 3}, 
+          {"x": 6, "y": 3},
+          {"x": 6, "y": 2}
+        ],
+        "head": {"x": 5, "y": 4},
+        "tail": {"x": 6, "y": 2},
+        "length": 4,
+        "shout": "I'm not really sure..."
+      }
+    ]
+  },
+  "you": {
+    "id": "snake-508e96ac-94ad-11ea-bb37",
+    "name": "My Snake",
+    "health": 54,
+    "body": [
+      {"x": 0, "y": 0}, 
+      {"x": 1, "y": 0}, 
+      {"x": 2, "y": 0}
+    ],
+    "head": {"x": 0, "y": 0},
+    "tail": {"x": 2, "y": 0},
+    "length": 3,
+    "shout": "why are we shouting??"
+  }
+}
+```
+{% endcode %}
+
+### **Response**
+
+{% code title="200 OK" %}
+```javascript
+{
+  "move": "up",
+  "shout": "I guess I'll go up then."
 }
 ```
 {% endcode %}
