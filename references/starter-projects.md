@@ -1,8 +1,8 @@
 ---
-description: Simple open source projects to get you started quickly
+description: Open source projects to get you started quickly
 ---
 
-# Starter Projects
+# Starter Project Listing
 
 ## Official Starter Projects
 

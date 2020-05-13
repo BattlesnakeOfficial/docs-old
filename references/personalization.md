@@ -2,7 +2,7 @@
 description: Options for personalizing your Battlesnake's appearance
 ---
 
-# Personalization
+# Personalization Reference
 
 This reference outlines all the available options for personalizing your Battlesnake's appearance. We periodically release new options, often linked to specific events or competitions.
 

@@ -12,9 +12,9 @@
 
 ## References
 
-* [Battlesnake API](references/api.md)
-* [Personalization](references/personalization.md)
-* [Starter Projects](references/starter-projects.md)
+* [Battlesnake API Reference](references/api.md)
+* [Personalization Reference](references/personalization.md)
+* [Starter Project Listing](references/starter-projects.md)
 
 ## Community
 
