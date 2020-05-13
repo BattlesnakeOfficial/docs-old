@@ -11,10 +11,10 @@
 ## References
 
 * [Battlesnake API](references/api.md)
-* [Battlesnake API \(v0\)](references/api-v0.md)
 
 ## Community
 
 * [GitHub](https://github.com/BattlesnakeOfficial)
 * [Slack](https://play.battlesnake.com/slack)
+* [Discord](https://play.battlesnake.com/discord)
 
