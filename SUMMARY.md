@@ -12,6 +12,7 @@
 ## References
 
 * [Battlesnake API](references/api.md)
+* [Personalization](references/personalization.md)
 
 ## Community
 
