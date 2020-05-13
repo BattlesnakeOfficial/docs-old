@@ -94,8 +94,8 @@ application/json
       <td style="text-align:left">string <em>(optional)</em>
       </td>
       <td style="text-align:left">
-        <p>Displayed head of this Battlesnake. See [REFERENCE HERE] for available
-          options.</p>
+        <p>Displayed head of this Battlesnake. See <a href="personalization.md">Personalization Docs</a> for
+          available options</p>
         <p><em>Example: &quot;default&quot;</em>
         </p>
       </td>
@@ -106,14 +106,16 @@ application/json
       <td style="text-align:left">string <em>(optional)</em>
       </td>
       <td style="text-align:left">
-        <p>Displayed tail of this Battlesnake. See [LINK REFERENCE HERE] for available
-          options.</p>
+        <p>Displayed tail of this Battlesnake. See <a href="personalization.md">Personalization Docs</a> for
+          available options.</p>
         <p><em>Example: &quot;default&quot;</em>
         </p>
       </td>
     </tr>
   </tbody>
-</table>{% api-method method="post" host="https://your.battlesnake.server.com" path="/start" %}
+</table>See [Personalization Reference](personalization.md) for available colors, heads, and tails.
+
+{% api-method method="post" host="https://your.battlesnake.server.com" path="/start" %}
 {% api-method-summary %}
 /start
 {% endapi-method-summary %}

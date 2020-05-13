@@ -1,22 +1,25 @@
 # Table of contents
 
-* [Initial Page](README.md)
+* [Welcome to Battlesnake](README.md)
 
-## Guides & Tutorials
+## Guides
 
-* [Getting Started](guides-and-tutorials/getting-started.md)
-* [Customizing Your Battlesnake](guides-and-tutorials/customizing-your-battlesnake.md)
-* [FAQ](guides-and-tutorials/faq.md)
-* [Tips & Tricks](guides-and-tutorials/tips-and-tricks.md)
+* [Getting Started](guides/getting-started.md)
+* [Customizing Your Battlesnake](guides/customizing-your-battlesnake.md)
+* [FAQ](guides/faq.md)
+* [Tips & Tricks](guides/tips-and-tricks.md)
+* [Contributing](guides/contributing.md)
 
 ## References
 
 * [Battlesnake API](references/api.md)
 * [Personalization](references/personalization.md)
+* [Starter Projects](references/starter-projects.md)
 
 ## Community
 
-* [GitHub](https://github.com/BattlesnakeOfficial)
+* [GitHub](https://play.battlesnake.com/github)
 * [Slack](https://play.battlesnake.com/slack)
 * [Discord](https://play.battlesnake.com/discord)
+* [Twitch](https://play.battlesnake.com/twitch)
 

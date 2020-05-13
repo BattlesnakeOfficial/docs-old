@@ -6,13 +6,13 @@ description: Options for personalizing your Battlesnake's appearance
 
 This reference outlines all the available options for personalizing your Battlesnake's appearance. We periodically release new options, often linked to specific events or competitions.
 
-## Color
+## Choosing a Color
 
 Your Battlesnake can choose any valid six-digit hex color code to represent it on the game board. This value is provided in response to the [GET /](api.md#undefined) command of the [Battlesnake API](api.md) and should be a 7 character string starting with "\#" that looks similar to "\#33CC00".
 
 You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors_picker.asp) to help you find the exact color you're looking for.
 
-#### **Examples**
+#### **Some Example Battlesnake Colors**
 
 ![\#E80978](../.gitbook/assets/screenshot-2020-05-13-09.19.33.png)
 
@@ -20,7 +20,7 @@ You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors_
 
 ![\#4C89C8](../.gitbook/assets/screenshot-2020-05-13-09.20.29.png)
 
-## Heads and Tails
+## Choosing a Head and Tail
 
 Several personalization options are available for how your Battlesnake's head and tail will display on the game board. You can mix and match them however you like.
 
@@ -31,7 +31,7 @@ If an invalid value is returned \(or no value at all\) the `default` options wil
 {% hint style="success" %}
 **New Theme Releases**
 
-We regularly release new head and tail options, often connected to Battlesnake events and competitions. Check back often for new ways to personalize your Battlesnake.
+We regularly release new head and tail options, often as part of specific Battlesnake events and competitions.
 {% endhint %}
 
 ### Stand**ard Theme**
