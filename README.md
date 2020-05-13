@@ -6,15 +6,21 @@
 
 Our mission is to **make programming fun and accessible** for absolutely everyone.
 
-## Popular Guides and References
+## Guides to Get You Started
 
 {% page-ref page="guides/getting-started.md" %}
 
-{% page-ref page="references/api.md" %}
-
 {% page-ref page="guides/faq.md" %}
 
+## Popular References
 
+{% page-ref page="references/api.md" %}
 
+{% page-ref page="references/personalization.md" %}
 
+{% page-ref page="references/starter-projects.md" %}
+
+## Join Our Community of Developers
+
+You can join us in [Slack](https://play.battlesnake.com/slack), [Discord](https://play.battlesnake.com/discord), and live on [Twitch](https://play.battlesnake.com/twitch). All of our open source projects are on [GitHub](https://play.battlesnake.com/github) and we welcome all contributions.
 
