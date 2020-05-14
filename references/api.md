@@ -2,11 +2,29 @@
 description: Official Reference for the Battlesnake API (Version 1)
 ---
 
-# Battlesnake API Reference
+# API Reference
+
+## Introduction
 
 The Battlesnake API is an inverted HTTP API. Developers build a web server that implements this API and the game engine will act as an API client during each game. How your server responds to these requests controls how your Battlesnake behaves.
 
-## Battlesnake API Requests
+Requests sent to your Battlesnake will be [JSON-encoded](www.json.org), using standard HTTP request methods and content types.
+
+### HTTP Response Codes
+
+All Battlesnake API requests must return a valid _HTTP \`200 OK\`_. If any other status code is returned, the game engine will consider it an error and act accordingly.
+
+### Response Content-Type
+
+All responses must be JSON-encoded strings sent as \`_application/json\`_. If the game engine receives an invalid response from your Battlesnake it will consider it an error and act accordingly.
+
+### Request Timeouts
+
+Every request made to your Battlesnake server must be responded to within the given timeout value. In most standard games this will be 500ms, however this value can vary from game to game. Use the [game information provided](api.md#game) in the request to determine how long your Battlesnake should spend computing its next move.
+
+Note that these values include round-trip latency, so communication between the game engine and your Battlesnake server should be taken into consideration.
+
+## The Battlesnake API
 
 Your Battlesnake server must implement the following HTTP calls to play the game.
 

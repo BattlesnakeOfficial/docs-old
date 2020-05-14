@@ -5,16 +5,14 @@
 ## Guides
 
 * [Getting Started](guides/getting-started.md)
-* [Customizing Your Battlesnake](guides/customizing-your-battlesnake.md)
-* [FAQ](guides/faq.md)
 * [Tips & Tricks](guides/tips-and-tricks.md)
-* [Contributing](guides/contributing.md)
 
 ## References
 
-* [Battlesnake API Reference](references/api.md)
+* [Game Rules](references/rules.md)
+* [API Reference](references/api.md)
 * [Personalization Reference](references/personalization.md)
-* [Starter Project Listing](references/starter-projects.md)
+* [Starter Projects](references/starter-projects.md)
 
 ## Community
 
@@ -22,4 +20,10 @@
 * [Slack](https://play.battlesnake.com/slack)
 * [Discord](https://play.battlesnake.com/discord)
 * [Twitch](https://play.battlesnake.com/twitch)
+
+## TODO
+
+* [Customizing Your Battlesnake](todo/customizing-your-battlesnake.md)
+* [FAQ](todo/faq.md)
+* [Contributing](todo/contributing.md)
 
