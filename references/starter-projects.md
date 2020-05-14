@@ -37,7 +37,7 @@ These projects are specifically intended for developers wishing to use machine l
 * [Machine Learning Battlesnake with Amazon Sagemaker](https://github.com/awslabs/sagemaker-battlesnake-ai) by [AWS Labs](https://github.com/awslabs)
 
 {% hint style="info" %}
-These projects are maintained independently by their developers. See individual contributing guides if you're interested in getting involved and helping out.
+**These projects are maintained independently by their developers.** See individual contributing guides if you're interested in getting involved and helping out.
 {% endhint %}
 
 ## Contributing Your Own Starter Project
