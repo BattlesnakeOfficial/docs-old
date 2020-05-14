@@ -10,15 +10,17 @@ Our mission is to **make programming fun and accessible** for absolutely everyon
 
 {% page-ref page="guides/getting-started.md" %}
 
+{% page-ref page="references/starter-projects.md" %}
+
 {% page-ref page="todo/faq.md" %}
 
 ## Popular References
 
+{% page-ref page="references/rules.md" %}
+
 {% page-ref page="references/api.md" %}
 
 {% page-ref page="references/personalization.md" %}
-
-{% page-ref page="references/starter-projects.md" %}
 
 ## Join Our Community of Developers
 
