@@ -12,7 +12,7 @@ Our mission is to **make programming fun and accessible** for absolutely everyon
 
 {% page-ref page="references/starter-projects.md" %}
 
-{% page-ref page="todo/faq.md" %}
+{% page-ref page="guides/faq.md" %}
 
 ## Popular References
 

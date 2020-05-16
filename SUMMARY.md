@@ -5,7 +5,9 @@
 ## Guides
 
 * [Getting Started](guides/getting-started.md)
-* [Tips & Tricks](guides/tips-and-tricks.md)
+* [Developer Tips](guides/tips.md)
+* [FAQ](guides/faq.md)
+* [Contributing](guides/contributing.md)
 
 ## References
 
@@ -22,8 +24,4 @@
 * [Twitch](https://play.battlesnake.com/twitch)
 
 ## TODO
-
-* [Customizing Your Battlesnake](todo/customizing-your-battlesnake.md)
-* [FAQ](todo/faq.md)
-* [Contributing](todo/contributing.md)
 

@@ -18,7 +18,7 @@ If you're building a Battlesnake for the first time, these are great starting po
 
 {% hint style="success" %}
 **Have an idea to make these better?**   
-We welcome pull requests and issues on all official Starter Project GitHub repos. See our [Contributing Guide](../todo/contributing.md) for instructions and guidelines.
+We welcome pull requests and issues on all official Starter Project GitHub repos. See our [Contributing Guide](../guides/contributing.md) for instructions and guidelines.
 {% endhint %}
 
 ## Community Starter Projects

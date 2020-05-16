@@ -119,11 +119,11 @@ At this point you're ready to start making your Battlesnake smarter and more com
 4. Create new games and test your new behaviour
 5. Repeat until undefeated
 
-We suggest reading the [Battlesnake Game Rules](../references/rules.md) and [Tips & Tricks](tips-and-tricks.md) guide to make sure you understand how to program your Battlesnake to win the most games possible.
+We suggest reading the [Battlesnake Game Rules](../references/rules.md) and [Tips & Tricks](tips.md) guide to make sure you understand how to program your Battlesnake to win the most games possible.
 
 {% page-ref page="../references/rules.md" %}
 
-{% page-ref page="tips-and-tricks.md" %}
+{% page-ref page="tips.md" %}
 
 **Good luck, and happy programming!**
 

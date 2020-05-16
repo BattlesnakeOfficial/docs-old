@@ -4,7 +4,25 @@ description: Options for personalizing your Battlesnake's appearance
 
 # Personalization Reference
 
+## Introduction
+
 This reference outlines all the available options for personalizing your Battlesnake's appearance. We periodically release new options, often linked to specific events or competitions.
+
+Each Battlesnake can choose a color, head, and tail to represent it on the game board. Here's an example of a full personalized Battlesnake.
+
+{% code title="snake-personalization.json" %}
+```javascript
+{
+	"color": "#736CCB",
+	"headType": "beluga",
+	"tailType": "curled"
+}
+```
+{% endcode %}
+
+This configuration will display your Battlesnake like this:
+
+![](../.gitbook/assets/screenshot-2020-05-12-09.26.53.png)
 
 ## Choosing a Color
 
