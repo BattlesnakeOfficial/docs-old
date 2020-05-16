@@ -6,8 +6,8 @@
 
 * [Getting Started](guides/getting-started.md)
 * [Developer Tips](guides/tips.md)
-* [FAQ](guides/faq.md)
 * [Contributing](guides/contributing.md)
+* [FAQ](guides/faq.md)
 
 ## References
 
@@ -22,6 +22,4 @@
 * [Slack](https://play.battlesnake.com/slack)
 * [Discord](https://play.battlesnake.com/discord)
 * [Twitch](https://play.battlesnake.com/twitch)
-
-## TODO
 
