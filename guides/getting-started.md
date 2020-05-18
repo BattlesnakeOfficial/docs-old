@@ -4,7 +4,7 @@ description: A guide to creating and deploying your first Battlesnake
 
 # Getting Started
 
-**At its core, Battlesnake is an autonomous survival game played in real-time by computer programs written by the players.** Each Battlesnake moves independently around the game board in an attempt to find food, avoid each other, and avoid elimination.
+**At its core, Battlesnake is an autonomous survival game.** Each Battlesnake moves independently around the game board in an attempt to find food, avoid each other, and avoid elimination.
 
 Anyone can compete and win, and success at the highest level requires unique strategies combined with excellent programming.
 
