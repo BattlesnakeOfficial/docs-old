@@ -193,7 +193,7 @@ This request will be sent for every turn of the game. Use the information provid
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
-{% api-method-parameter name="game" type="string" required=false %}
+{% api-method-parameter name="game" type="object" required=false %}
 Game Object describing the game being played.
 {% endapi-method-parameter %}
 
@@ -550,7 +550,8 @@ The Battlesnake API uses the following object definitions when communicating wit
       <td style="text-align:left">array</td>
       <td style="text-align:left">
         <p>Array of <a href="api.md#battlesnake">Battlesnake Objects</a> representing
-          all Battlesnakes on the game board (including yourself if applicable).</p>
+          all Battlesnakes remaining on the game board (including yourself if you
+          haven&apos;t been eliminated).</p>
         <p><em>Example: [{&quot;id&quot;: &quot;snake-one&quot;, ...}, ...]</em>
         </p>
       </td>

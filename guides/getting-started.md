@@ -4,7 +4,11 @@ description: A guide to creating and deploying your first Battlesnake
 
 # Getting Started
 
-## What is a Battlesnake?
+**At its core, Battlesnake is an autonomous survival game played in real-time by computer programs written by the players.** Each Battlesnake moves independently around the game board in an attempt to find food, avoid each other, and avoid elimination.
+
+Anyone can compete and win, and success at the highest level requires unique strategies combined with excellent programming.
+
+## What is a Battlesnake exactly?
 
 A Battlesnake is a programmed web server that implements the [Battlesnake API](../references/api.md) to play the game. When a game is running, the game engine will make HTTP requests to your Battlesnake server, sending game board information and asking for your next move.
 
@@ -53,7 +57,7 @@ This command is called once at the beginning of every game to let your Battlesna
 This command is called once per turn of each game, providing information about the game board to your Battlesnake and asking for its next move. Your response to this command determines how your Battlesnake behaves and will be the primary focus of your game logic programming.
 
 {% hint style="info" %}
-**Tip:** We recommend starting out by hardcoding your Battlesnake to move in a specific direction. This will let you make sure your server is working correctly before implementing more complex logic.
+**Tip:** We recommend starting out by hardcoding your Battlesnake to move in a specific direction, such as "left" or "right". This will let you make sure your server is working correctly before implementing more complex logic.
 {% endhint %}
 
 \*\*\*\*[**Command: End Game**](../references/api.md#end)  

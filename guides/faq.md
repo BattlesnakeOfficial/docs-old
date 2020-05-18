@@ -12,7 +12,7 @@ If you're brand new to programming and want to start learning - awesome, we're h
 
 ## Is Battlesnake only for Machine Learning and Artificial Intelligence?
 
-You can use truly any technology you want to power your Battlesnake! It doesn't have to be machine learning or artificial intelligence - in fact, many developers have great success writing simple programs and decision trees that employ specific and creative strategies.
+You can truly use any technology you want to power your Battlesnake! It doesn't have to be machine learning or artificial intelligence - in fact, many developers have great success writing simple programs and decision trees that employ specific and creative strategies.
 
 We suggest you start with technologies you're comfortable with and expand to include new things you want to learn.
 
@@ -33,7 +33,7 @@ if no food on game board:
     chance_of_food_appearing = 100%
 
 if random(chance_of_food_appearing):
-    # spawn food on random empty square    
+    # create one food on random empty square    
 ```
 {% endcode %}
 

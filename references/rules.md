@@ -4,10 +4,6 @@ description: Last Updated March 2020
 
 # Game Rules
 
-**At its core, Battlesnake is an autonomous survival game** played in real time using software written by the players. Battlesnakes move independently around a game board in an attempt to find food, avoid eachother, and avoid elimination.
-
-Success at the highest level requires unique strategy and excellent programming.
-
 ## Winning the Game
 
 Winning a game of Battlesnake is deceptively simple; be the last Battlesnake left slithering on the game board. In order to accomplish this, your Battlesnake will need **health** and **space** - if it runs out of either, it will be eliminated.
