@@ -377,7 +377,6 @@ The Battlesnake API uses the following object definitions when communicating wit
     {"x": 2, "y": 0}
   ],
   "head": {"x": 0, "y": 0},
-  "tail": {"x": 2, "y": 0},
   "length": 3,
   "shout": "why are we shouting??"
 }
@@ -445,17 +444,6 @@ The Battlesnake API uses the following object definitions when communicating wit
         <p>Coordinates for this Battlesnake&apos;s head. Equivalent to the first
           element of the body array.</p>
         <p><em>Example: {&quot;x&quot;: 0, &quot;y&quot;: 0}</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>tail</b>
-      </td>
-      <td style="text-align:left">object</td>
-      <td style="text-align:left">
-        <p>Coordinates for this Battlesnake&apos;s tail. Equivalent to the last element
-          of the body array.</p>
-        <p><em>Example: {&quot;x&quot;: 2, &quot;y&quot;: 0}</em>
         </p>
       </td>
     </tr>
@@ -590,7 +578,6 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
           {"x": 2, "y": 0}
         ],
         "head": {"x": 0, "y": 0},
-        "tail": {"x": 2, "y": 0},
         "length": 3,
         "shout": "why are we shouting??"
       }, 
@@ -605,7 +592,6 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
           {"x": 6, "y": 2}
         ],
         "head": {"x": 5, "y": 4},
-        "tail": {"x": 6, "y": 2},
         "length": 4,
         "shout": "I'm not really sure..."
       }
@@ -621,7 +607,6 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
       {"x": 2, "y": 0}
     ],
     "head": {"x": 0, "y": 0},
-    "tail": {"x": 2, "y": 0},
     "length": 3,
     "shout": "why are we shouting??"
   }
