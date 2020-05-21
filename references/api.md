@@ -471,6 +471,10 @@ The Battlesnake API uses the following object definitions when communicating wit
   </tbody>
 </table>### Board
 
+The game board is represented by a standard 2D grid, oriented with \(0,0\) in the bottom left. The Y-Axis is positive in the up direction, and X-Axis is positive to the right. Coordinates begin at zero, such that a board that is 12x12 will have coordinates ranging from \[0, 11\].
+
+![Battlesnake coordinate system](../.gitbook/assets/11-scale.png)
+
 {% code title="example-board-object.json" %}
 ```javascript
 {
