@@ -57,8 +57,6 @@ If your Battlesnake doesn't specify a head or tail these default options will be
 
 ![default head and tail](../.gitbook/assets/defaultsnake.png)
 
-![](https://media.battlesnake.com/snakes/tails/default.svg)
-
 ### Stand**ard Theme**
 
 _These were the first heads and tails ever released, as part of Battlesnake Victoria 2018. They hold a special spot in all our hearts._
