@@ -26,6 +26,7 @@
 ## Policies
 
 * [Code of Conduct](policies/code-of-conduct.md)
+* [Diversity](policies/diversity.md)
 * [Privacy Policy](policies/privacy-policy.md)
 * [Terms of Service](policies/terms-of-service.md)
 
