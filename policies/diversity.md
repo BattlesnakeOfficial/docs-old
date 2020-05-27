@@ -1,5 +1,7 @@
 # Diversity
 
+Last Updated March 24, 2020
+
 Our goal is to create an inclusive, respectful environment that welcomes participation from people of all races, ethnicities, genders, ages, abilities, religions, and sexual orientations. The Battlesnake community is based on mutual respect, tolerance, and encouragement, and we are working to help each other live up to these principles. We want our community to be more diverse: whoever you are, and whatever your background, we welcome you.
 
 We're actively seeking to increase the diversity of our users, event attendees, and sponsors. This is and will continue to be an ongoing process.
