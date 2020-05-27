@@ -2,8 +2,6 @@
 
 ### Accessible
 
-### Accessible
-
 Battlesnake is for everyone. Whether you are new to programming or have been a professional developer for 30+ years, you can find a place at Battlesnake to learn, grow and be successful. Everyone should have the tools, support, and access to code, collaborate and compete at Battlesnake.
 
 ### Inclusive
