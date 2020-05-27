@@ -23,3 +23,9 @@
 * [Discord](https://play.battlesnake.com/discord)
 * [Twitch](https://play.battlesnake.com/twitch)
 
+## Policies
+
+* [Code of Conduct](policies/code-of-conduct.md)
+* [Privacy Policy](policies/privacy-policy.md)
+* [Terms of Service](policies/terms-of-service.md)
+
