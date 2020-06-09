@@ -39,3 +39,7 @@ if random(chance_of_food_appearing):
 
 [This algorithm is open source](https://github.com/BattlesnakeOfficial/rules), and we encourage you to view the code directly.
 
+## How do I organize a Battlesnake Event?
+
+Go to our [Organizers](https://play.battlesnake.com/organizers/) page for information on how to get started running your own Battlesnake event.
+

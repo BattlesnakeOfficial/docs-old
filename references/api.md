@@ -131,7 +131,9 @@ application/json
       </td>
     </tr>
   </tbody>
-</table>See [Personalization Reference](personalization.md) for available colors, heads, and tails.
+</table>
+
+See [Personalization Reference](personalization.md) for available colors, heads, and tails.
 
 {% api-method method="post" host="https://your.battlesnake.server.com" path="/start" %}
 {% api-method-summary %}
@@ -266,7 +268,9 @@ application/json
       </td>
     </tr>
   </tbody>
-</table>{% api-method method="post" host="https://your.battlesnake.server.com" path="/end" %}
+</table>
+
+{% api-method method="post" host="https://your.battlesnake.server.com" path="/end" %}
 {% api-method-summary %}
 /end
 {% endapi-method-summary %}
@@ -363,7 +367,9 @@ The Battlesnake API uses the following object definitions when communicating wit
       </td>
     </tr>
   </tbody>
-</table>### Battlesnake
+</table>
+
+### Battlesnake
 
 {% code title="example-battlesnake-object.json" %}
 ```javascript
@@ -469,7 +475,9 @@ The Battlesnake API uses the following object definitions when communicating wit
       </td>
     </tr>
   </tbody>
-</table>### Board
+</table>
+
+### Board
 
 The game board is represented by a standard 2D grid, oriented with \(0,0\) in the bottom left. The Y-Axis is positive in the up direction, and X-Axis is positive to the right. Coordinates begin at zero, such that a board that is 12x12 will have coordinates ranging from \[0, 11\].
 
@@ -549,7 +557,9 @@ The game board is represented by a standard 2D grid, oriented with \(0,0\) in th
       </td>
     </tr>
   </tbody>
-</table>## Example Move Request
+</table>
+
+## Example Move Request
 
 Here's a complete example of a request made to [POST /move](api.md#move) and a valid Battlesnake response to move up.
 
