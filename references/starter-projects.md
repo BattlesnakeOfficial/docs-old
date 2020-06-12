@@ -10,15 +10,20 @@ These projects are built and maintained by the Battlesnake team. We do our best 
 
 If you're building a Battlesnake for the first time, these are great starting points.
 
-* [Go Starter Project](https://github.com/battlesnakeofficial/starter-snake-go)
-* [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-java)
-* [JavaScript Starter Project](https://github.com/battlesnakeofficial/starter-snake-node)
 * [Python Starter Project](https://github.com/battlesnakeofficial/starter-snake-python)
-* [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby)
+* [Go Starter Project](https://github.com/battlesnakeofficial/starter-snake-go)
+* [JavaScript Starter Project](https://github.com/battlesnakeofficial/starter-snake-node)
+* J[ava Starter Project](https://github.com/battlesnakeofficial/starter-snake-java) _\(needs upgrading\)_
+* [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) ****_\(needs upgrading\)_
 
 {% hint style="success" %}
 **Have an idea to make these better?**   
 We welcome pull requests and issues on all official Starter Project GitHub repos. See our [Contributing Guide](../guides/contributing.md) for instructions and guidelines.
+
+Our [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-java) and [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) both need updating to API version 1.0. If you are interested in helping check out the issues in GitHub:
+
+* [Java Starter Project Upgrade](https://github.com/BattlesnakeOfficial/starter-snake-java/issues/5)
+* [Ruby Starter Project Upgrade](https://github.com/BattlesnakeOfficial/starter-snake-ruby/issues/8)
 {% endhint %}
 
 ## Community Starter Projects
