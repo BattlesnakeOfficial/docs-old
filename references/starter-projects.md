@@ -35,6 +35,7 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 * [Rust Starter Snake](https://github.com/mcraealex/rustysnake) by [McRaeAlex](https://github.com/McRaeAlex)
 * [Node.js Starter Snake with Microsoft Azure](https://github.com/mcraealex/AzureSnake) by [McRaeAlex](https://github.com/McRaeAlex)
 * [TypeScript Starter Snake with Deno](https://github.com/tyrelh/starter-snake-typescript-deno) by [Tyrel Hiebert](https://github.com/tyrelh)
+* [C\# Starter Snake with Microsoft Azure](https://github.com/neistow/battlesnake-starter-csharp) by [neistow](https://github.com/neistow)
 
 ### Machine Learning Starter Projects
 
