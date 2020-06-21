@@ -14,8 +14,8 @@ Each Battlesnake can choose a color, head, and tail to represent it on the game 
 ```javascript
 {
 	"color": "#736CCB",
-	"headType": "beluga",
-	"tailType": "curled"
+	"head": "beluga",
+	"tail": "curled"
 }
 ```
 {% endcode %}
