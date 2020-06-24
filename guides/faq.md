@@ -39,6 +39,10 @@ if random(chance_of_food_appearing):
 
 [This algorithm is open source](https://github.com/BattlesnakeOfficial/rules), and we encourage you to view the code directly.
 
+## How are Battlesnakes ranked in Arenas?
+
+Battlesnake Arenas use a nearly vanilla implementation of [Microsoft TrueSkill](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/) for ranking and matchmaking. The only customizations we've made are to implement a lower-bound on sigma values, to allow top-tier snakes with lots of games to still be dethroned, and we disallow ratings below zero to avoid extreme negative ratings on non-functional Battlesnakes.
+
 ## How do I organize a Battlesnake Event?
 
 Go to our [Organizers](https://play.battlesnake.com/organizers/) page for information on how to get started running your own Battlesnake event.
