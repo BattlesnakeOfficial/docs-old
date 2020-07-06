@@ -13,6 +13,9 @@ If you're building a Battlesnake for the first time, these are great starting po
 * [Python Starter Project](https://github.com/battlesnakeofficial/starter-snake-python)
 * [Go Starter Project](https://github.com/battlesnakeofficial/starter-snake-go)
 * [JavaScript Starter Project](https://github.com/battlesnakeofficial/starter-snake-node)
+
+There are also a few older projects that require some updating to work with the latest API, but are still helpful for getting started.
+
 * J[ava Starter Project](https://github.com/battlesnakeofficial/starter-snake-java) _\(needs upgrading\)_
 * [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) ****_\(needs upgrading\)_
 
@@ -31,14 +34,13 @@ Our [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-
 The Battlesnake community is all about collaboration and shared learning. Some of our core members and supporters have built their own Starter Projects to get developers started with new languages and technologies.
 
 * [JavaScript and AWS Lambda](https://colinjfw.github.io/battlesnake-learn/) by [Colin Walker](https://github.com/colinjfw)
-* [Kotlin Starter Snake](https://github.com/athenian-programming/starter-snake-kotlin) by [Athenian Programming](https://github.com/athenian-programming)
+* [Kotlin Starter Snake](https://github.com/athenian-programming/starter-snake-kotlin) by [Paul Ambrose](https://github.com/athenian-programming)
+* [Battlesnake Quickstart using Kotlin and Java](https://github.com/pambrose/battlesnake-quickstart) by [Paul Ambrose](https://github.com/pambrose)
 * [Rust Starter Snake](https://github.com/mcraealex/rustysnake) by [McRaeAlex](https://github.com/McRaeAlex)
 * [Node.js Starter Snake with Microsoft Azure](https://github.com/mcraealex/AzureSnake) by [McRaeAlex](https://github.com/McRaeAlex)
 * [TypeScript Starter Snake with Deno](https://github.com/tyrelh/starter-snake-typescript-deno) by [Tyrel Hiebert](https://github.com/tyrelh)
 * [TypeScript Starter Snake with Deno on Repl.it](https://repl.it/@ArnavBansal/starter-snake-deno#index.ts) by [Arnav Bansal from Repl.it](https://repl.it/@ArnavBansal)
 * [C\# Starter Snake with Microsoft Azure](https://github.com/neistow/battlesnake-starter-csharp) by [neistow](https://github.com/neistow)
-
-
 
 ### Machine Learning Starter Projects
 
