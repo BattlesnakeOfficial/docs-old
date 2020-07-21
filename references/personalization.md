@@ -63,7 +63,7 @@ _These were the first heads and tails ever released, as part of Battlesnake Vict
 
 #### Standard Heads
 
-![beluga, bender, dead, evil ](../.gitbook/assets/standardheads1.png)
+![beluga, bendr, dead, evil ](../.gitbook/assets/standardheads1.png)
 
 ![fang, pixel, sand-worm, safe](../.gitbook/assets/standardheads2.png)
 
