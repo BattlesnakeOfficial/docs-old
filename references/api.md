@@ -493,6 +493,11 @@ The game board is represented by a standard 2D grid, oriented with \(0,0\) in th
     {"x": 9, "y": 0}, 
     {"x": 2, "y": 6}
   ],
+  "hazards": [
+    {"x": 0, "y": 0}, 
+    {"x": 0, "y": 1}, 
+    {"x": 0, "y": 2}
+  ],
   "snakes": [
     {"id": "snake-one", ... },
     {"id": "snake-two", ... },
@@ -545,6 +550,17 @@ The game board is represented by a standard 2D grid, oriented with \(0,0\) in th
       </td>
     </tr>
     <tr>
+      <td style="text-align:left"><b>hazards</b>
+      </td>
+      <td style="text-align:left">array</td>
+      <td style="text-align:left">
+        <p>Array of coordinates representing hazardous locations on the game board.
+          These will only appear in some game modes.</p>
+        <p><em>Example: [{&quot;x&quot;: 0, &quot;y&quot;: 0}, ..., {&quot;x&quot;: 0, &quot;y&quot;: 1}]</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left"><b>snakes</b>
       </td>
       <td style="text-align:left">array</td>
@@ -580,6 +596,9 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
       {"x": 5, "y": 5}, 
       {"x": 9, "y": 0}, 
       {"x": 2, "y": 6}
+    ],
+    "hazards": [
+      {"x": 0, "y": 0}
     ],
     "snakes": [
       {
