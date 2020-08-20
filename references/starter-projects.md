@@ -34,8 +34,7 @@ Our [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-
 The Battlesnake community is all about collaboration and shared learning. Some of our core members and supporters have built their own Starter Projects to get developers started with new languages and technologies.
 
 * [JavaScript and AWS Lambda](https://colinjfw.github.io/battlesnake-learn/) by [Colin Walker](https://github.com/colinjfw)
-* [Kotlin Starter Snake](https://github.com/athenian-programming/starter-snake-kotlin) by [Paul Ambrose](https://github.com/athenian-programming)
-* [Battlesnake Quickstart using Kotlin and Java](https://github.com/pambrose/battlesnake-quickstart) by [Paul Ambrose](https://github.com/pambrose)
+* [Battlesnake Quickstart for Kotlin and Java](https://github.com/pambrose/battlesnake-quickstart) by [Paul Ambrose](https://github.com/pambrose)
 * [Rust Starter Snake](https://github.com/mcraealex/rustysnake) by [McRaeAlex](https://github.com/McRaeAlex)
 * [Node.js Starter Snake with Microsoft Azure](https://github.com/mcraealex/AzureSnake) by [McRaeAlex](https://github.com/McRaeAlex)
 * [TypeScript Starter Snake with Deno](https://github.com/tyrelh/starter-snake-typescript-deno) by [Tyrel Hiebert](https://github.com/tyrelh)
