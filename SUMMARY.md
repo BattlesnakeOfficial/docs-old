@@ -8,6 +8,7 @@
 * [Developer Tips](guides/tips.md)
 * [Contributing](guides/contributing.md)
 * [FAQ](guides/faq.md)
+* [Migrating to API Version 1](guides/migrating-to-api-version-1.md)
 
 ## References
 

@@ -17,10 +17,10 @@ If you're building a Battlesnake for the first time, these are great starting po
 There are also a few older projects that require some updating to work with the latest API, but are still helpful for getting started.
 
 * J[ava Starter Project](https://github.com/battlesnakeofficial/starter-snake-java) _\(needs upgrading\)_
-* [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) ****_\(needs upgrading\)_
+* [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) _\*\*\(needs upgrading\)_
 
 {% hint style="success" %}
-**Have an idea to make these better?**   
+**Have an idea to make these better?**  
 We welcome pull requests and issues on all official Starter Project GitHub repos. See our [Contributing Guide](../guides/contributing.md) for instructions and guidelines.
 
 Our [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-java) and [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) both need updating to API version 1.0. If you are interested in helping, check out the following issues in GitHub:
@@ -62,6 +62,4 @@ You can submit a [pull request or create an issue on GitHub](https://github.com/
 * Be well documented and easy to understand
 * Provide simple, extensible unit tests
 * Ideally have a minimal project structure
-
-
 
