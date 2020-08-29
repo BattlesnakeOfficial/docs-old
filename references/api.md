@@ -384,7 +384,8 @@ The Battlesnake API uses the following object definitions when communicating wit
   ],
   "head": {"x": 0, "y": 0},
   "length": 3,
-  "shout": "why are we shouting??"
+  "shout": "why are we shouting??",
+  "squad": "1"
 }
 ```
 {% endcode %}
@@ -471,6 +472,17 @@ The Battlesnake API uses the following object definitions when communicating wit
       <td style="text-align:left">
         <p>Message shouted by this Battlesnake on the previous turn.</p>
         <p><em>Example: &quot;why are we shouting??&quot;</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>squad</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p>The squad that the Battlesnake belongs to. Used to identify squad members
+          in Squad Mode games.</p>
+        <p><em>Example: &quot;1&quot;</em>
         </p>
       </td>
     </tr>
@@ -612,7 +624,8 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
         ],
         "head": {"x": 0, "y": 0},
         "length": 3,
-        "shout": "why are we shouting??"
+        "shout": "why are we shouting??",
+        "squad": ""
       }, 
       {
         "id": "snake-b67f4906-94ae-11ea-bb37",
@@ -626,7 +639,8 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
         ],
         "head": {"x": 5, "y": 4},
         "length": 4,
-        "shout": "I'm not really sure..."
+        "shout": "I'm not really sure...",
+        "squad": ""
       }
     ]
   },
@@ -641,7 +655,8 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
     ],
     "head": {"x": 0, "y": 0},
     "length": 3,
-    "shout": "why are we shouting??"
+    "shout": "why are we shouting??",
+    "squad": ""
   }
 }
 ```
