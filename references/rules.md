@@ -81,19 +81,19 @@ If a Battlesnake's cybernetic brain fails to provide a valid response or respond
 After all moves have been received by the game engine, it will update the game board accordingly. This happens in a very specific order.
 
 1. Each Battlesnake will have its chosen move applied:
-   * Health is reduced by one.
    * A new body part is added to the board in the direction they moved.
-   * Each Battlesnake will have their last body part \(their tail\) removed from the board.
+   * Last body part \(their tail\) is removed from the board.
+   * Health is reduced by 1.
 2. Any Battlesnake that has found food will consume it:
-   * Health reset to maximum.
-   * Additional body part placed on top of their current tail \(this will extend their visible length by one on the next turn\).
+   * Health reset set maximum.
+   * Additional body part placed on top of current tail \(this will extend their visible length by one on the next turn\).
    * The food is removed from the board.
-3. Any Battlesnakes that have been eliminated are removed from the game board:
+3. Any new food spawning will be placed in empty squares on the board.
+4. Any Battlesnake that has been eliminated is removed from the game board:
    * Moved out of bounds
    * Collided with themselves
    * Collided with another Battlesnake
    * Collided head-to-head and lost
-4. Any new food will be placed in empty squares on the board.
 5. If there are two or more Battlesnakes still alive, proceed to the next turn.
 
 ## Open Source Game Logic
