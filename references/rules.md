@@ -90,11 +90,12 @@ After all moves have been received by the game engine, it will update the game b
    * The food is removed from the board.
 3. Any new food spawning will be placed in empty squares on the board.
 4. Any Battlesnake that has been eliminated is removed from the game board:
+   * Health less than or equal to 0
    * Moved out of bounds
    * Collided with themselves
    * Collided with another Battlesnake
    * Collided head-to-head and lost
-5. If there are two or more Battlesnakes still alive, proceed to the next turn.
+5. If there are enough Battlesnakes still present, repeat steps 1-5 for next turn.
 
 ## Open Source Game Logic
 
