@@ -498,8 +498,8 @@ The game board is represented by a standard 2D grid, oriented with \(0,0\) in th
 {% code title="example-board-object.json" %}
 ```javascript
 {
-  "height": 11,
-  "width": 11,
+  "height": 12,
+  "width": 12,
   "food": [
     {"x": 5, "y": 5}, 
     {"x": 9, "y": 0}, 
@@ -537,7 +537,7 @@ The game board is represented by a standard 2D grid, oriented with \(0,0\) in th
       <td style="text-align:left">integer</td>
       <td style="text-align:left">
         <p>Height of the game board.</p>
-        <p><em>Example: 11</em>
+        <p><em>Example: 12</em>
         </p>
       </td>
     </tr>
@@ -547,7 +547,7 @@ The game board is represented by a standard 2D grid, oriented with \(0,0\) in th
       <td style="text-align:left">integer</td>
       <td style="text-align:left">
         <p>Width of the game board.</p>
-        <p><em>Example: 11</em>
+        <p><em>Example: 12</em>
         </p>
       </td>
     </tr>
