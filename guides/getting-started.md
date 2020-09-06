@@ -129,7 +129,7 @@ We suggest reading the [Battlesnake Game Rules](../references/rules.md) and [Tip
 
 {% page-ref page="tips.md" %}
 
-You can also check out the [Battlesnake Awesome List](https://github.com/xtagon/awesome-battlesnake), built and maintained by [Xtagon](https://play.battlesnake.com/u/xtagon/), for great Battlesnake resources.
+You can also check out the [Battlesnake Awesome List](https://github.com/xtagon/awesome-battlesnake), built by [Xtagon](https://play.battlesnake.com/u/xtagon/) and maintained by the community for great Battlesnake resources. Anyone may [contribute](https://github.com/xtagon/awesome-battlesnake/blob/master/CONTRIBUTING.md), so if you know of any interesting resources or wish to share your own creations, [open a pull request](https://github.com/xtagon/awesome-battlesnake/pulls).
 
 **Good luck, and happy programming!**
 
