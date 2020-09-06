@@ -23,6 +23,7 @@
 * [Slack](https://play.battlesnake.com/slack)
 * [Discord](https://play.battlesnake.com/discord)
 * [Twitch](https://play.battlesnake.com/twitch)
+* [Awesome](https://github.com/xtagon/awesome-battlesnake)
 
 ## Policies
 

@@ -129,5 +129,9 @@ We suggest reading the [Battlesnake Game Rules](../references/rules.md) and [Tip
 
 {% page-ref page="tips.md" %}
 
+You can also check out the [Battlesnake Awesome List](https://github.com/xtagon/awesome-battlesnake), built and maintained by [Xtagon](https://play.battlesnake.com/u/xtagon/), for great Battlesnake resources.
+
 **Good luck, and happy programming!**
+
+## **Looking for more?**
 
