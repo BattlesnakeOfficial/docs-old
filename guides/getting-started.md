@@ -133,5 +133,3 @@ You can also check out the [Battlesnake Awesome List](https://github.com/xtagon/
 
 **Good luck, and happy programming!**
 
-## **Looking for more?**
-
