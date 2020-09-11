@@ -356,6 +356,16 @@ The Battlesnake API uses the following object definitions when communicating wit
       </td>
     </tr>
     <tr>
+      <td style="text-align:left"><b>ruleset</b>
+      </td>
+      <td style="text-align:left">object</td>
+      <td style="text-align:left">
+        <p>Information about the ruleset being used to run this game.</p>
+        <p><em>Example: {&quot;name&quot;: &quot;standard&quot;, &quot;version&quot;: &quot;v1.2.3&quot;}</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left"><b>timeout</b>
       </td>
       <td style="text-align:left">integer <em>(milliseconds)</em>
@@ -444,6 +454,17 @@ The Battlesnake API uses the following object definitions when communicating wit
       </td>
     </tr>
     <tr>
+      <td style="text-align:left"><b>latency</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p>The previous response time of this Battlesnake, in milliseconds. &quot;0&quot;
+          means the Battlesnake timed out and failed to respond.</p>
+        <p><em>Example: &quot;450&quot;</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left"><b>head</b>
       </td>
       <td style="text-align:left">object</td>
@@ -491,9 +512,9 @@ The Battlesnake API uses the following object definitions when communicating wit
 
 ### Board
 
-The game board is represented by a standard 2D grid, oriented with \(0,0\) in the bottom left. The Y-Axis is positive in the up direction, and X-Axis is positive to the right. Coordinates begin at zero, such that a board that is 12x12 will have coordinates ranging from \[0, 11\].
+The game board is represented by a standard 2D grid, oriented with \(0,0\) in the bottom left. The Y-Axis is positive in the up direction, and X-Axis is positive to the right. Coordinates begin at zero, such that a board that is 11x11 will have coordinates ranging from \[0, 10\].
 
-![Battlesnake coordinate system](../.gitbook/assets/11-scale.png)
+![Battlesnake Coordinate System](../.gitbook/assets/10-full.png)
 
 {% code title="example-board-object.json" %}
 ```javascript
@@ -598,6 +619,10 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
 {
   "game": {
     "id": "game-00fe20da-94ad-11ea-bb37",
+    "ruleset": {
+      "name": "standard",
+      "version": "v.1.2.3"
+    },
     "timeout": 500
   },
   "turn": 14,
@@ -622,6 +647,7 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
           {"x": 1, "y": 0}, 
           {"x": 2, "y": 0}
         ],
+        "latency": "111",
         "head": {"x": 0, "y": 0},
         "length": 3,
         "shout": "why are we shouting??",
@@ -637,6 +663,7 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
           {"x": 6, "y": 3},
           {"x": 6, "y": 2}
         ],
+        "latency": "222",
         "head": {"x": 5, "y": 4},
         "length": 4,
         "shout": "I'm not really sure...",
@@ -653,6 +680,7 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
       {"x": 1, "y": 0}, 
       {"x": 2, "y": 0}
     ],
+    "latency": "111",
     "head": {"x": 0, "y": 0},
     "length": 3,
     "shout": "why are we shouting??",

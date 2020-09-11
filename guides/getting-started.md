@@ -43,7 +43,7 @@ Python, JavaScript, and Ruby are popular choices. It's possible to use most prog
 
 ### Implementing the Battlesnake API
 
-The Battlesnake API consists of four commands. These commands are called at different times during each game and your response to these command controls how your Battlesnake appears and behaves on the game board. 
+The Battlesnake API consists of four commands. These commands are called at different times during each game and your response to these command controls how your Battlesnake appears and behaves on the game board.
 
 All four commands are summarized here, and the [Battlesnake API Reference](../references/api.md) has complete details for each command.
 
@@ -78,7 +78,6 @@ Successfully deploying your Battlesnake should provide you with a unique URL. Op
 {% code title="https://your-battlesnake-server.com" %}
 ```text
 {"apiversion": "1", "author": "BattlesnakeOfficial"}
-
 ```
 {% endcode %}
 
@@ -113,7 +112,7 @@ You will be rewarded with a view of the game board that includes your Battlesnak
 
 ## Next Steps
 
-**Congratulations, you've built and deployed your first Battlesnake!**  🎊\*\*\*\*
+**Congratulations, you've built and deployed your first Battlesnake!** 🎊\*\*\*\*
 
 At this point you're ready to start making your Battlesnake smarter and more competitive. Typical Battlesnake development looks like:
 

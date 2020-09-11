@@ -1,6 +1,6 @@
 # Welcome to Battlesnake
 
-**Battlesnake** is an online programming game played by developers all over the world. You can [program a web server](references/api.md) to play the game and participate in [online arenas](https://play.battlesnake.com/arena/global/) and [competitions](https://play.battlesnake.com/twitch).
+**Battlesnake** is a multi-player programming game played by developers all over the world. You can [program a web server](references/api.md) to play the game and participate in [online arenas](https://play.battlesnake.com/arena/global/) and [competitions](https://play.battlesnake.com/twitch).
 
 ![](.gitbook/assets/docwelcome.png)
 
