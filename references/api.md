@@ -392,6 +392,7 @@ The Battlesnake API uses the following object definitions when communicating wit
     {"x": 1, "y": 0}, 
     {"x": 2, "y": 0}
   ],
+  "latency": "123",
   "head": {"x": 0, "y": 0},
   "length": 3,
   "shout": "why are we shouting??",
