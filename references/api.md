@@ -130,6 +130,13 @@ application/json
         </p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left"><b>version</b>
+      </td>
+      <td style="text-align:left">string <em>(optional)</em>
+      </td>
+      <td style="text-align:left">A version number or tag for your snake.</td>
+    </tr>
   </tbody>
 </table>
 

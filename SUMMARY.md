@@ -2,6 +2,10 @@
 
 * [Welcome to Battlesnake](README.md)
 
+## Announcements
+
+* [Ending Support for Battlesnake API Version 0](announcements/ending-support-for-battlesnake-api-version-0.md)
+
 ## Guides
 
 * [Getting Started](guides/getting-started.md)
