@@ -103,3 +103,11 @@ _Released as part of our Stay Home and Code event in April 2020, raising money f
 
 ![shac-coffee, shac-mouse, shac-weight, shac-tiger-tail](../.gitbook/assets/shactails.png)
 
+### **Fall League and Winter Classic 2020 Theme**
+
+_Released as part of the Battlesnake Fall League competition in 2020. These customizations are limited edition and can only be earned by participating in the competition._
+
+#### Fall League 2020 Heads
+
+![bfl-jackolantern](../.gitbook/assets/bflheads_v1.png)
+
