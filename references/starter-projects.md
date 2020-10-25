@@ -40,6 +40,7 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 * [TypeScript Starter Snake with Deno](https://github.com/tyrelh/starter-snake-typescript-deno) by [Tyrel Hiebert](https://github.com/tyrelh)
 * [TypeScript Starter Snake with Deno on Repl.it](https://repl.it/@ArnavBansal/starter-snake-deno#index.ts) by [Arnav Bansal from Repl.it](https://repl.it/@ArnavBansal)
 * [C\# Starter Snake with Microsoft Azure](https://github.com/neistow/battlesnake-starter-csharp) by [neistow](https://github.com/neistow)
+* [Scala Starter Snake with Heroku](https://github.com/horrox/battlesnake-starter-scala) by [horrox](https://github.com/horrox)
 
 ### Machine Learning Starter Projects
 
