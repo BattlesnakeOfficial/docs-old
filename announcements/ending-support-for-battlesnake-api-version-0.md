@@ -8,7 +8,7 @@ Starting on October 12th, 2020 we will begin phasing out support for Version 0 o
 
 Games created with API Version 0 Battlesnakes will no longer show user defined customizations such as head, tail and color selections.  Instead, the default head and tail will be used and a randomized color will be provided.
 
-### **October 31, 2020** - Disabled Challenges and Competitions
+### **October 30, 2020** - Disabled Challenges and Competitions
 
 API Version 0 Battlesnakes can no longer be used to attempt challenges and cannot be entered into competition division or arenas.
 
