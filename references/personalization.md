@@ -73,7 +73,7 @@ _These were the first heads and tails ever released, as part of Battlesnake Vict
 
 ![block-bum, bolt, curled, fat-rattle](../.gitbook/assets/standardtail1.png)
 
-![freckle, hook, pixel, round-bum](../.gitbook/assets/standardtail2.png)
+![freckled, hook, pixel, round-bum](../.gitbook/assets/standardtail2.png)
 
 ![sharp, skinny, small-rattle](../.gitbook/assets/standardtail3.png)
 
