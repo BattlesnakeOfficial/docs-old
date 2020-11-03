@@ -13,7 +13,7 @@ If you're building a Battlesnake for the first time, these are great starting po
 * [Python Starter Project](https://github.com/battlesnakeofficial/starter-snake-python)
 * [Go Starter Project](https://github.com/battlesnakeofficial/starter-snake-go)
 * [JavaScript Starter Project](https://github.com/battlesnakeofficial/starter-snake-node)
-* J[ava Starter Project](https://github.com/battlesnakeofficial/starter-snake-java)
+* [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-java)
 * [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby)
 
 ## Community Starter Projects
