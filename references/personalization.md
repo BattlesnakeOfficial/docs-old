@@ -109,5 +109,5 @@ _Released as part of the Battlesnake Fall League competition in 2020. These cust
 
 #### Fall League 2020 Heads
 
-![bfl-jackolantern](../.gitbook/assets/bflheads_v1.png)
+![bfl-jackolantern, bfl-pumpkin](../.gitbook/assets/docs-pumpkin-jacko-heads.png)
 
