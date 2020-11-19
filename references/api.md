@@ -643,7 +643,7 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
       {"x": 2, "y": 6}
     ],
     "hazards": [
-      {"x": 0, "y": 0}
+      {"x": 3, "y": 2}
     ],
     "snakes": [
       {
