@@ -26,7 +26,7 @@ Any customization data in the `POST /start` endpoint is ignored by the game engi
 
 Battlesnakes that implement the API Version 1 will receive the board data with a coordinate system origin \(0,0\) located in the bottom left corner of the board. In API Version 0, the coordinate system origin was in the top left corner of the board. You will either need to invert your logic with respect to the y-axis or your snake may move in unexpected ways. 
 
-![API Version 1 Coordinate System](../.gitbook/assets/11-scale%20%281%29.png)
+![API Version 1 Coordinate System](../.gitbook/assets/10-full.png)
 
 
 
