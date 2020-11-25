@@ -114,7 +114,7 @@ See [Personalization Reference](personalization.md) for available colors, heads,
 
 {% api-method method="post" host="https://your.battlesnake.server.com" path="/start" %}
 {% api-method-summary %}
-
+/start
 {% endapi-method-summary %}
 
 {% api-method-description %}
