@@ -111,3 +111,7 @@ _Released as part of the Battlesnake Fall League competition in 2020. These cust
 
 ![bfl-jackolantern, bfl-pumpkin](../.gitbook/assets/docs-pumpkin-jacko-heads.png)
 
+**Fall League 2020 Tails**
+
+![bfl-leaf](../.gitbook/assets/docs-leaf-tail.png)
+
