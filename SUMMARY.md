@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Welcome to Battlesnake](README.md)
+* [Overview](README.md)
+* [FAQ](faq.md)
 
 ## Announcements
 
@@ -8,10 +9,9 @@
 
 ## Guides
 
-* [Getting Started](guides/getting-started.md)
+* [Quick Start Guide](guides/getting-started.md)
 * [Developer Tips](guides/tips.md)
 * [Contributing](guides/contributing.md)
-* [FAQ](guides/faq.md)
 * [Migrating to API Version 1](guides/migrating-to-api-version-1.md)
 
 ## References
@@ -27,7 +27,7 @@
 * [Slack](https://play.battlesnake.com/slack)
 * [Discord](https://play.battlesnake.com/discord)
 * [Twitch](https://play.battlesnake.com/twitch)
-* [Awesome](https://github.com/xtagon/awesome-battlesnake)
+* [Awesome List](https://github.com/xtagon/awesome-battlesnake)
 
 ## Policies
 
