@@ -20,6 +20,7 @@ If you're building a Battlesnake for the first time, these are great starting po
 
 The Battlesnake community is all about collaboration and shared learning. Some of our core members and supporters have built their own Starter Projects to get developers started with new languages and technologies.
 
+* [Node.js Start Snake with IBM Cloud](https://github.com/IBM/starter-snake-node) by [Steve Martinelli](https://github.com/stevemar)
 * [JavaScript and AWS Lambda](https://colinjfw.github.io/battlesnake-learn/) by [Colin Walker](https://github.com/colinjfw)
 * [Battlesnake Quickstart for Kotlin and Java](https://github.com/pambrose/battlesnake-quickstart) by [Paul Ambrose](https://github.com/pambrose)
 * [Rust Starter Snake](https://github.com/mcraealex/rustysnake) by [McRaeAlex](https://github.com/McRaeAlex)
