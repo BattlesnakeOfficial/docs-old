@@ -1,6 +1,6 @@
 # Terms of Service
 
-Effective Date: December 29, 2019
+Effective Date: December 29, 2020
 
 **Battlesnake is owned and operated by Battlesnake Inc.**
 
