@@ -6,7 +6,7 @@ description: A guide to migrate a Battlesnake to the latest version of the Battl
 
 ### Overview
 
-As of December 31st, 2020 the original implementation of the Battlesnake API, known as Version 0, will no longer be supported on the Battlesnake platform. Battlesnakes still implementing that version are no longer able to create games, enter arenas or participate in competitions. 
+As of December 31st, 2020 the original implementation of the Battlesnake API, known as Version 0, is no longer supported on the Battlesnake platform. Battlesnakes still implementing that API version cannot be used to create games, enter arenas or participate in competitions. 
 
 Upgrading a Battlesnake to API Version 1 is a simple process that involves 4 steps, outline below.
 
