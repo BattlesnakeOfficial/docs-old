@@ -83,13 +83,13 @@ _Released for the first ever Battlesnake Winter Classic event, in November 2019.
 
 #### Winter Classic 2019 Head
 
-![bwc-bonhomme, bwc-earmuffs, bwc-rudolph, bwc-scarf](../.gitbook/assets/winterheads2.png)
+![bonhomme, earmuffs, rudolph, scarf](../.gitbook/assets/winterheads2.png)
 
-![bwc-ski, bwc-snow-worm, bwc-snowman](../.gitbook/assets/winterheads1.png)
+![ski, snow-worm, snowman](../.gitbook/assets/winterheads1.png)
 
 #### Winter Classic 2019 Tails
 
-![bwc-bonhomme, bwc-flake, bwc-ice-skate, bwc-present](../.gitbook/assets/wintertails.png)
+![bonhomme, flake, ice-skate, present](../.gitbook/assets/wintertails.png)
 
 ### **Stay Home and Code Theme**
 
@@ -97,11 +97,11 @@ _Released as part of our Stay Home and Code event in April 2020, raising money f
 
 #### Stay Home and Code Heads
 
-![shac-caffeine, shac-gamer, shac-workout, shac-tiger-king](../.gitbook/assets/shacheads.png)
+![caffeine, gamer, workout, tiger-king](../.gitbook/assets/shacheads.png)
 
 #### Stay Home and Code Tails
 
-![shac-coffee, shac-mouse, shac-weight, shac-tiger-tail](../.gitbook/assets/shactails.png)
+![coffee, mouse, weight, tiger-tail](../.gitbook/assets/shactails.png)
 
 ### **Fall League and Winter Classic 2020 Theme**
 
@@ -109,9 +109,9 @@ _Released as part of the Battlesnake Fall League competition in 2020. These cust
 
 #### Fall League 2020 Heads
 
-![bfl-jackolantern, bfl-pumpkin](../.gitbook/assets/docs-pumpkin-jacko-heads.png)
+![jackolantern, pumpkin](../.gitbook/assets/docs-pumpkin-jacko-heads.png)
 
 **Fall League 2020 Tails**
 
-![bfl-leaf](../.gitbook/assets/docs-leaf-tail.png)
+![leaf](../.gitbook/assets/docs-leaf-tail.png)
 
