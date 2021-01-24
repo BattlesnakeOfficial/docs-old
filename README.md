@@ -28,7 +28,7 @@ Our mission is to **make programming fun and accessible** for absolutely everyon
 
 ## Other Resources
 
-* The quickest way to get questions answered is on [Slack](https://play.battlesnake.com/slack), [Discord](https://play.battlesnake.com/discord), or [Reddit](https://www.reddit.com/r/Battlesnake).
+* The quickest way to get questions answered is on [Discord](https://play.battlesnake.com/discord), [Slack](https://play.battlesnake.com/slack),  or [Reddit](https://www.reddit.com/r/Battlesnake).
 * Find real working examples in the [Community Starter Projects](references/starter-projects.md#community-starter-projects).
 * You can always email [hello@battlesnake.com](mailto:hello@battlesnake.com) and we'll point you in the right direction.
 
