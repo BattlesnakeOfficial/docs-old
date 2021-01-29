@@ -1,10 +1,10 @@
 ---
-description: A collection of tips for developing your best Battlesnake
+description: A collection of tips for developing your best Battlesnake.
 ---
 
 # Developer Tips
 
-These tips have been suggested and collected by the community over the years. Hopefully they'll be helpful to new Battlesnake developers playing the game for the first time!
+These tips have been suggested and collected by the community over the years. Hopefully, they'll be helpful to new Battlesnake developers playing the game for the first time!
 
 ## Names are Important!
 
@@ -38,11 +38,21 @@ Think about strategies you can deploy to make sure your Battlesnake is awake and
 
 The Battlesnake game engine gives each Battlesnake a limited amount of time to respond to API requests - if your Battlesnake takes too long, it could be disqualified from games or the engine could make moves on its behalf.
 
-The amount of time you have to respond is provided in each API request sent. In most cases it defaults to 500ms, but this value can change in different game modes and tournament divisions.
+The amount of time you have to respond is provided in each API request sent. In most cases, it defaults to 500ms, but this value can change in different game modes and tournament divisions.
 
 For most Battlesnake developers this won't be a problem. However top competitors will optimize their Battlesnakes to use as much compute time as possible.
 
 {% hint style="info" %}
 **Tip:** Response time includes round-trip latency. The Battlesnake game engine timeouts also include the time it takes to send the request to your server and receive the response back. Consider this extra response time when optimizing your Battlesnake.
+{% endhint %}
+
+## Testing Your Battlesnake Locally
+
+All Battlesnake game logic is [open source](https://github.com/BattlesnakeOfficial/rules) and available for personal use. If you'd like to run games locally using your own development environment, there's an included CLI.
+
+Install the [Battlesnake Rules CLI](https://github.com/BattlesnakeOfficial/rules/cli) to get started.
+
+{% hint style="info" %}
+**Tip:** Running games locally can speed up your development cycles significantly, but can also be more complex than using the Battlesnake platform.
 {% endhint %}
 

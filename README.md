@@ -1,20 +1,22 @@
-# Welcome to Battlesnake
+---
+description: >-
+  Welcome to Battlesnake, a multiplayer programming game played by developers
+  all over the world.
+---
 
-**Battlesnake** is a multi-player programming game played by developers all over the world. You can [program a web server](references/api.md) to play the game and participate in [online arenas](https://play.battlesnake.com/arena/global/) and [competitions](https://play.battlesnake.com/twitch).
-
-![](.gitbook/assets/docwelcome.png)
+# Overview
 
 **Developers of all skill levels** use Battlesnake to learn new technologies, improve their programming skills, and have fun with friends, family, and colleagues.
 
 Our mission is to **make programming fun and accessible** for absolutely everyone.
 
-## Guides to Get You Started
+## Quick Start
 
 {% page-ref page="guides/getting-started.md" %}
 
 {% page-ref page="references/starter-projects.md" %}
 
-{% page-ref page="guides/faq.md" %}
+{% page-ref page="faq.md" %}
 
 ## Popular References
 
@@ -24,7 +26,9 @@ Our mission is to **make programming fun and accessible** for absolutely everyon
 
 {% page-ref page="references/personalization.md" %}
 
-## Join Our Community of Developers
+## Other Resources
 
-You can join us in [Slack](https://play.battlesnake.com/slack), [Discord](https://play.battlesnake.com/discord), and live on [Twitch](https://play.battlesnake.com/twitch). All of our open source projects are on [GitHub](https://play.battlesnake.com/github) and we welcome all contributions.
+* The quickest way to get questions answered is on [Discord](https://play.battlesnake.com/discord), [Slack](https://play.battlesnake.com/slack),  or [Reddit](https://www.reddit.com/r/Battlesnake).
+* Find real working examples in the [Community Starter Projects](references/starter-projects.md#community-starter-projects).
+* You can always email [hello@battlesnake.com](mailto:hello@battlesnake.com) and we'll point you in the right direction.
 

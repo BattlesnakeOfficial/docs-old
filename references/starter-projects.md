@@ -13,43 +13,44 @@ If you're building a Battlesnake for the first time, these are great starting po
 * [Python Starter Project](https://github.com/battlesnakeofficial/starter-snake-python)
 * [Go Starter Project](https://github.com/battlesnakeofficial/starter-snake-go)
 * [JavaScript Starter Project](https://github.com/battlesnakeofficial/starter-snake-node)
-* J[ava Starter Project](https://github.com/battlesnakeofficial/starter-snake-java)
-
-There are also a few older projects that require some updating to work with the latest API, but are still helpful for getting started.
-
-* [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) _\*\*\(needs upgrading\)_
-
-{% hint style="success" %}
-**Have an idea to make these better?**  
-We welcome pull requests and issues on all official Starter Project GitHub repos. See our [Contributing Guide](../guides/contributing.md) for instructions and guidelines.
-
-Our  [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) needs updating to API version 1.0. If you are interested in helping, check out the following issues in GitHub:
-
-* [Ruby Starter Project Upgrade](https://github.com/BattlesnakeOfficial/starter-snake-ruby/issues/8)
-{% endhint %}
+* [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-java)
+* [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby)
 
 ## Community Starter Projects
 
-The Battlesnake community is all about collaboration and shared learning. Some of our core members and supporters have built their own Starter Projects to get developers started with new languages and technologies.
+The Battlesnake community is all about collaboration and shared learning. Some of our core members and partners have built their own Starter Projects to get developers started with new languages and technologies.
 
-* [JavaScript and AWS Lambda](https://colinjfw.github.io/battlesnake-learn/) by [Colin Walker](https://github.com/colinjfw)
-* [Battlesnake Quickstart for Kotlin and Java](https://github.com/pambrose/battlesnake-quickstart) by [Paul Ambrose](https://github.com/pambrose)
-* [Rust Starter Snake](https://github.com/mcraealex/rustysnake) by [McRaeAlex](https://github.com/McRaeAlex)
-* [Node.js Starter Snake with Microsoft Azure](https://github.com/mcraealex/AzureSnake) by [McRaeAlex](https://github.com/McRaeAlex)
-* [TypeScript Starter Snake with Deno](https://github.com/tyrelh/starter-snake-typescript-deno) by [Tyrel Hiebert](https://github.com/tyrelh)
-* [TypeScript Starter Snake with Deno on Repl.it](https://repl.it/@ArnavBansal/starter-snake-deno#index.ts) by [Arnav Bansal from Repl.it](https://repl.it/@ArnavBansal)
-* [C\# Starter Snake with Microsoft Azure](https://github.com/neistow/battlesnake-starter-csharp) by [neistow](https://github.com/neistow)
-* [Scala Starter Snake with Heroku](https://github.com/horrox/battlesnake-starter-scala) by [horrox](https://github.com/horrox)
-* [Julia Starter Snake](https://github.com/Nettogrof/starter-snake-julia) by [Nettogrof](https://github.com/Nettogrof)
+**Partner Starter Projects**
 
-### Machine Learning Starter Projects
+| Project | Developer |
+| :--- | :--- |
+| [TypeScript Starter Snake with Deno on Repl.it](https://repl.it/@ArnavBansal/starter-snake-deno#index.ts) | [Arnav Bansal](https://repl.it/@ArnavBansal), Repl.it |
+| [Node.js Starter Snake with IBM Cloud](https://github.com/IBM/starter-snake-node) | [Steve Martinelli](https://github.com/stevemar), IBM Cloud |
+| [Reinforcement Learning Battlesnake with Amazon Sagemaker](https://github.com/awslabs/sagemaker-battlesnake-ai) | [Jonathan Chung](https://github.com/jonomon), AWS |
 
-These projects are specifically intended for developers wishing to use machine learning techniques and technologies to develop their Battlesnake.
+**Community Starter Projects**
 
-* [Machine Learning Battlesnake with Amazon Sagemaker](https://github.com/awslabs/sagemaker-battlesnake-ai) by [AWS Labs](https://github.com/awslabs)
+| **Project** | Developer |
+| :--- | :--- |
+| [Rust Starter Snake](https://github.com/mcraealex/rustysnake) | [McRaeAlex](https://github.com/McRaeAlex) |
+| [Battlesnake Quickstart for Kotlin and Java](https://github.com/pambrose/battlesnake-quickstart) | [Paul Ambrose](https://github.com/pambrose) |
+| [TypeScript Starter Snake with Deno](https://github.com/tyrelh/starter-snake-typescript-deno) | [Tyrel Hiebert](https://github.com/tyrelh) |
+| [C\# Starter Snake with Microsoft Azure](https://github.com/neistow/battlesnake-starter-csharp) | [neistow](https://github.com/neistow) |
+| [Scala Starter Snake with Heroku](https://github.com/horrox/battlesnake-starter-scala) | [horrox](https://github.com/horrox) |
+| [Julia Starter Snake](https://github.com/Nettogrof/starter-snake-julia) | [Nettogrof](https://github.com/Nettogrof) |
+| [TypeScript Starter Snake](https://github.com/kgorgi/starter-snake-node-ts) | [Kian Gorgichuk](https://github.com/kgorgi) |
+
+**Legacy Starter Projects**
+
+The following starter projects use a deprecated version of the Battlesnake API. They're still great starting points, but require some additional updates to work correctly. See [Migrating to API Version 1](../guides/migrating-to-api-version-1.md) for details.
+
+| Project | Developer |
+| :--- | :--- |
+| [JavaScript and AWS Lambda](https://colinjfw.github.io/battlesnake-learn/) | [Colin Walker](https://github.com/colinjfw) |
+| [Node.js Starter Snake with Microsoft Azure](https://github.com/mcraealex/AzureSnake) | [McRaeAlex](https://github.com/McRaeAlex) |
 
 {% hint style="info" %}
-**These projects are maintained independently by their developers.** See individual contributing guides if you're interested in getting involved and helping out.
+**These projects are maintained independently by their developers.** See project guidelines for each project if you're interested in getting involved or have any questions/concerns.
 {% endhint %}
 
 ## Contributing Your Own Starter Project
