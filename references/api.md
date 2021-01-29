@@ -8,7 +8,7 @@ description: Official Reference for the Battlesnake API (Version 1)
 
 The Battlesnake API is an inverted HTTP API. Developers build a web server that implements this API and the game engine will act as an API client during each game. How your server responds to these requests controls how your Battlesnake behaves.
 
-Requests sent to your Battlesnake will be [JSON-encoded](www.json.org), using standard HTTP request methods and content types.
+Requests sent to your Battlesnake will be [JSON-encoded](https://github.com/BattlesnakeOfficial/docs/tree/a2b51f832051788f2b13982fefcf2c74e0cf9db0/references/www.json.org), using standard HTTP request methods and content types.
 
 ### HTTP Response Codes
 
@@ -29,36 +29,6 @@ Note that these values include round-trip latency, so communication between the 
 Your Battlesnake server must implement the following HTTP calls to play the game.
 
 {% api-method method="get" host="https://your.battlesnake.server.com" path="/" %}
-{% api-method-summary %}
-/
-{% endapi-method-summary %}
-
-{% api-method-description %}
-This request will be made periodically to retrieve information about your Battlesnake, including its display options, author, etc.
-{% endapi-method-description %}
-
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-application/json
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "apiversion": "1",
-    "author": "your-username",
-    "color": "#888888",
-    "head": "default",
-    "tail": "default"
-}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
 
 **Response Properties**
 
@@ -178,7 +148,7 @@ Battlesnake Object describing your Battlesnake.
 Responses to this command are ignored by the game engine.
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -313,7 +283,7 @@ Battlesnake Object describing your Battlesnake.
 Responses to this command are ignored by the game engine.
 {% endapi-method-response-example-description %}
 
-```
+```text
 
 ```
 {% endapi-method-response-example %}
@@ -643,7 +613,7 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
       {"x": 2, "y": 6}
     ],
     "hazards": [
-      {"x": 0, "y": 0}
+      {"x": 3, "y": 2}
     ],
     "snakes": [
       {
