@@ -39,6 +39,7 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 | [Scala Starter Snake with Heroku](https://github.com/horrox/battlesnake-starter-scala) | [horrox](https://github.com/horrox) |
 | [Julia Starter Snake](https://github.com/Nettogrof/starter-snake-julia) | [Nettogrof](https://github.com/Nettogrof) |
 | [TypeScript Starter Snake](https://github.com/kgorgi/starter-snake-node-ts) | [Kian Gorgichuk](https://github.com/kgorgi) |
+| [PHP Starter Snake](https://github.com/Nettogrof/starter-snake-php) | [Nettogrof](https://github.com/Nettogrof) |
 
 **Legacy Starter Projects**
 
