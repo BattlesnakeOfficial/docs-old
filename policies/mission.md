@@ -2,7 +2,7 @@
 
 ## Our Mission
 
-### We want to make programming fun and accessible for millions of people.
+### We want to make programming fun and accessible for everyone.
 
 We created Battlesnake as a way to have fun programming with friends, learn new skills and technologies, and build the communities around us. We firmly believe that encouraging more people to experience and enjoy programming at all levels will make the world a better place.
 
