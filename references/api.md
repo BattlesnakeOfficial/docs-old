@@ -124,19 +124,19 @@ Your Battlesnake will receive this request when it has been entered into a new g
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
-{% api-method-parameter name="game" type="object" required=false %}
+{% api-method-parameter name="game" type="object" required=true %}
 Game Object describing the game being played.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="turn" type="integer" required=false %}
+{% api-method-parameter name="turn" type="integer" required=true %}
 Turn number of the game being played \(0 for new games\).
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="board" type="object" required=false %}
+{% api-method-parameter name="board" type="object" required=true %}
 Board Object describing the initial state of the game board.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="you" type="object" required=false %}
+{% api-method-parameter name="you" type="object" required=true %}
 Battlesnake Object describing your Battlesnake.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -172,19 +172,19 @@ This request will be sent for every turn of the game. Use the information provid
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
-{% api-method-parameter name="game" type="object" required=false %}
+{% api-method-parameter name="game" type="object" required=true %}
 Game Object describing the game being played.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="turn" type="integer" required=false %}
+{% api-method-parameter name="turn" type="integer" required=true %}
 Turn number for this move.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="board" type="object" required=false %}
+{% api-method-parameter name="board" type="object" required=true %}
 Board Object describing the game board on this turn.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="you" type="object" required=false %}
+{% api-method-parameter name="you" type="object" required=true %}
 Battlesnake Object describing your Battlesnake.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -259,19 +259,19 @@ Your Battlesnake will receive this request whenever a game it was playing has en
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
-{% api-method-parameter name="game" type="object" required=false %}
+{% api-method-parameter name="game" type="object" required=true %}
 Game Object describing the game being played.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="turn" type="integer" required=false %}
+{% api-method-parameter name="turn" type="integer" required=true %}
 Turn number for the last turn of this game.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="board" type="object" required=false %}
+{% api-method-parameter name="board" type="object" required=true %}
 Board Object describing the final turn of this game.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="you" type="object" required=false %}
+{% api-method-parameter name="you" type="object" required=true %}
 Battlesnake Object describing your Battlesnake.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
