@@ -46,72 +46,16 @@ Just like [choosing a color](personalization.md#color), your head and tail are p
 
 If an invalid value is returned \(or no value at all\) the `default` options will be displayed.
 
-{% hint style="success" %}
-**New Theme Releases**  
-We regularly release new head and tail options, often as part of specific Battlesnake events and competitions.
-{% endhint %}
-
 ### **Default Theme**
 
 If your Battlesnake doesn't specify a head or tail these default options will be used.
 
 ![default head and tail](../.gitbook/assets/defaultsnake.png)
 
-### Stand**ard Theme**
+{% hint style="success" %}
+**New Theme Releases**  
+We regularly release new head and tail options, often as part of specific Battlesnake events and competitions.
+{% endhint %}
 
-_These were the first heads and tails ever released, as part of Battlesnake Victoria 2018. They hold a special spot in all our hearts._
-
-#### Standard Heads
-
-![beluga, bendr, dead, evil ](../.gitbook/assets/standardheads1.png)
-
-![fang, pixel, sand-worm, safe](../.gitbook/assets/standardheads2.png)
-
-![shades, silly, smile, tongue](../.gitbook/assets/standardheads3.png)
-
-#### **Standard Tails**
-
-![block-bum, bolt, curled, fat-rattle](../.gitbook/assets/standardtail1.png)
-
-![freckled, hook, pixel, round-bum](../.gitbook/assets/standardtail2.png)
-
-![sharp, skinny, small-rattle](../.gitbook/assets/standardtail3.png)
-
-### **Winter Classic 2019 Theme**
-
-_Released for the first ever Battlesnake Winter Classic event, in November 2019._
-
-#### Winter Classic 2019 Head
-
-![bonhomme, earmuffs, rudolph, scarf](../.gitbook/assets/winterheads2.png)
-
-![ski, snow-worm, snowman](../.gitbook/assets/winterheads1.png)
-
-#### Winter Classic 2019 Tails
-
-![bonhomme, flake, ice-skate, present](../.gitbook/assets/wintertails.png)
-
-### **Stay Home and Code Theme**
-
-_Released as part of our Stay Home and Code event in April 2020, raising money for_ [_Food Banks Canada_](https://www.foodbankscanada.ca/)_._
-
-#### Stay Home and Code Heads
-
-![caffeine, gamer, workout, tiger-king](../.gitbook/assets/shacheads.png)
-
-#### Stay Home and Code Tails
-
-![coffee, mouse, weight, tiger-tail](../.gitbook/assets/shactails.png)
-
-### **Fall League and Winter Classic 2020 Theme**
-
-_Released as part of the Battlesnake Fall League competition in 2020. These customizations are limited edition and can only be earned by participating in the competition._
-
-#### Fall League 2020 Heads
-
-![jackolantern, pumpkin](../.gitbook/assets/docs-pumpkin-jacko-heads.png)
-
-**Fall League 2020 Tails**
-
-![leaf](../.gitbook/assets/docs-leaf-tail.png)
+### For a complete list of customizations you can use, check out the ****[**Battlesnake Heads and Tails Guide**](https://play.battlesnake.com/references/customizations/).
 
