@@ -41,7 +41,7 @@ If you feel uncomfortable or think there may be a potential violation of the cod
 By sending information to the general reporting line, your report will go to any or all of the Battlesnake representatives listed below.
 
 * Email: [**incidents@battlesnake.com**](mailto:incidents@battlesnake.com)
-* Slack: [**play.battlesnake.com/slack**](https://play.battlesnake.com/slack)\*\*\*\*
+* Discord: [**play.battlesnake.com/discord**](https://play.battlesnake.com/discord)\*\*\*\*
   * DM any of the people listed below
 * Report Form: [**Code of Conduct Report Form**](https://forms.gle/uJPzGqdUsKU7a4Um7)\*\*\*\*
 
@@ -49,7 +49,6 @@ By sending information to the general reporting line, your report will go to any
 
 If you are uncomfortable reporting your situation to one or more of these people or need to contact any of them directly in case of emergency, direct contact details are listed below.
 
-* Noah Warder \([**noah@battlesnake.com**](mailto:noah@battlesnake.com)\)
 * Brad Van Vugt \([**brad@battlesnake.com**](mailto:brad@battlesnake.com)\)
 * Chris Hoefgen \([**chris@battlesnake.com**](mailto:chris@battlesnake.com)\)
 

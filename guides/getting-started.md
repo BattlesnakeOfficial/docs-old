@@ -2,7 +2,7 @@
 description: A guide to creating and deploying your first Battlesnake.
 ---
 
-# Quick Start Guide
+# Quick Start Coding Guide
 
 **Battlesnake is an autonomous survival game.** Each Battlesnake is controlled autonomously by a live web server and moves independently attempting to find food, avoid other Battlesnakes, and stay alive as long as possible.
 
