@@ -30,6 +30,19 @@ Your Battlesnake server must implement the following HTTP calls to play the game
 
 {% api-method method="get" host="https://your.battlesnake.server.com" path="/" %}
 
+```javascript
+example-battlesnake-customization.json
+
+{
+ "apiversion": "1",
+ "author": "MyUsername",
+ "color" : "#888888",
+ "head" : "default",
+ "tail" : "default",
+ "version" : "0.0.1-beta"
+}
+```
+
 **Response Properties**
 
 <table>
@@ -47,7 +60,8 @@ Your Battlesnake server must implement the following HTTP calls to play the game
     <tr>
       <td style="text-align:left"><b>apiversion</b>
       </td>
-      <td style="text-align:left">string</td>
+      <td style="text-align:left">string <em>(required)</em>
+      </td>
       <td style="text-align:left">Version of the Battlesnake API implemented by this Battlesnake.
         <br /><em>Example: &quot;1&quot;</em>
       </td>
@@ -111,6 +125,8 @@ Your Battlesnake server must implement the following HTTP calls to play the game
 </table>
 
 See [Personalization Reference](personalization.md) for available colors, heads, and tails.
+
+
 
 {% api-method method="post" host="https://your.battlesnake.server.com" path="/start" %}
 {% api-method-summary %}
