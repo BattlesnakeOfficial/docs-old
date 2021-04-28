@@ -53,6 +53,7 @@ Examples of unacceptable behavior include:
 
   address, without their explicit permission
 
+* Interference with another persons Battlesnake, including, but not limited to, denial-of-service-attacks or exploiting the Battlesnake Engine or API with the intent to interfere with the performance of another persons Battlesnake
 * Other conduct which could reasonably be considered inappropriate in a
 
   professional setting
