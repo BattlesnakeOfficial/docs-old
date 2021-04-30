@@ -22,7 +22,7 @@ Note that within a Standard Game the number of Battlesnake in the game can vary,
 
 ![Example Royale Game with Hazard Sauce on three sides](../.gitbook/assets/royale_game.png)
 
-In a Royale Game, a new danger is introduced, commonly called  'Hazard Sauce'. The Hazard Sauce slowly enters on a random edge of the board consuming an entire row or column every few turns, shrinking the 'safe' zone. If any part of a Battlesnake is within the Hazard Sauce, its health points will more rapidly decline, loosing 15 health each turn. Food can and will spawn both inside and outside of the Hazard Sauce.
+In a Royale Game, a new danger is introduced, commonly called  'Hazard Sauce'. The Hazard Sauce slowly enters on a random edge of the board consuming an entire row or column every few turns, shrinking the 'safe' zone. If the head of a Battlesnake is within the Hazard Sauce, its health points will more rapidly decline, loosing 15 health each turn. Food can and will spawn both inside and outside of the Hazard Sauce.
 
 The location of hazardous squares are found in the API on the [board object](api.md#board) listed under _hazards_, and are visible on the board as a darker-grey square.
 
