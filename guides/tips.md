@@ -16,7 +16,7 @@ Be creative with your Battlesnake name and description. Names like _"test"_ or _
 
 ## Consider Concurrency and Use Game IDs
 
-Web development often means handling multiple requests concurrently, and Battlesnake is no different. It's quite likely your Battlesnake will be playing multiple games at once, and you should develop your web server with that in mind. 
+Web development often means handling multiple requests concurrently, and Battlesnake is no different. It's quite likely your Battlesnake will be playing multiple games at once, and you should develop your web server with that in mind.
 
 Start thinking about this early, and use the Game ID in the [Start](../references/api.md#start), [Move](../references/api.md#move), and [End](../references/api.md#end) requests to keep your Battlesnake's brain organized.
 
@@ -50,7 +50,7 @@ For most Battlesnake developers this won't be a problem. However top competitors
 
 All Battlesnake game logic is [open source](https://github.com/BattlesnakeOfficial/rules) and available for personal use. If you'd like to run games locally using your own development environment, there's an included CLI.
 
-Install the [Battlesnake Rules CLI](https://github.com/BattlesnakeOfficial/rules/cli) to get started.
+Install the [Battlesnake Rules CLI](https://github.com/BattlesnakeOfficial/rules/tree/main/cli) to get started.
 
 {% hint style="info" %}
 **Tip:** Running games locally can speed up your development cycles significantly, but can also be more complex than using the Battlesnake platform.

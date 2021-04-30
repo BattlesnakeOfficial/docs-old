@@ -8,7 +8,7 @@ description: Official Reference for the Battlesnake API (Version 1)
 
 The Battlesnake API is an inverted HTTP API. Developers build a web server that implements this API and the game engine will act as an API client during each game. How your server responds to these requests controls how your Battlesnake behaves.
 
-Requests sent to your Battlesnake will be [JSON-encoded](https://github.com/BattlesnakeOfficial/docs/tree/a2b51f832051788f2b13982fefcf2c74e0cf9db0/references/www.json.org), using standard HTTP request methods and content types.
+Requests sent to your Battlesnake will be [JSON-encoded](https://www.json.org/), using standard HTTP request methods and content types.
 
 ### HTTP Response Codes
 
@@ -30,6 +30,19 @@ Your Battlesnake server must implement the following HTTP calls to play the game
 
 {% api-method method="get" host="https://your.battlesnake.server.com" path="/" %}
 
+```javascript
+example-battlesnake-customization.json
+
+{
+ "apiversion": "1",
+ "author": "MyUsername",
+ "color" : "#888888",
+ "head" : "default",
+ "tail" : "default",
+ "version" : "0.0.1-beta"
+}
+```
+
 **Response Properties**
 
 <table>
@@ -47,7 +60,8 @@ Your Battlesnake server must implement the following HTTP calls to play the game
     <tr>
       <td style="text-align:left"><b>apiversion</b>
       </td>
-      <td style="text-align:left">string</td>
+      <td style="text-align:left">string <em>(required)</em>
+      </td>
       <td style="text-align:left">Version of the Battlesnake API implemented by this Battlesnake.
         <br /><em>Example: &quot;1&quot;</em>
       </td>
@@ -112,6 +126,8 @@ Your Battlesnake server must implement the following HTTP calls to play the game
 
 See [Personalization Reference](personalization.md) for available colors, heads, and tails.
 
+
+
 {% api-method method="post" host="https://your.battlesnake.server.com" path="/start" %}
 {% api-method-summary %}
 /start
@@ -124,19 +140,19 @@ Your Battlesnake will receive this request when it has been entered into a new g
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
-{% api-method-parameter name="game" type="object" required=false %}
+{% api-method-parameter name="game" type="object" required=true %}
 Game Object describing the game being played.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="turn" type="integer" required=false %}
+{% api-method-parameter name="turn" type="integer" required=true %}
 Turn number of the game being played \(0 for new games\).
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="board" type="object" required=false %}
+{% api-method-parameter name="board" type="object" required=true %}
 Board Object describing the initial state of the game board.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="you" type="object" required=false %}
+{% api-method-parameter name="you" type="object" required=true %}
 Battlesnake Object describing your Battlesnake.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -172,19 +188,19 @@ This request will be sent for every turn of the game. Use the information provid
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
-{% api-method-parameter name="game" type="object" required=false %}
+{% api-method-parameter name="game" type="object" required=true %}
 Game Object describing the game being played.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="turn" type="integer" required=false %}
+{% api-method-parameter name="turn" type="integer" required=true %}
 Turn number for this move.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="board" type="object" required=false %}
+{% api-method-parameter name="board" type="object" required=true %}
 Board Object describing the game board on this turn.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="you" type="object" required=false %}
+{% api-method-parameter name="you" type="object" required=true %}
 Battlesnake Object describing your Battlesnake.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
@@ -259,19 +275,19 @@ Your Battlesnake will receive this request whenever a game it was playing has en
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
-{% api-method-parameter name="game" type="object" required=false %}
+{% api-method-parameter name="game" type="object" required=true %}
 Game Object describing the game being played.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="turn" type="integer" required=false %}
+{% api-method-parameter name="turn" type="integer" required=true %}
 Turn number for the last turn of this game.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="board" type="object" required=false %}
+{% api-method-parameter name="board" type="object" required=true %}
 Board Object describing the final turn of this game.
 {% endapi-method-parameter %}
 
-{% api-method-parameter name="you" type="object" required=false %}
+{% api-method-parameter name="you" type="object" required=true %}
 Battlesnake Object describing your Battlesnake.
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}

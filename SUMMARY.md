@@ -5,7 +5,8 @@
 
 ## Guides
 
-* [Quick Start Guide](guides/getting-started.md)
+* [Quick Start League Guide](guides/quick-start-league-guide.md)
+* [Quick Start Coding Guide](guides/getting-started.md)
 * [Developer Tips](guides/tips.md)
 * [Contributing](guides/contributing.md)
 * [Migrating to API Version 1](guides/migrating-to-api-version-1.md)
@@ -13,6 +14,7 @@
 ## References
 
 * [Game Rules](references/rules.md)
+* [Game Modes](references/game-modes.md)
 * [API Reference](references/api.md)
 * [Personalization Reference](references/personalization.md)
 * [Starter Projects](references/starter-projects.md)
@@ -20,7 +22,6 @@
 ## Community
 
 * [GitHub](https://play.battlesnake.com/github)
-* [Slack](https://play.battlesnake.com/slack)
 * [Discord](https://play.battlesnake.com/discord)
 * [Twitch](https://play.battlesnake.com/twitch)
 * [Awesome List](https://github.com/xtagon/awesome-battlesnake)

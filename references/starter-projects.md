@@ -40,6 +40,10 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 | [Julia Starter Snake](https://github.com/Nettogrof/starter-snake-julia) | [Nettogrof](https://github.com/Nettogrof) |
 | [TypeScript Starter Snake](https://github.com/kgorgi/starter-snake-node-ts) | [Kian Gorgichuk](https://github.com/kgorgi) |
 | [PHP Starter Snake](https://github.com/Nettogrof/starter-snake-php) | [Nettogrof](https://github.com/Nettogrof) |
+<<<<<<< HEAD
+=======
+| [C++ Starter Snake with repl.it](https://github.com/DAChenScratch/Starter-Battlesnake-Cpp-with-replit) | [DAChenScratch](https://github.com/DAChenScratch) |
+>>>>>>> upstream/master
 
 **Legacy Starter Projects**
 

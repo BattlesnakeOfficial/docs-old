@@ -1,5 +1,9 @@
 # Code of Conduct
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/BattlesnakeOfficial/docs/tree/8f1f979f7a8bd74d48422c0ed8dff238c1110ba1/policies/code_of_conduct.md)
+
+We created Battlesnake as a way to have fun programming with friends, learn new skills and technologies, and build the communities around us. We firmly believe that encouraging more people to experience and enjoy programming at all levels will make the world a better place. To this end we have created a Community with a focus on building experiences which are:
+
 ### Accessible
 
 Battlesnake is for everyone. Whether you are new to programming or have been a professional developer for 30+ years, you can find a place at Battlesnake to learn, grow and be successful. Everyone should have the tools, support, and access to code, collaborate and compete at Battlesnake.
@@ -16,47 +20,66 @@ Battlesnake is a place for collaboration. Developers from around the world are h
 By adopting this Code of Conduct, Battlesnake community members commit themselves to fairly and consistently applying these principles to every aspect of Battlesnake and its communities. Any persons who do not follow this Code of Conduct may be permanently removed from the Battlesnake platform and barred from all future events.
 {% endhint %}
 
-## Battlesnake Code of Conduct
+## Our Pledge
 
-TL;DR. Be respectful. Harassment and abuse are never tolerated. If you are in a situation that makes you uncomfortable at any type of Battlesnake Event \(Live in-person, Virtual online, Community organized\), if the event itself is creating an unsafe or inappropriate environment, or if interacting with a Battlesnake representative or event organizer makes you uncomfortable, please report it using the procedures included in this document.
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
 
-Battlesnake \(Battlesnake Inc.\) stands for inclusivity and accessibility. We believe that every single person has the right to have a safe and welcoming environment.
+We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
-Harassing behaviour in any form will not be tolerated. Harassment includes but is not limited to offensive verbal or written comments related to gender, age, sexual orientation, disability, physical appearance, body size, race, religion, social class, economic status, veteran status, sexual images, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention. If what you’re doing is making someone feel uncomfortable, that counts as harassment and is enough reason to stop doing it.
+## Our Standards
 
-Participants asked to stop any harassing behaviour are expected to comply immediately. Sponsors, judges, mentors, volunteers, organizers, Battlesnake staff, and anyone else at the event are also subject to this code of conduct. In particular, attendees should not use sexualized images, activities, or other material both in their avatars and during the event. Booth staff \(including volunteers\) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
+Examples of behavior that contributes to a positive environment for our community include:
 
-If a participant engages in harassing behaviour, Battlesnake Inc. may take any action it deems appropriate, including warning the offender, expulsion from the event, ban from future Battlesnake events and the Battlesnake platform and disqualification from any tournament\(s\) with no eligibility for reimbursement or refund of any type.
+* Demonstrating empathy and kindness toward other people
+* Being respectful of differing opinions, viewpoints, and experiences
+* Giving and gracefully accepting constructive feedback
+* Accepting responsibility and apologizing to those affected by our mistakes,
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact Battlesnake Inc. using the reporting procedures defined below.
+  and learning from the experience
 
-Battlesnake Inc. representatives will be happy to help participants contact security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the event. We value your attendance.
+* Focusing on what is best not just for us as individuals, but for the
 
-We expect participants to follow these rules at all Battlesnake events, any and all online interactions, on the Battlesnake platform and at any Battlesnake related community events.
+  overall community
 
-### Reporting Procedures
+Examples of unacceptable behavior include:
 
-If you feel uncomfortable or think there may be a potential violation of the code of conduct, please report it immediately using one of the following methods. All reporters have the right to remain anonymous.
+* The use of sexualized language or imagery, and sexual attention or
 
-By sending information to the general reporting line, your report will go to any or all of the Battlesnake representatives listed below.
+  advances of any kind
+
+* Trolling, insulting or derogatory comments, and personal or political attacks
+* Public or private harassment
+* Publishing others' private information, such as a physical or email
+
+  address, without their explicit permission
+
+* Interference with another persons Battlesnake, including, but not limited to, denial-of-service-attacks or exploiting the Battlesnake Engine or API with the intent to interfere with the performance of another persons Battlesnake
+* Other conduct which could reasonably be considered inappropriate in a
+
+  professional setting
+
+## Our Responsibilities
+
+Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+
+Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+
+## Scope
+
+This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+
+## Enforcement
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement. If you feel uncomfortable or think there may be a potential violation of the code of conduct, please report it immediately using one of the following methods. All reporters have the right to remain anonymous. 
 
 * Email: [**incidents@battlesnake.com**](mailto:incidents@battlesnake.com)
-* Slack: [**play.battlesnake.com/slack**](https://play.battlesnake.com/slack)\*\*\*\*
-  * DM any of the people listed below
-* Report Form: [**Code of Conduct Report Form**](https://forms.gle/uJPzGqdUsKU7a4Um7)\*\*\*\*
+* Anonymous Reporting Form: [**Code of Conduct Report Form**](https://o37gr3zwx6a.typeform.com/to/jCCbzC6F)\*\*\*\*
 
-#### **Special Incidents**
+All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
-If you are uncomfortable reporting your situation to one or more of these people or need to contact any of them directly in case of emergency, direct contact details are listed below.
+## Attribution
 
-* Noah Warder \([**noah@battlesnake.com**](mailto:noah@battlesnake.com)\)
-* Brad Van Vugt \([**brad@battlesnake.com**](mailto:brad@battlesnake.com)\)
-* Chris Hoefgen \([**chris@battlesnake.com**](mailto:chris@battlesnake.com)\)
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html), version 2.0.
 
-Battlesnake Inc. reserves the right to revise, make exceptions to, or otherwise amend these policies in whole or in part. If you have any questions regarding these policies, please contact Battlesnake Inc. by e-mail at [us@battlesnake.com](mailto:us@battlesnake.com).
-
-
-
-  
-****
+_Battlesnake Inc. reserves the right to revise, make exceptions to, or otherwise amend these policies in whole or in part. If you have any questions regarding these policies, please contact Battlesnake Inc. by e-mail at_ [_us@battlesnake.com_](mailto:us@battlesnake.com)
 
