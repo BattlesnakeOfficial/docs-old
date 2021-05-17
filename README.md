@@ -8,7 +8,11 @@ description: >-
 
 **Developers of all skill levels** use Battlesnake to learn new technologies, improve their programming skills, and have fun with friends, family, and colleagues.
 
-Our mission is to **make programming fun and accessible** for absolutely everyone.
+**Battlesnake is an autonomous survival game.** Each Battlesnake is controlled autonomously by a live web server and moves independently attempting to find food, avoid other Battlesnakes, and stay alive as long as possible.
+
+Anyone can play Battlesnake, training with the solo challenges or competing in online tournaments. Success at the highest level requires creativity, unique strategies, and excellent programming.
+
+Our mission is **to make it fun and accessible for anyone to become a better programmer**.
 
 ## Quick Start
 
@@ -22,7 +26,7 @@ Our mission is to **make programming fun and accessible** for absolutely everyon
 
 {% page-ref page="references/rules.md" %}
 
-{% page-ref page="references/api.md" %}
+{% page-ref page="references/api/" %}
 
 {% page-ref page="references/personalization.md" %}
 

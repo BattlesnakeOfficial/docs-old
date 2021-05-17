@@ -13,11 +13,13 @@
 
 ## References
 
+* [Starter Projects](references/starter-projects.md)
+* [Personalization Reference](references/personalization.md)
+* [Hosting Suggestions](references/hosting-suggestions.md)
 * [Game Rules](references/rules.md)
 * [Game Modes](references/game-modes.md)
-* [API Reference](references/api.md)
-* [Personalization Reference](references/personalization.md)
-* [Starter Projects](references/starter-projects.md)
+* [API Reference](references/api/README.md)
+  * [Sample Move Request](references/api/sample-move-request.md)
 
 ## Community
 

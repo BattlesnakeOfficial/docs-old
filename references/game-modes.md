@@ -4,7 +4,7 @@ description: Last updated March 2020
 
 # Game Modes
 
-Battlesnake has several game modes all built on the same foundational [game rules.](rules.md) All game modes and are available for casual play and may appear in competitions. In the API, the game mode is defined as the _ruleset_ on the [Game Object.](api.md#game)
+Battlesnake has several game modes all built on the same foundational [game rules.](rules.md) All game modes and are available for casual play and may appear in competitions. In the API, the game mode is defined as the _ruleset_ on the [Game Object.](api/#game)
 
 To play a specific mode, select the game mode at the top of the [Play Game](https://play.battlesnake.com/account/games/create/) page.
 
@@ -24,7 +24,7 @@ Note that within a Standard Game the number of Battlesnake in the game can vary,
 
 In a Royale Game, a new danger is introduced, commonly called 'Hazard Sauce'. The Hazard Sauce slowly enters on a random edge of the board consuming an entire row or column every few turns, shrinking the 'safe' zone. If the head of a Battlesnake is within the Hazard Sauce, its health points will more rapidly decline, loosing 15 health each turn. Food can and will spawn both inside and outside of the Hazard Sauce.
 
-The location of hazardous squares are found in the API on the [board object](api.md#board) listed under _hazards_, and are visible on the board as a darker-grey square.
+The location of hazardous squares are found in the API on the [board object](api/#board) listed under _hazards_, and are visible on the board as a darker-grey square.
 
 ## Squad
 
