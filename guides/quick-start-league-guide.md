@@ -41,7 +41,8 @@ The planned Leagues for the 2021 season are:
 * [Spring League](https://play.battlesnake.com/spring-league/) 
   * February 18th - April 17th 2021
 * [Summer League](https://play.battlesnake.com/summer-league/) 
-  * Early June until mid August 2021
+  * Pre-Registration Opens May 24th 2021
+  * June 11th - July 31st 2021
 * [Fall League](https://play.battlesnake.com/fall-league/) 
   * Mid September until mid November 2021
 * [Winter Classic](https://play.battlesnake.com/winter-classic/)
