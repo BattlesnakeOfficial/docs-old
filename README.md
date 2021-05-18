@@ -36,3 +36,7 @@ Our mission is **to make it fun and accessible for anyone to become a better pro
 * Find real working examples in the [Community Starter Projects](references/starter-projects.md#community-starter-projects).
 * You can always email [hello@battlesnake.com](mailto:hello@battlesnake.com) and we'll point you in the right direction.
 
+### Feedback
+
+* **Do you have an issue or suggestions for this repository?** Head over to our [Feedback Repository](https://play.battlesnake.com/feedback) today and let us know!
+
