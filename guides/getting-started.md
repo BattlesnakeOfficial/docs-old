@@ -40,7 +40,7 @@ To make sure everything works correctly when you deploy and run your Battlesnake
 
 ![Customizing the Battlesnake colour to &apos;red&apos; \#ff0000 for the Python Starter Snake](../.gitbook/assets/python_customization.png)
 
-* [Python Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-java#changing-appearance)
+* [Python Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-python#changing-appearance)
 * [JavaScript for Node.js Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-node#changing-appearance)
 * [Java Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-java#changing-appearance)
 * [Go Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-go#changing-appearance)
