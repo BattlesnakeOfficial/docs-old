@@ -565,7 +565,7 @@ The game board is represented by a standard 2D grid, oriented with \(0,0\) in th
       </td>
       <td style="text-align:left">integer</td>
       <td style="text-align:left">
-        <p>Height of the game board.</p>
+        <p>The number of rows in the y-axis of the game board.</p>
         <p><em>Example: 11</em>
         </p>
       </td>
@@ -575,7 +575,7 @@ The game board is represented by a standard 2D grid, oriented with \(0,0\) in th
       </td>
       <td style="text-align:left">integer</td>
       <td style="text-align:left">
-        <p>Width of the game board.</p>
+        <p>The number of columns in the x-axis of the game board.</p>
         <p><em>Example: 11</em>
         </p>
       </td>
