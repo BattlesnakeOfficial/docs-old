@@ -24,6 +24,8 @@ Every request made to your Battlesnake server must be responded to within the gi
 
 Note that these values include round-trip latency, so communication between the game engine and your Battlesnake server should be taken into consideration.
 
+In the event of a request timeout, the Battlesnake engine will repeat the last move received from your Battlesnake. For example, if your Battlesnake's previous move was 'right', and the next request times out, the Battlesnake Engine will continue to move your Battlesnake to the 'right'.
+
 ## The Battlesnake API
 
 The Battlesnake API consists of four commands. Your Battlesnake server must implement all four HTTP calls to play the game. These commands are called at different times during each game and your response to these command controls how your Battlesnake appears and behaves on the game board.
@@ -40,9 +42,31 @@ This command is called once per turn of each game, providing information about t
 [**Command: End Game**](./#end)  
 This command is called once after each game has completed to let your Battlesnake know that the game is over.
 
-
-
 {% api-method method="get" host="https://your.battlesnake.server.com" path="/" %}
+{% api-method-summary %}
+/
+{% endapi-method-summary %}
+
+{% api-method-description %}
+An empty GET request made to the top-level url of your Battlesnake, used for customization, checking latency, and verifying successful communication between the Battlesnake and the Battlesnake Engine.
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
 
 ```javascript
 example-battlesnake-customization.json
@@ -76,7 +100,8 @@ example-battlesnake-customization.json
       </td>
       <td style="text-align:left">string <em>(required)</em>
       </td>
-      <td style="text-align:left">Version of the Battlesnake API implemented by this Battlesnake.
+      <td style="text-align:left">Version of the Battlesnake API implemented by this Battlesnake. Currently
+        only API version 1 is valid.
         <br /><em>Example: &quot;1&quot;</em>
       </td>
     </tr>
@@ -139,8 +164,6 @@ example-battlesnake-customization.json
 </table>
 
 See [Personalization Reference](../personalization.md) for available colors, heads, and tails.
-
-
 
 {% api-method method="post" host="https://your.battlesnake.server.com" path="/start" %}
 {% api-method-summary %}
@@ -335,6 +358,10 @@ The Battlesnake API uses the following object definitions when communicating wit
 ```javascript
 {
   "id": "totally-unique-game-id",
+  "ruleset": {
+      "name": "standard",
+      "version": "v1.2.3"
+    },
   "timeout": 500
 }
 ```
@@ -380,6 +407,56 @@ The Battlesnake API uses the following object definitions when communicating wit
       <td style="text-align:left">
         <p>How much time your snake has to respond to requests for this Game.</p>
         <p><em>Example: 500</em>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Ruleset
+
+```javascript
+example-ruleset-object.json
+
+"ruleset": {
+    "name": "standard",
+    "version": "v1.2.3"
+  }
+
+```
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"><b>Property</b>
+      </th>
+      <th style="text-align:left"><b>Type</b>
+      </th>
+      <th style="text-align:left"><b>Description</b>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>name</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p>Name of the ruleset being used to run this game. Possible values include:
+          standard, solo, royale, squad, constrictor. See <a href="../game-modes.md">Game Modes</a> for
+          more information on each ruleset.</p>
+        <p><em>Example: &quot;standard&quot;</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>version</b>
+      </td>
+      <td style="text-align:left">string</td>
+      <td style="text-align:left">
+        <p>The release version of the <a href="https://github.com/BattlesnakeOfficial/rules">Rules</a> module
+          used in this game.</p>
+        <p><em>Example: &quot;version&quot;: &quot;v1.2.3&quot;</em>
         </p>
       </td>
     </tr>
@@ -596,7 +673,7 @@ The game board is represented by a standard 2D grid, oriented with \(0,0\) in th
       <td style="text-align:left">array</td>
       <td style="text-align:left">
         <p>Array of coordinates representing hazardous locations on the game board.
-          These will only appear in some game modes.</p>
+          These will only appear in some <a href="../game-modes.md">game modes</a>.</p>
         <p><em>Example: [{&quot;x&quot;: 0, &quot;y&quot;: 0}, ..., {&quot;x&quot;: 0, &quot;y&quot;: 1}]</em>
         </p>
       </td>

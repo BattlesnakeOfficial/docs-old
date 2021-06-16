@@ -10,7 +10,7 @@ Winning a game of Battlesnake is deceptively simple; be the last Battlesnake lef
 
 ## Health
 
-At the start of every game, each Battlesnake will be placed on the game board alongside their opponents, each starting with a full health meter.
+At the start of every game, each Battlesnake will be placed on the game board alongside their opponents, each starting with a full health meter of 100 points.
 
 On every turn your Battlesnake will choose to move in a direction, one of _up_, _down_, _left_, or _right_. Moving in any direction will drain your Battlesnake of one health point, and your Battlesnake must move once per turn.
 
@@ -52,7 +52,7 @@ There are three types of collisions that your Battlesnake should be aware of.
 
 **Body Collisions.** Battlesnake is a game of wits and honor. If your Battlesnake attempts to consume another Battlesnake, it will be eliminated from the game for unsports-snake-like conduct.
 
-**Head-to-Head Collisions.** The one exception to Body Collisions is when two Battlesnakes meet head-to-head. In this scenario, the outcome is a little more complex: the larger Battlesnake will survive and the shorter will be eliminated. If both are the same size, then both are eliminated.
+**Head-to-Head Collisions.** The one exception to Body Collisions is when two Battlesnakes meet head-to-head. In this scenario, the outcome is a little more complex: the larger Battlesnake will survive and the shorter will be eliminated. If both are the same size, then both are eliminated. If a food disk is also located at the collision site, the collision will be evaluated first.
 
 ### Starting State and Length
 

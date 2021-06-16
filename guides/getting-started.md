@@ -11,7 +11,7 @@ This guide will walk you through one way to get your first Battlesnake running, 
 
 ## How does it work?
 
-Developers build and deploy a web server that implements the [Battlesnake API](../references/api/). When a game is created,  the game engine will make HTTP requests to your Battlesnake server, sending game board information and asking for your next move. Your Battlesnake's behavior is determined by how you program it to respond to these requests.
+Developers build and deploy a web server that implements the [Battlesnake API](../references/api/). When a game is created, the game engine will make HTTP requests to your Battlesnake server, sending game board information and asking for your next move. Your Battlesnake's behavior is determined by how you program it to respond to these requests.
 
 You can use any programming language, cloud platform, and strategy you want - from simple game logic to machine learning and AI.
 
@@ -19,7 +19,7 @@ You can use any programming language, cloud platform, and strategy you want - fr
 
 There are several community-built and supported starter projects for most popular languages and technologies. Each one is documented with detailed development and deployment instructions. Python, JavaScript, and Ruby are popular choices. It's possible to use most programming languages, but some will be easier than others.
 
-You can choose from the complete list of ****[Starter Projects](../references/starter-projects.md), or use a Replit quick-link below to automatically clone a starter project and open it in your Replit account. 
+You can choose from the complete list of _\*\*_[Starter Projects](../references/starter-projects.md), or use a Replit quick-link below to automatically clone a starter project and open it in your Replit account.
 
 {% hint style="info" %}
 **Tip:** If you're unsure what language to choose, we suggest starting with [JavaScript](https://github.com/BattlesnakeOfficial/starter-snake-node) or [Python](https://github.com/BattlesnakeOfficial/starter-snake-python) as they're both widely supported and popular in the Battlesnake community.
@@ -30,7 +30,7 @@ You can choose from the complete list of ****[Starter Projects](../references/st
 * [Open the Java Starter Project in Replit](https://replit.com/github/BattlesnakeOfficial/starter-snake-java)
 * [Open the Go Starter Project in Replit](https://github.com/battlesnakeofficial/starter-snake-go)
 
-All of the Official Starter Projects implement the full ****[Battlesnake API](../references/api/) with enough code to run a basic Battlesnake that moves in a random direction.
+All of the Official Starter Projects implement the full _\*\*_[Battlesnake API](../references/api/) with enough code to run a basic Battlesnake that moves in a random direction.
 
 {% page-ref page="../references/starter-projects.md" %}
 
@@ -51,11 +51,11 @@ While color is a great place to start, Battlesnake also features an exciting col
 
 ## Step 3: Deploy and run your Battlesnake
 
-Replit can act as both our development environment and web server host. To run your Battlesnake within Replit, click the **Run** button at the top of the screen. 
+Replit can act as both our development environment and web server host. To run your Battlesnake within Replit, click the **Run** button at the top of the screen.
 
 ![Run button located at the top of the screen on the Replit website.](../.gitbook/assets/replit_run.png)
 
-After clicking the **Run** button, you should see all libraries and dependencies being installed in the Replit console window, which may take a few moments. Once installation is complete, your Battlesnake server will start. You should see the live output from your Battlesnake server and the URL at the top. 
+After clicking the **Run** button, you should see all libraries and dependencies being installed in the Replit console window, which may take a few moments. Once installation is complete, your Battlesnake server will start. You should see the live output from your Battlesnake server and the URL at the top.
 
 ![Sample Python Starter Project running, with URL and output](../.gitbook/assets/replit_server_running_highlight.png)
 
@@ -92,7 +92,7 @@ If everything is setup correctly, your Battlesnake should show as operational wi
 ![Battlesnake created screen, with color customization.](../.gitbook/assets/battlesnake_created.png)
 
 {% hint style="warning" %}
-If there is a problem or error with your Battlesnake, you can make changes and then **Refresh** your Battlesnake on the main profile page, or via the gear icon on the Battlesnake page. 
+If there is a problem or error with your Battlesnake, you can make changes and then **Refresh** your Battlesnake on the main profile page, or via the gear icon on the Battlesnake page.
 {% endhint %}
 
 ![Refresh option via the gear icon the Battlesnake page](../.gitbook/assets/refresh_snake_page.png)
@@ -120,11 +120,11 @@ Here's how to create a new game:
 
 * Click on **Start Game** button to start the game
 
-You will be rewarded with a view of the game board that includes your Battlesnake and any other Battlesnakes you added to the game. Click the ▶ button to start the game and watch your Battlesnake in action. You can also use the  **\|◀** and ▶**\|** buttons or the arrow keys on your keyboard to step through the game, move by move.
+You will be rewarded with a view of the game board that includes your Battlesnake and any other Battlesnakes you added to the game. Click the ▶ button to start the game and watch your Battlesnake in action. You can also use the **\|◀** and ▶**\|** buttons or the arrow keys on your keyboard to step through the game, move by move.
 
 ![A fresh Battlesnake game with your first Battlesnake ready to go](../.gitbook/assets/game_board_fresh.png)
 
-At the bottom of the game board is extra information about the game and additional controls. To quickly create a new game with the same configuration, click the **Create Rematch** button. There are also other options ****to share and save the game as a favourite.
+At the bottom of the game board is extra information about the game and additional controls. To quickly create a new game with the same configuration, click the **Create Rematch** button. There are also other options _\*\*_to share and save the game as a favourite.
 
 ![Game details and controls to rematch, share, or favourite a game.](../.gitbook/assets/game_board_controls.png)
 
@@ -147,14 +147,13 @@ The [**/move**](../references/api/#move) command in the API is where your Battle
 * [Java Starter Project - `move()` method inside of Snake.java](https://github.com/BattlesnakeOfficial/starter-snake-java/blob/master/src/main/java/com/battlesnake/starter/Snake.java#L134)
 * [Go Starter Project - `HandleMove()` function inside of main.go](https://github.com/BattlesnakeOfficial/starter-snake-go/blob/master/main.go#L95)
 
-On every turn of the game, the Battlesnake Engine makes a call to your Battlesnakes **/move** command with data that describes the current state of the board, including its size, the location of food, the locations of other Battlesnakes, and other important game data. The [API Reference](../references/api/) has a [**sample JSON object**](../references/api/sample-move-request.md) that contains this data. 
+On every turn of the game, the Battlesnake Engine makes a call to your Battlesnakes **/move** command with data that describes the current state of the board, including its size, the location of food, the locations of other Battlesnakes, and other important game data. The [API Reference](../references/api/) has a [**sample JSON object**](../references/api/sample-move-request.md) that contains this data.
 
-![A subset  of JSON data received on calls to /move](../.gitbook/assets/move_request_subset.png)
+![A subset of JSON data received on calls to /move](../.gitbook/assets/move_request_subset.png)
 
-  
 In the unmodified Official Starter Projects, the **/move** command accepts this JSON data, and then with absolutely no regard for self-preservation, responds with a move in a random direction, one of 'left', 'right', 'up' or 'down'. By changing the code in your projects `move()` function, you can better control how your Battlesnake behaves.
 
-We recommend starting simple - start by adding rules that prevents your Battlesnake from turning back on its own neck, or running head-first into a wall. There is a series of [**Training Program Challenges**](https://play.battlesnake.com/challenges/) that can act as your guide and help you track progress as you train up your Battlesnake. The secret is to make small changes and then immediately test. 
+We recommend starting simple - start by adding rules that prevents your Battlesnake from turning back on its own neck, or running head-first into a wall. There is a series of [**Training Program Challenges**](https://play.battlesnake.com/challenges/) that can act as your guide and help you track progress as you train up your Battlesnake. The secret is to make small changes and then immediately test.
 
 **For details on how /move and other command work**, we recommend reading through the code in the [Battlesnake API Reference](../references/api/).
 
