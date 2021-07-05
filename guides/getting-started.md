@@ -6,8 +6,10 @@ description: A guide to creating and deploying your first Battlesnake.
 
 This guide will walk you through one way to get your first Battlesnake running, using a [pre-built starter project](../references/starter-projects.md) and [Replit](https://replit.com/) as your development environment and web server host. You will need:
 
-* A free [**Battlesnake Account**](https://play.battlesnake.com/)\*\*\*\*
-* A free [**Replit Account**](https://replit.com/)\*\*\*\*
+* A free [**Battlesnake Account**](https://play.battlesnake.com/)
+* A free [**Replit Account**](https://replit.com/)
+
+If you do not wish to use Replit, you are welcome to use your own IDE, or any [hosting solution](../references/hosting-suggestions.md) of your choosing.
 
 ## How does it work?
 
@@ -19,7 +21,7 @@ You can use any programming language, cloud platform, and strategy you want - fr
 
 There are several community-built and supported starter projects for most popular languages and technologies. Each one is documented with detailed development and deployment instructions. Python, JavaScript, and Ruby are popular choices. It's possible to use most programming languages, but some will be easier than others.
 
-You can choose from the complete list of _\*\*_[Starter Projects](../references/starter-projects.md), or use a Replit quick-link below to automatically clone a starter project and open it in your Replit account.
+You can choose from the complete list of [Starter Projects](../references/starter-projects.md), or use a Replit quick-link below to automatically clone a starter project and open it in your Replit account.
 
 {% hint style="info" %}
 **Tip:** If you're unsure what language to choose, we suggest starting with [JavaScript](https://github.com/BattlesnakeOfficial/starter-snake-node) or [Python](https://github.com/BattlesnakeOfficial/starter-snake-python) as they're both widely supported and popular in the Battlesnake community.
@@ -30,7 +32,7 @@ You can choose from the complete list of _\*\*_[Starter Projects](../references/
 * [Open the Java Starter Project in Replit](https://replit.com/github/BattlesnakeOfficial/starter-snake-java)
 * [Open the Go Starter Project in Replit](https://github.com/battlesnakeofficial/starter-snake-go)
 
-All of the Official Starter Projects implement the full _\*\*_[Battlesnake API](../references/api/) with enough code to run a basic Battlesnake that moves in a random direction.
+All of the Official Starter Projects implement the full [Battlesnake API](../references/api/) with enough code to run a basic Battlesnake that moves in a random direction.
 
 {% page-ref page="../references/starter-projects.md" %}
 
@@ -75,7 +77,7 @@ Replit is a fast and free option for hosting your Battlesnake server, but you ca
 
 {% page-ref page="../references/hosting-suggestions.md" %}
 
-## Step 3: Register your Battlesnake
+## Step 4: Register your Battlesnake
 
 Once your Battlesnake has a working URL, you can register it on the Battlesnake website and start playing games. You only need to register a Battlesnake once, and can continue to update and change your Battlesnake code after registering.
 
@@ -99,7 +101,7 @@ If there is a problem or error with your Battlesnake, you can make changes and t
 
 ![Refresh button on the Profile page](../.gitbook/assets/refresh_profile_page.png)
 
-## Step 4: Create your First Game
+## Step 5: Create your First Game
 
 You are now ready to test your Battlesnake in live games! So far, your Battlesnake has a sharp new look, but only moves in a random direction. This means that for your first game, your Battlesnake is most likely going to collide with a wall or turn back in on it's own body. That's ok! We all have to start somewhere.
 
@@ -130,7 +132,7 @@ At the bottom of the game board is extra information about the game and addition
 
 **Congratulations, you've built and deployed your first Battlesnake!** 🎊\*\*\*\*
 
-## Step 5: Better than Random
+## Step 6: Better than Random
 
 At this point you're ready to start making your Battlesnake smarter. Typical Battlesnake development looks like:
 

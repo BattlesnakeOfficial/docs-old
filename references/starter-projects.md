@@ -16,6 +16,8 @@ If you're building a Battlesnake for the first time, these are great starting po
 * [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-java)
 * [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby)
 
+You are welcome to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) one of these repos, or click the green **Use this template** button to bring a clean copy of the Starter Project into your own GitHub account.
+
 ## Community Starter Projects
 
 The Battlesnake community is all about collaboration and shared learning. Some of our core members and partners have built their own Starter Projects to get developers started with new languages and technologies.
