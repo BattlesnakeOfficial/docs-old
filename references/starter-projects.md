@@ -43,6 +43,8 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 | [TypeScript Starter Snake](https://github.com/kgorgi/starter-snake-node-ts) | [Kian Gorgichuk](https://github.com/kgorgi) |
 | [PHP Starter Snake](https://github.com/Nettogrof/starter-snake-php) | [Nettogrof](https://github.com/Nettogrof) |
 | [C++ Starter Snake with repl.it](https://github.com/DAChenScratch/Starter-Battlesnake-Cpp-with-replit) | [DAChenScratch](https://github.com/DAChenScratch) |
+| [Node-RED Low-Code Snake](https://flows.nodered.org/flow/6cbf34b31e1890bb7a638005bcc4f54b) | [Sam Machin](https://github.com/sammachin) |
+
 
 **Legacy Starter Projects**
 
