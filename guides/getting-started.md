@@ -19,17 +19,15 @@ You can use any programming language, cloud platform, and strategy you want - fr
 
 ## Step 1: Select a Starter Project
 
-There are several community-built and supported starter projects for most popular languages and technologies. Each one is documented with detailed development and deployment instructions. Python, JavaScript, and Ruby are popular choices. It's possible to use most programming languages, but some will be easier than others.
+There are several community-built and supported starter projects for most popular languages and technologies. Each one is documented with detailed development and deployment instructions. It's possible to use most programming languages, but some will be easier than others.
 
-You can choose from the complete list of [Starter Projects](../references/starter-projects.md), or use a Replit quick-link below to automatically clone a starter project and open it in your Replit account.
+You can choose from the complete list of [Starter Projects](../references/starter-projects.md), or use a Replit quick-link below to automatically clone an officially supported starter project and open it in your Replit account.
 
 {% hint style="info" %}
 **Tip:** If you're unsure what language to choose, we suggest starting with [JavaScript](https://github.com/BattlesnakeOfficial/starter-snake-node) or [Python](https://github.com/BattlesnakeOfficial/starter-snake-python) as they're both widely supported and popular in the Battlesnake community.
 {% endhint %}
 
 * [Open the Python Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-python)
-* [Open the JavaScript for Node.js Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-node)
-* [Open the Java Starter Project in Replit](https://replit.com/github/BattlesnakeOfficial/starter-snake-java)
 * [Open the Go Starter Project in Replit](https://github.com/battlesnakeofficial/starter-snake-go)
 
 All of the Official Starter Projects implement the full [Battlesnake API](../references/api/) with enough code to run a basic Battlesnake that moves in a random direction.
@@ -43,8 +41,6 @@ To make sure everything works correctly when you deploy and run your Battlesnake
 ![Customizing the Battlesnake colour to &apos;red&apos; \#ff0000 for the Python Starter Snake](../.gitbook/assets/python_customization.png)
 
 * [Python Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-python#changing-appearance)
-* [JavaScript for Node.js Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-node#changing-appearance)
-* [Java Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-java#changing-appearance)
 * [Go Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-go#changing-appearance)
 
 While color is a great place to start, Battlesnake also features an exciting collection of customizable heads and tails! All customization options are described in detail on the [Personalization Reference](../references/personalization.md) page.
@@ -145,8 +141,6 @@ At this point you're ready to start making your Battlesnake smarter. Typical Bat
 The [**/move**](../references/api/#move) command in the API is where your Battlesnake decides which direction it is going to move. This can be found in the following places for each of the Official Starter Projects:
 
 * [Python Starter Project - `move()` function inside of server.py](https://github.com/BattlesnakeOfficial/starter-snake-python/blob/master/server.py#L37)
-* [JavaScript for Node.js Starter Project - `handleMove()` function inside of index.js](https://github.com/BattlesnakeOfficial/starter-snake-node/blob/master/index.js#L3)
-* [Java Starter Project - `move()` method inside of Snake.java](https://github.com/BattlesnakeOfficial/starter-snake-java/blob/master/src/main/java/com/battlesnake/starter/Snake.java#L134)
 * [Go Starter Project - `HandleMove()` function inside of main.go](https://github.com/BattlesnakeOfficial/starter-snake-go/blob/master/main.go#L95)
 
 On every turn of the game, the Battlesnake Engine makes a call to your Battlesnakes **/move** command with data that describes the current state of the board, including its size, the location of food, the locations of other Battlesnakes, and other important game data. The [API Reference](../references/api/) has a [**sample JSON object**](../references/api/sample-move-request.md) that contains this data.

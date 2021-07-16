@@ -12,9 +12,6 @@ If you're building a Battlesnake for the first time, these are great starting po
 
 * [Python Starter Project](https://github.com/battlesnakeofficial/starter-snake-python)
 * [Go Starter Project](https://github.com/battlesnakeofficial/starter-snake-go)
-* [JavaScript Starter Project](https://github.com/battlesnakeofficial/starter-snake-node)
-* [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-java)
-* [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby)
 
 You are welcome to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) one of these repos, or click the green **Use this template** button to bring a clean copy of the Starter Project into your own GitHub account.
 
@@ -34,6 +31,9 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 
 | **Project** | Developer |
 | :--- | :--- |
+| [JavaScript Starter Project](https://github.com/battlesnakeofficial/starter-snake-node) | [BattlesnakeOfficial](https://github.com/BattlesnakeOfficial) |
+| [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-java) | [BattlesnakeOfficial](https://github.com/BattlesnakeOfficial) |
+| [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) | [BattlesnakeOfficial](https://github.com/BattlesnakeOfficial) |
 | [Rust Starter Snake](https://github.com/mcraealex/rustysnake) | [McRaeAlex](https://github.com/McRaeAlex) |
 | [Battlesnake Quickstart for Kotlin and Java](https://github.com/pambrose/battlesnake-quickstart) | [Paul Ambrose](https://github.com/pambrose) |
 | [TypeScript Starter Snake with Deno](https://github.com/tyrelh/starter-snake-typescript-deno) | [Tyrel Hiebert](https://github.com/tyrelh) |
@@ -44,7 +44,6 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 | [PHP Starter Snake](https://github.com/Nettogrof/starter-snake-php) | [Nettogrof](https://github.com/Nettogrof) |
 | [C++ Starter Snake with repl.it](https://github.com/DAChenScratch/Starter-Battlesnake-Cpp-with-replit) | [DAChenScratch](https://github.com/DAChenScratch) |
 | [Node-RED Low-Code Snake](https://flows.nodered.org/flow/6cbf34b31e1890bb7a638005bcc4f54b) | [Sam Machin](https://github.com/sammachin) |
-
 
 **Legacy Starter Projects**
 
