@@ -15,7 +15,8 @@
 
 * [Starter Projects](references/starter-projects.md)
 * [Personalization Reference](references/personalization.md)
-* [Hosting Suggestions](references/hosting-suggestions.md)
+* [Hosting Suggestions](references/hosting-suggestions/README.md)
+  * [Heroku](references/hosting-suggestions/heroku.md)
 * [Game Rules](references/rules.md)
 * [Game Modes](references/game-modes.md)
 * [API Reference](references/api/README.md)
