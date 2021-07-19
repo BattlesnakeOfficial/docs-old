@@ -67,5 +67,16 @@ There are a number of online hosting solutions that can be used with your Battle
   * It is important to you to host your server very close to the [Battlesnake servers](../../faq.md#what-cloud-provider-and-region-should-i-use).
   * You are already experienced or want to become more experienced with using AWS.
 
-### 
+### Local
+
+* **Advantages**
+  * Local hosting, a more advanced choice.
+  * Run your Battlesnake locally on your own computer for no extra cost!
+* **Gotchas**
+  * Where you and your computer live can have a big impact on your server latency. The closer to the Pacific Northwest you are, the better.
+  * You need to use a port forwarding tool like [ngrok](https://ngrok.com/) to be able to create games on [play.battlesnake.com](https://play.battlesnake.com)
+* **You should probably use local if...**
+
+  * You want full control over the hosting and deployment of your app.
+  * You want to experiment with using alternative hardware, like a microcontroller.
 

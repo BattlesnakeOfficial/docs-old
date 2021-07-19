@@ -45,6 +45,8 @@ To make sure everything works correctly when you deploy and run your Battlesnake
 
 While color is a great place to start, Battlesnake also features an exciting collection of customizable heads and tails! All customization options are described in detail on the [Personalization Reference](../references/personalization.md) page.
 
+After making changes to your Battlesnake, you can restart your Replit to have the change take effect \(or in many cases your Replit will restart automatically\).
+
 {% page-ref page="../references/personalization.md" %}
 
 ## Step 3: Deploy and run your Battlesnake
@@ -70,6 +72,10 @@ The output should match whatever configuration changes you made in Step 2. For e
 This means that your Battlesnake is up and running correctly on Replit!
 
 Replit is a fast and free option for hosting your Battlesnake server, but you can use whatever you like to run your server. For more options and information about hosting, check out [Hosting Suggestions](../references/hosting-suggestions/).
+
+{% hint style="success" %}
+Tip: Keeping Replit open in a second window while games are running is helpful for watching server activity and debugging any problems with your Battlesnake.
+{% endhint %}
 
 {% page-ref page="../references/hosting-suggestions/" %}
 
@@ -118,7 +124,7 @@ Here's how to create a new game:
 
 * Click on **Start Game** button to start the game
 
-You will be rewarded with a view of the game board that includes your Battlesnake and any other Battlesnakes you added to the game. Click the ▶ button to start the game and watch your Battlesnake in action. You can also use the **\|◀** and ▶**\|** buttons or the arrow keys on your keyboard to step through the game, move by move.
+You will be rewarded with a view of the game board that includes your Battlesnake and any other Battlesnakes you added to the game. Click the ▶ button to start the game and watch your Battlesnake in action. You can also use the **\|◀** and ▶**\|** buttons or the arrow keys on your keyboard to step through the game, move by move. This can be very helpful when reviewing your server logs for each turn!
 
 ![A fresh Battlesnake game with your first Battlesnake ready to go](../.gitbook/assets/game_board_fresh.png)
 
