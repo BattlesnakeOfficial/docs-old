@@ -7,6 +7,7 @@
 
 * [Quick Start Coding Guide](guides/getting-started.md)
 * [Quick Start League Guide](guides/quick-start-league-guide.md)
+* [Quick Start Challenges Guide](guides/quick-start-challenges-guide.md)
 * [Developer Tips](guides/tips.md)
 * [Contributing](guides/contributing.md)
 * [Migrating to API Version 1](guides/migrating-to-api-version-1.md)
