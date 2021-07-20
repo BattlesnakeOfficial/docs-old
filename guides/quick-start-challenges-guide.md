@@ -2,7 +2,7 @@
 description: How to train your Battlesnake.
 ---
 
-# Quick Start Challenges Guide
+# Challenges Guide
 
 Whether your Battlesnake is brand new, or a longtime veteran looking for practice between [leagues](quick-start-league-guide.md), challenges are a great way to build up your Battlesnake skills. We like to think of Challenges as the 'single player campaign' of Battlesnake. 
 

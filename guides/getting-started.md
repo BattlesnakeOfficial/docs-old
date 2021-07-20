@@ -29,6 +29,8 @@ You can choose from the complete list of [Starter Projects](../references/starte
 
 * [Open the Python Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-python)
 * [Open the Go Starter Project in Replit](https://github.com/battlesnakeofficial/starter-snake-go)
+* [Open the JavaScript Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-javascript)
+* [Open the TypeScript Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-typescript)
 
 All of the Official Starter Projects implement the full [Battlesnake API](../references/api/) with enough code to run a basic Battlesnake that moves in a random direction.
 
@@ -42,6 +44,8 @@ To make sure everything works correctly when you deploy and run your Battlesnake
 
 * [Python Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-python#changing-appearance)
 * [Go Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-go#changing-appearance)
+* [JavaScript Starter Project Customization](https://github.com/BattlesnakeOfficial/starter-snake-javascript#changing-appearance)
+* [TypeScript Starter Project Customization](https://repl.it/github/BattlesnakeOfficial/starter-snake-typescript)
 
 While color is a great place to start, Battlesnake also features an exciting collection of customizable heads and tails! All customization options are described in detail on the [Personalization Reference](../references/personalization.md) page.
 
@@ -155,6 +159,8 @@ The [**/move**](../references/api/#move) command in the API is where your Battle
 
 * [Python Starter Project - `handle_move()` function inside of server.py](https://github.com/BattlesnakeOfficial/starter-snake-python/blob/master/server.py#L37)
 * [Go Starter Project - `HandleMove()` function inside of main.go](https://github.com/BattlesnakeOfficial/starter-snake-go/blob/master/main.go#L95)
+* [JavaScript Project - `move()` function inside of logic.js](https://github.com/BattlesnakeOfficial/starter-snake-javascript#changing-behavior)
+* [TypeScript Starter Project - `move()` function inside of logic.ts](https://github.com/BattlesnakeOfficial/starter-snake-typescript#changing-behavior)
 
 On every turn of the game, the Battlesnake Engine makes a call to your Battlesnakes **/move** command with data that describes the current state of the board, including its size, the location of food, the locations of other Battlesnakes, and other important game data. The [API Reference](../references/api/) has a [**sample JSON object**](../references/api/sample-move-request.md) that contains this data.
 

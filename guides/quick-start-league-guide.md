@@ -2,7 +2,7 @@
 description: A guide to entering your first League event.
 ---
 
-# Quick Start League Guide
+# League Guide
 
 Battlesnake hosts several annual [online competitions](https://play.battlesnake.com/competitions/) called Leagues. Leagues are open to everyone and provides challenges for all skill levels. A League is a special event that runs for several weeks. The long running nature of a League event allows for continuous updates and evolution of your Battlesnake code.
 

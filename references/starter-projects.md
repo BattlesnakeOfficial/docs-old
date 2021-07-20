@@ -12,6 +12,8 @@ If you're building a Battlesnake for the first time, these are great starting po
 
 * [Python Starter Project](https://github.com/battlesnakeofficial/starter-snake-python)
 * [Go Starter Project](https://github.com/battlesnakeofficial/starter-snake-go)
+* [JavaScript Starter Project](https://github.com/BattlesnakeOfficial/starter-snake-javascript)
+* [TypeScript Starter Project](https://github.com/BattlesnakeOfficial/starter-snake-typescript)
 
 You are welcome to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) one of these repos, or click the green **Use this template** button to bring a clean copy of the Starter Project into your own GitHub account.
 
@@ -31,7 +33,6 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 
 | **Project** | Developer |
 | :--- | :--- |
-| [JavaScript Starter Project](https://github.com/battlesnakeofficial/starter-snake-node) | [BattlesnakeOfficial](https://github.com/BattlesnakeOfficial) |
 | [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-java) | [BattlesnakeOfficial](https://github.com/BattlesnakeOfficial) |
 | [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) | [BattlesnakeOfficial](https://github.com/BattlesnakeOfficial) |
 | [Rust Starter Snake](https://github.com/mcraealex/rustysnake) | [McRaeAlex](https://github.com/McRaeAlex) |
