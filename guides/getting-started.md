@@ -136,7 +136,14 @@ At the bottom of the game board is extra information about the game and addition
 
 ## Step 6: Better than Random
 
-At this point you're ready to start making your Battlesnake smarter. Typical Battlesnake development looks like:
+At this point you're ready to start making your Battlesnake smarter. Here are some initial goals to help you develop your Battlesnake. Completing these will make your Battlesnake competitive against other Battlesnakes in multi-player games.
+
+1. Avoid colliding with walls
+2. Avoid colliding with yourself
+3. Avoid colliding with other snakes
+4. Try to move towards food
+
+Typical Battlesnake development looks like:
 
 1. Decide how you want to your Battlesnake to move in a specific situation
 2. Program your Move Command accordingly
@@ -146,7 +153,7 @@ At this point you're ready to start making your Battlesnake smarter. Typical Bat
 
 The [**/move**](../references/api/#move) command in the API is where your Battlesnake decides which direction it is going to move. This can be found in the following places for each of the Official Starter Projects:
 
-* [Python Starter Project - `move()` function inside of server.py](https://github.com/BattlesnakeOfficial/starter-snake-python/blob/master/server.py#L37)
+* [Python Starter Project - `handle_move()` function inside of server.py](https://github.com/BattlesnakeOfficial/starter-snake-python/blob/master/server.py#L37)
 * [Go Starter Project - `HandleMove()` function inside of main.go](https://github.com/BattlesnakeOfficial/starter-snake-go/blob/master/main.go#L95)
 
 On every turn of the game, the Battlesnake Engine makes a call to your Battlesnakes **/move** command with data that describes the current state of the board, including its size, the location of food, the locations of other Battlesnakes, and other important game data. The [API Reference](../references/api/) has a [**sample JSON object**](../references/api/sample-move-request.md) that contains this data.
