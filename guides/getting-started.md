@@ -43,10 +43,10 @@ To make sure everything works correctly when you deploy and run your Battlesnake
 
 ![Customizing the Battlesnake colour to &apos;red&apos; \#ff0000 for the Python Starter Snake](../.gitbook/assets/python_customization.png)
 
-* [Python Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-python#changing-appearance)
-* [Go Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-go#changing-appearance)
-* [JavaScript Starter Project Customization](https://github.com/BattlesnakeOfficial/starter-snake-javascript#changing-appearance)
-* [TypeScript Starter Project Customization](https://repl.it/github/BattlesnakeOfficial/starter-snake-typescript)
+* [Python Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-python#customizing-your-battlesnake)
+* [Go Starter Project Customization](https://github.com/battlesnakeofficial/starter-snake-go#customizing-your-battlesnake)
+* [JavaScript Starter Project Customization](https://github.com/BattlesnakeOfficial/starter-snake-javascript#customizing-your-battlesnake)
+* [TypeScript Starter Project Customization](https://github.com/BattlesnakeOfficial/starter-snake-typescript#customizing-your-battlesnake)
 * [Rust Starter Project Customization](https://github.com/BattlesnakeOfficial/starter-snake-rust#customizing-your-battlesnake)
 
 While color is a great place to start, Battlesnake also features an exciting collection of customizable heads and tails! All customization options are described in detail on the [Personalization Reference](../references/personalization.md) page.
@@ -159,8 +159,8 @@ Typical Battlesnake development looks like:
 
 The [**/move**](../references/api/#move) command in the API is where your Battlesnake decides which direction it is going to move. This can be found in the following places for each of the Official Starter Projects:
 
-* [Python Starter Project - `handle_move()` function inside of server.py](https://github.com/BattlesnakeOfficial/starter-snake-python/blob/master/server.py#L37)
-* [Go Starter Project - `HandleMove()` function inside of main.go](https://github.com/BattlesnakeOfficial/starter-snake-go/blob/master/main.go#L95)
+* [Python Starter Project - `handle_move()` function inside of server.py](https://github.com/BattlesnakeOfficial/starter-snake-python#changing-behavior)
+* [Go Starter Project - `HandleMove()` function inside of main.go](https://github.com/BattlesnakeOfficial/starter-snake-go#changing-behavior)
 * [JavaScript Project - `move()` function inside of logic.js](https://github.com/BattlesnakeOfficial/starter-snake-javascript#changing-behavior)
 * [TypeScript Starter Project - `move()` function inside of logic.ts](https://github.com/BattlesnakeOfficial/starter-snake-typescript#changing-behavior)
 * [Rust Starter Project - `get_move()` function inside of logic.rs](https://github.com/BattlesnakeOfficial/starter-snake-rust#changing-behavior)
