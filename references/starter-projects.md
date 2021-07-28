@@ -14,6 +14,7 @@ If you're building a Battlesnake for the first time, these are great starting po
 * [Go Starter Project](https://github.com/battlesnakeofficial/starter-snake-go)
 * [JavaScript Starter Project](https://github.com/BattlesnakeOfficial/starter-snake-javascript)
 * [TypeScript Starter Project](https://github.com/BattlesnakeOfficial/starter-snake-typescript)
+* [Rust Starter Project](https://github.com/BattlesnakeOfficial/starter-snake-rust)
 
 You are welcome to [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) one of these repos, or click the green **Use this template** button to bring a clean copy of the Starter Project into your own GitHub account.
 
