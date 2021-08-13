@@ -2,35 +2,37 @@
 
 ## Our Mission
 
-### We make it fun and accessible for anyone to become a better programmer.
+**Is to make it fun and accessible for anyone to become a better programmer.**
 
-We created Battlesnake as a way to have fun programming with friends, learn new skills and technologies, and build the communities around us. We believe that encouraging more people to gain real experience and enjoy programming at all levels will make the world a better place.
+We created Battlesnake to have fun programming with friends, learn new skills and technologies, and build the communities around us. 
+
+We believe that encouraging more people to gain real experience and enjoy programming at all levels makes the world a better place.
 
 ## Our Values
 
-These values drive us towards our mission. Everything we do relates directly to one or more of these core values.
+These values drive us towards our mission.
 
-### Celebrate a broad range of skill levels.
+### Celebrate success at all skill levels
 
-Writing a snake that performs very well should be a celebrated accomplishment. Writing your first snake, no matter how simple, should be equally celebrated.
+Creating a Battlesnake that is highly competitive should be a celebrated accomplishment. Creating your first Battlesnake, no matter how simple, should be celebrated equally.
 
-### Encourage collaboration over competition.
+### Encourage collaboration over competition
 
-Even though Battlesnake involves a competitive game, participants, sponsors, and volunteers are working together to help each other be successful. We believe making all teams stronger makes Battlesnake better.
+Even though Battlesnake involves a competitive game, participants, partners, volunteers, and our team members are working together to help everyone be successful.
 
-### Teach real-world skills.
+### Support real-world skill development
 
-When it comes to programming technologies, we work hard to ensure participants use "the real thing". This includes programming languages, editors, version control, platforms, libraries, etc.
+When it comes to programming technologies, we work hard to ensure developers can experiment with and use "the real thing". This includes programming languages, editors, version control, platforms, etc.
 
-### Embrace open-source software.
+### Embrace open-source software
 
-We firmly believe in the power of open-source collaboration. All Battlesnake development is public and transparent, and we encourage participants to do the same.
+We firmly believe in the power of open-source collaboration. We strive to code in public as much as possible and we encourage developers to do the same.
 
-### Build community.
+### Build powerful communities
 
-We work hard to encourage and grow a large and diverse community. Anyone who wants to participate or volunteer should feel welcome and supported. Anyone with ideas should feel heard and appreciated.
+We work hard to encourage, grow, and support communities of all shapes and sizes. Anyone who wants to participate, organize, or volunteer should feel welcome and supported. Anyone with ideas should feel heard and appreciated.
 
-### Include everyone.
+### Include everyone
 
-Watching games should be exciting for everyone. Even if you don't know how to program, or don't care to learn, Battlesnake games and events should be fun and exhilarating for everyone.
+Battlesnake should be exciting for everyone. Even if you don't know how to program, or don't care to learn, Battlesnake should be fun and exhilarating for everyone involved.
 
