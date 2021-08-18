@@ -24,9 +24,19 @@ There is a special type of standard game called 'solo', which consists of a \(us
 
 ![Example Royale Game with Hazard Sauce on three sides](../.gitbook/assets/royale_game.png)
 
-In a Royale Game, a new danger is introduced, commonly called 'Hazard Sauce'. The Hazard Sauce slowly enters on a random edge of the board consuming an entire row or column every few turns, shrinking the 'safe' zone. If the head of a Battlesnake is within the Hazard Sauce, its health points will more rapidly decline, losing 15 health each turn. Food can and will spawn both inside and outside of the Hazard Sauce.
+In a Royale Game, a new danger is introduced, commonly called 'Hazard Sauce'. The Hazard Sauce slowly enters on a random edge of the board consuming an entire row or column every few turns, shrinking the 'safe' zone. If the head of a Battlesnake is within the Hazard Sauce after it moves, its health points will more rapidly decline, losing 16 health each turn. Food can and will spawn both inside and outside of the Hazard Sauce. If a snake consumes a food on a hazardous square, the hazard will not affect its health on that turn, and its health will be restored to full \(100\). The default hazard damage is 15, which currently adds to the normal 1 health damage per turn.
 
-The location of hazardous squares are found in the API on the [board object](api/#board) listed under _hazards_, and are visible on the board as a darker-grey square.
+Specific scenarios and how hazards take effect:
+
+| Scenario | Health Effect |
+| :--- | :--- |
+| Snake moves from empty square to empty square | -1 |
+| Snake moves from empty square to hazard square | -16 |
+| Snake moves from hazard square to empty square | -1 |
+| Snake moves from hazard square to hazard square | -16 |
+| Snake moves to hazard square also containing food | Restored to 100  |
+
+The location of hazardous squares are found in the API on the [board object](api/#board) listed under `hazards`, and are visible on the board as a darker-grey square.
 
 ## Squad
 
