@@ -2,7 +2,7 @@
 description: Options for personalizing your Battlesnake's appearance
 ---
 
-# Personalization Reference
+# Customizations
 
 ## Introduction
 

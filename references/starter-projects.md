@@ -49,7 +49,7 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 
 **Legacy Starter Projects**
 
-The following starter projects use a deprecated version of the Battlesnake API. They're still great starting points, but require some additional updates to work correctly. See [Migrating to API Version 1](../guides/migrating-to-api-version-1.md) for details.
+The following starter projects use a deprecated version of the Battlesnake API. They're still great starting points, but require some additional updates to work correctly. See [Migrating to API Version 1]() for details.
 
 | Project | Developer |
 | :--- | :--- |

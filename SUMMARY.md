@@ -6,25 +6,24 @@
 ## Guides
 
 * [Quick Start Coding Guide](guides/getting-started.md)
+* [Developer Tips](guides/tips.md)
 * [League Guide](guides/quick-start-league-guide.md)
 * [Challenges Guide](guides/quick-start-challenges-guide.md)
-* [Developer Tips](guides/tips.md)
-* [Contributing](guides/contributing.md)
-* [Migrating to API Version 1](guides/migrating-to-api-version-1.md)
 
 ## References
 
-* [Starter Projects](references/starter-projects.md)
-* [Personalization Reference](references/personalization.md)
-* [Hosting Suggestions](references/hosting-suggestions/README.md)
-  * [Heroku](references/hosting-suggestions/heroku.md)
-* [Game Rules](references/rules.md)
-* [Game Modes](references/game-modes.md)
 * [API Reference](references/api/README.md)
   * [Sample Move Request](references/api/sample-move-request.md)
+* [Starter Projects](references/starter-projects.md)
+* [Customizations](references/personalization.md)
+* [Game Rules](references/rules.md)
+* [Game Modes](references/game-modes.md)
+* [Hosting Suggestions](references/hosting-suggestions/README.md)
+  * [Heroku](references/hosting-suggestions/heroku.md)
 
 ## Community
 
+* [Contributing](community/contributing.md)
 * [GitHub](https://play.battlesnake.com/github)
 * [Discord](https://play.battlesnake.com/discord)
 * [Twitch](https://play.battlesnake.com/twitch)

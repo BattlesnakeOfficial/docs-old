@@ -1,12 +1,12 @@
 ---
-description: Official Reference for the Battlesnake API (Version 1)
+description: 'Official Reference for the Battlesnake API, Version 1'
 ---
 
 # API Reference
 
 ## Introduction
 
-The Battlesnake API is an inverted HTTP API. Developers build a web server that implements this API and the game engine will act as an API client during each game. How your server responds to these requests controls how your Battlesnake behaves.
+The Battlesnake API is an HTTP Webhook API, meaning developers build a web server that implements this API and the game engine will act as an API client during each game. How your server responds to these requests controls how your Battlesnake behaves.
 
 Requests sent to your Battlesnake will be [JSON-encoded](https://www.json.org/), using standard HTTP request methods and content types.
 
