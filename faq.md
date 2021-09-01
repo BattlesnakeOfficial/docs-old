@@ -1,12 +1,12 @@
 ---
-description: Questions frequently asked by Battlesnake developers
+description: Questions frequently asked by Battlesnake developers.
 ---
 
 # FAQ
 
 ## Do I need to know how to program to play Battlesnake?
 
-Battlesnake is best for those with beginner level programming skills and above. You'll have to know the basics of at least one popular programming language to get started.
+Battlesnake is best for those with beginner-level programming skills and above. You'll have to know the basics of at least one popular programming language to get started.
 
 If you're brand new to programming and want to start learning - awesome, we're happy you're here! We're constantly working on ways to help you get started. In the meantime, you might want to get started with some online programming courses and tutorials to get the basics down.
 
@@ -24,7 +24,7 @@ If you are competing at the highest level and are worried about optimizing locat
 
 ## How does food appear on the board?
 
-The algorithm used to generate food is very simple. On each turn the game engine decides how much food to create and where to place it according to the following pseudocode.
+The algorithm used to generate food is very simple. On each turn, the game engine decides how much food to create and where to place it according to the following pseudocode.
 
 {% code title="food-algorithm.pseudo" %}
 ```python
@@ -39,9 +39,9 @@ if random(chance_of_food_appearing):
 
 [This algorithm is open source](https://github.com/BattlesnakeOfficial/rules), and we encourage you to view the code directly.
 
-## How are Battlesnakes ranked in Arenas?
+## How are Battlesnakes ranked in Arenas and Leagues?
 
-Battlesnake Arenas use a nearly vanilla implementation of [Microsoft TrueSkill](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/) for ranking and matchmaking. The only customizations we've made are to implement a lower-bound on sigma values, to allow top-tier snakes with lots of games to still be dethroned.
+Battlesnake Arenas and Leagues use a nearly vanilla implementation of [Microsoft TrueSkill](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/) for ranking and matchmaking. The only customizations we've made are to implement a lower bound on sigma values, to allow top-tier snakes with lots of games to still be dethroned.
 
 ## How do I organize a Battlesnake Competition?
 

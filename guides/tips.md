@@ -8,7 +8,7 @@ These tips have been suggested and collected by the community over the years. Ho
 
 ## Names are Important!
 
-Be creative with your Battlesnake name and description. Names like _"test"_ or _"snek-1"_ are super popular and are easy to confuse with other developer's Battlesnakes. If you really want your Battlesnake to stand out during competitions, best to give it a creative and unique name.
+Be creative with your Battlesnake name and description. Names like _"test"_ or _"snek-1"_ are super popular and are easy to confuse with other Battlesnakes. If you really want your Battlesnake to stand out during competitions, best to give it a creative and unique name.
 
 {% hint style="info" %}
 **Tip:** The best Battlesnake names are fun, creative, and also abide by our [Code of Conduct](https://play.battlesnake.com/about/conduct/). Battlesnake and Team names in violation of our Code of Conduct will not be tolerated.
@@ -21,12 +21,12 @@ Web development often means handling multiple requests concurrently, and Battles
 Start thinking about this early, and use the Game ID in the [Start](../references/api/#start), [Move](../references/api/#move), and [End](../references/api/#end) requests to keep your Battlesnake's brain organized.
 
 {% hint style="info" %}
-**Tip:** Not all web servers are built for handling multiple requests concurrently. Most of the [Starter Projects](../references/starter-projects.md) are setup for concurrency by default.
+**Tip:** Not all web servers are built for handling multiple requests concurrently. Most of the [Starter Projects](../references/starter-projects.md) are set up for concurrency by default.
 {% endhint %}
 
 ## Keep Your Battlesnake Server Running
 
-Some hosting services like [Heroku](https://www.heroku.com/), [Repl.it](https://repl.it), and even [AWS](https://aws.amazon.com/) will de-provision or turn off servers when they're at low usage. For example, free Heroku apps will sleep automatically after 30 minutes of inactivity.
+Some hosting services like [Heroku](https://www.heroku.com/), [Replit](https://repl.it), and even [AWS](https://aws.amazon.com/) will de-provision or turn off servers when they're at low usage. For example, free Heroku apps will sleep automatically after 30 minutes of inactivity.
 
 Think about strategies you can deploy to make sure your Battlesnake is awake and running at full speed when you need it most.
 

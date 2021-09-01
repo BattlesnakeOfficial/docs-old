@@ -32,9 +32,9 @@ Our mission is **to make it fun and accessible for anyone to become a better pro
 
 ## Other Resources
 
-* The quickest way to get questions answered is on [Discord](https://play.battlesnake.com/discord) or [Reddit](https://www.reddit.com/r/Battlesnake).
+* The quickest way to get questions answered is on [Discord](https://play.battlesnake.com/discord).
 * Find real working examples in the [Community Starter Projects](references/starter-projects.md#community-starter-projects).
-* You can always email [hello@battlesnake.com](mailto:hello@battlesnake.com) and we'll point you in the right direction.
+* You can always [email](mailto:hello@battlesnake.com) or [tweet](https://twitter.com/playbattlesnake) us and we'll point you in the right direction 😊
 
 ### Feedback
 

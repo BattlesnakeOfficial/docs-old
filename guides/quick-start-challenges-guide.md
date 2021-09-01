@@ -4,13 +4,13 @@ description: How to train your Battlesnake.
 
 # Challenges Guide
 
-Whether your Battlesnake is brand new, or a longtime veteran looking for practice between [leagues](quick-start-league-guide.md), challenges are a great way to build up your Battlesnake skills. We like to think of Challenges as the 'single player campaign' of Battlesnake. 
+Whether your Battlesnake is brand new, or a longtime veteran looking for practice between [leagues](quick-start-league-guide.md), challenges are a great way to build up your Battlesnake skills. We like to think of Challenges as the Battlesnake 'Single Player Campaign' 🕹️. 
 
 ## What is a Challenge?
 
 Challenges are pre-defined Battlesnake games with specific win conditions. You can find the complete list of available challenges at[ play.battlesnake.com/challenges](https://play.battlesnake.com/challenges/)
 
-Often challenges are grouped together, with increasing levels of difficulty which will require you to modify and improve your Battlesnake code so that the challenge can be beat.
+Often challenges are grouped together, with increasing levels of difficulty which will require you to modify and improve your Battlesnake code so that the challenge can be beaten.
 
 ![Sample &apos;Solo Survival&apos; Challenge screen, with increasingly difficult number of turns](../.gitbook/assets/challenge_survive.png)
 
@@ -18,7 +18,7 @@ Challenges often have unusual game attributes, such as having a very small or ve
 
 ## How do I complete a Challenge?
 
-On the [challenges](https://play.battlesnake.com/challenges/) page you can click the '**Attempt**' button to create a game in that challenge, with the Battlesnake of your choice. Once the game is complete, if you successfully passed the challenge you will see the button has changed to '**Completed**' to indicate that you have passed the challenge. You can click the '**Completed**' button to replay your victory!
+On the [challenges](https://play.battlesnake.com/challenges/) page, you can click the '**Attempt**' button to create a game in that challenge, with the Battlesnake of your choice. Once the game is completed, if you successfully passed the challenge you will see the button has changed to '**Completed**' to indicate that you have passed the challenge. You can click the '**Completed**' button to replay your victory!
 
 Some challenges are locked until you have completed earlier challenges. Those challenges have a lock symbol 🔒 on them.
 

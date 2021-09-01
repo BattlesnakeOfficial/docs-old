@@ -20,7 +20,7 @@ All responses must be JSON-encoded strings sent as \`_application/json\`_. If th
 
 ### Request Timeouts
 
-Every request made to your Battlesnake server must be responded to within the given timeout value. In most standard games this will be 500ms, however this value can vary from game to game. Use the [game information provided](./#game) in the request to determine how long your Battlesnake should spend computing its next move.
+Every request made to your Battlesnake server must be responded to within the given timeout value. In most standard games this will be 500ms, however, this value can vary from game to game. Use the [game information provided](./#game) in the request to determine how long your Battlesnake should spend computing its next move.
 
 Note that these values include round-trip latency, so communication between the game engine and your Battlesnake server should be taken into consideration.
 
@@ -40,7 +40,7 @@ This command is called once at the beginning of every game to let your Battlesna
 This command is called once per turn of each game, providing information about the game board to your Battlesnake and asking for its next move. Your response to this command determines how your Battlesnake behaves and will be the primary focus of your game logic programming.
 
 [**Command: End Game**](./#end)  
-This command is called once after each game has completed to let your Battlesnake know that the game is over.
+This command is called once after each game has been completed to let your Battlesnake know that the game is over.
 
 {% api-method method="get" host="https://your.battlesnake.server.com" path="/" %}
 {% api-method-summary %}
@@ -48,7 +48,7 @@ This command is called once after each game has completed to let your Battlesnak
 {% endapi-method-summary %}
 
 {% api-method-description %}
-An empty GET request made to the top-level url of your Battlesnake, used for customization, checking latency, and verifying successful communication between the Battlesnake and the Battlesnake Engine.
+An empty GET request made to the top-level URL of your Battlesnake, used for customization, checking latency, and verifying successful communication between the Battlesnake and the Battlesnake Engine.
 {% endapi-method-description %}
 
 {% api-method-spec %}
