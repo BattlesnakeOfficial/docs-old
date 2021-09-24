@@ -40,6 +40,7 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 | [Battlesnake Quickstart for Kotlin and Java](https://github.com/pambrose/battlesnake-quickstart) | [Paul Ambrose](https://github.com/pambrose) |
 | [TypeScript Starter Snake with Deno](https://github.com/tyrelh/starter-snake-typescript-deno) | [Tyrel Hiebert](https://github.com/tyrelh) |
 | [C\# Starter Snake with Microsoft Azure](https://github.com/neistow/battlesnake-starter-csharp) | [neistow](https://github.com/neistow) |
+| [F\# Starter Snake](https://github.com/olivercoad/battlesnake-starter-fsharp) | [olivercoad](https://github.com/olivercoad) |
 | [Scala Starter Snake with Heroku](https://github.com/horrox/battlesnake-starter-scala) | [horrox](https://github.com/horrox) |
 | [Julia Starter Snake](https://github.com/Nettogrof/starter-snake-julia) | [Nettogrof](https://github.com/Nettogrof) |
 | [TypeScript Starter Snake](https://github.com/kgorgi/starter-snake-node-ts) | [Kian Gorgichuk](https://github.com/kgorgi) |
