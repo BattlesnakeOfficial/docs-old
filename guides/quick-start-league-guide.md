@@ -13,7 +13,7 @@ Battlesnake hosts several annual [online competitions](https://play.battlesnake.
 When a League is announced, there is a pre-registration phase where participants can register for the League and start warming up their Battlesnake code in anticipation of the competition's start. Sometimes there are prizes for participants who sign up during this phase, so we recommend pre-registering whenever possible.
 
 {% hint style="success" %}
-If this is your first time creating a Battlesnake, check out the [Quick Start Coding Guide](guides/getting-started.md).
+If this is your first time creating a Battlesnake, check out the [Quick Start Coding Guide](getting-started.md).
 {% endhint %}
 
 ### League Start
