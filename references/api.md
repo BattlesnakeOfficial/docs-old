@@ -615,7 +615,21 @@ Here's a complete example of a request made to [POST /move](api.md#move) and a v
     "id": "game-00fe20da-94ad-11ea-bb37",
     "ruleset": {
       "name": "standard",
-      "version": "v.1.2.3"
+      "version": "v.1.2.3",
+      "settings": {
+        "foodSpawnChance": 25,
+        "minimumFood": 1,
+        "hazardDamagePerTurn": 14,
+        "royale": {
+          "shrinkEveryNTurns": 5
+        },
+        "squad": {
+          "allowBodyCollisions": true,
+          "sharedElimination": true,
+          "sharedHealth": true,
+          "sharedLength": true
+        }
+      }
     },
     "timeout": 500
   },
