@@ -72,7 +72,9 @@ Every Battlesnake will have the same amount of time to respond to this request.
 
 ### 2. Each Battlesnake responds with their next move.
 
-After receiving the request, each Battlesnake responds with a move of _up_, _down_, _left_, or _right_. 
+After receiving the request, each Battlesnake responds with a move of _up_, _down_, _left_, or _right_.  
+
+Note that moves are always with respect to the game board and not the direction of the snake's head. For example, _up_ always corresponds to moving towards the top of the board.
 
 If a Battlesnake's cybernetic brain fails to provide a valid response or respond in time, momentum takes over and they will continue moving in the same direction and the previous turn - even if that means certain doom. If this happens on the first turn of a game, the Battlesnake will naturally move up \(as all Battlesnakes are inclined to do\).
 
