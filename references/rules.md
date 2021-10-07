@@ -16,7 +16,7 @@ On every turn your Battlesnake will choose to move in a direction, one of _up_, 
 
 ### Consuming Food
 
-In order to restore the health your Battlesnake needs to survive, it must consume the traditional food of Battlesnakes: brightly colored nutritional discs. 
+In order to restore the health your Battlesnake needs to survive, it must consume the traditional food of Battlesnakes: brightly colored nutritional discs.
 
 ![](../.gitbook/assets/kapture-2020-05-16-at-11.28.27.gif)
 
@@ -72,7 +72,7 @@ Every Battlesnake will have the same amount of time to respond to this request.
 
 ### 2. Each Battlesnake responds with their next move.
 
-After receiving the request, each Battlesnake responds with a move of _up_, _down_, _left_, or _right_.  
+After receiving the request, each Battlesnake responds with a move of _up_, _down_, _left_, or _right_.
 
 Note that moves are always with respect to the game board and not the direction of the snake's head. For example, _up_ always corresponds to moving towards the top of the board.
 
@@ -103,7 +103,7 @@ After all moves have been received by the game engine, it will update the game b
 
 The code responsible for implementing these game rules is completely open source. We encourage all Battlesnake developers to review the rules code base to better understand the game mechanics and make any suggestions for new game modes.
 
-{% embed url="https://github.com/BattlesnakeOfficial/rules" %}
+{% embed url="https://github.com/BattlesnakeOfficial/rules" caption="" %}
 
 [https://github.com/BattlesnakeOfficial/rules](https://github.com/BattlesnakeOfficial/rules)
 
