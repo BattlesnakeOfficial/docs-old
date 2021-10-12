@@ -6,7 +6,7 @@ description: >-
 
 # Overview
 
-**Developers of all skill levels** use Battlesnake to learn about new technologies, improve their programming skills, and have fun with friends, family, and colleagues.
+**Developers of all skill levels** use Battlesnake to learn new technologies, improve their programming skills, and have fun with friends, family, and colleagues.
 
 **Battlesnake is an autonomous survival game.** Each Battlesnake is controlled autonomously by a live web server and moves independently attempting to find food, avoid other Battlesnakes, and stay alive as long as possible.
 
