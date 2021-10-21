@@ -1,5 +1,5 @@
 ---
-description: 'Official Reference for the Battlesnake API, Version 1'
+description: Official Reference for the Battlesnake API, Version 1
 ---
 
 # API Reference
@@ -8,7 +8,7 @@ description: 'Official Reference for the Battlesnake API, Version 1'
 
 The Battlesnake API is an HTTP Webhook API, meaning developers build a web server that implements this API and the game engine will act as an API client during each game. How your server responds to these requests controls how your Battlesnake behaves.
 
-Requests sent to your Battlesnake will be [JSON-encoded](https://www.json.org/), using standard HTTP request methods and content types.
+Requests sent to your Battlesnake will be [JSON-encoded](https://www.json.org), using standard HTTP request methods and content types.
 
 ### HTTP Response Codes
 
@@ -30,43 +30,28 @@ In the event of a request timeout, the Battlesnake engine will repeat the last m
 
 The Battlesnake API consists of four commands. Your Battlesnake server must implement all four HTTP calls to play the game. These commands are called at different times during each game and your response to these command controls how your Battlesnake appears and behaves on the game board.
 
-[**Command: Get Battlesnake**](./#undefined)  
+[**Command: Get Battlesnake**](./#undefined)\
 This command is called periodically by the game engine and the Battlesnake platform. It should return information about your Battlesnake, including who created it and what it looks like.
 
-[**Command: Start Game**](./#start)  
+[**Command: Start Game**](./#start)\
 This command is called once at the beginning of every game to let your Battlesnake know that a new game is about to start.
 
-[**Command: Move**](./#move)  
+[**Command: Move**](./#move)\
 This command is called once per turn of each game, providing information about the game board to your Battlesnake and asking for its next move. Your response to this command determines how your Battlesnake behaves and will be the primary focus of your game logic programming.
 
-[**Command: End Game**](./#end)  
+[**Command: End Game**](./#end)\
 This command is called once after each game has been completed to let your Battlesnake know that the game is over.
 
-{% api-method method="get" host="https://your.battlesnake.server.com" path="/" %}
-{% api-method-summary %}
-/
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://your.battlesnake.server.com" path="/" method="get" summary="/" %}
+{% swagger-description %}
 An empty GET request made to the top-level URL of your Battlesnake, used for customization, checking latency, and verifying successful communication between the Battlesnake and the Battlesnake Engine.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```
-
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 ```javascript
 example-battlesnake-customization.json
@@ -83,266 +68,112 @@ example-battlesnake-customization.json
 
 **Response Properties**
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Parameter</b>
-      </th>
-      <th style="text-align:left"><b>Type</b>
-      </th>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>apiversion</b>
-      </td>
-      <td style="text-align:left">string <em>(required)</em>
-      </td>
-      <td style="text-align:left">Version of the Battlesnake API implemented by this Battlesnake. Currently
-        only API version 1 is valid.
-        <br /><em>Example: &quot;1&quot;</em>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>author</b>
-      </td>
-      <td style="text-align:left">string <em>(optional)</em>
-      </td>
-      <td style="text-align:left">
-        <p>Username of the author of this Battlesnake. If provided, this will be
-          used to verify ownership.</p>
-        <p><em>Example: &quot;BattlesnakeOfficial&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>color</b>
-      </td>
-      <td style="text-align:left">string <em>(optional)</em>
-      </td>
-      <td style="text-align:left">
-        <p>Hex color code used to display this Battlesnake. Must start with &quot;#&quot;
-          and be 7 characters long.</p>
-        <p><em>Example: &quot;#888888&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>head</b>
-      </td>
-      <td style="text-align:left">string <em>(optional)</em>
-      </td>
-      <td style="text-align:left">
-        <p>Displayed head of this Battlesnake. See <a href="../personalization.md">Personalization Docs</a> for
-          available options</p>
-        <p><em>Example: &quot;default&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>tail</b>
-      </td>
-      <td style="text-align:left">string <em>(optional)</em>
-      </td>
-      <td style="text-align:left">
-        <p>Displayed tail of this Battlesnake. See <a href="../personalization.md">Personalization Docs</a> for
-          available options.</p>
-        <p><em>Example: &quot;default&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>version</b>
-      </td>
-      <td style="text-align:left">string <em>(optional)</em>
-      </td>
-      <td style="text-align:left">A version number or tag for your snake.</td>
-    </tr>
-  </tbody>
-</table>
+| **Parameter**  | **Type**            | **Description**                                                                                                                                                  |
+| -------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **apiversion** | string _(required)_ | <p>Version of the Battlesnake API implemented by this Battlesnake. Currently only API version 1 is valid.<br><em>Example: "1"</em></p>                           |
+| **author**     | string _(optional)_ | <p>Username of the author of this Battlesnake. If provided, this will be used to verify ownership.</p><p><em>Example: "BattlesnakeOfficial"</em></p>             |
+| **color**      | string _(optional)_ | <p>Hex color code used to display this Battlesnake. Must start with "#" and be 7 characters long.</p><p><em>Example: "#888888"</em></p>                          |
+| **head**       | string _(optional)_ | <p>Displayed head of this Battlesnake. See <a href="../personalization.md">Personalization Docs</a> for available options</p><p><em>Example: "default"</em></p>  |
+| **tail**       | string _(optional)_ | <p>Displayed tail of this Battlesnake. See <a href="../personalization.md">Personalization Docs</a> for available options.</p><p><em>Example: "default"</em></p> |
+| **version**    | string _(optional)_ | A version number or tag for your snake.                                                                                                                          |
 
 See [Personalization Reference](../personalization.md) for available colors, heads, and tails.
 
-{% api-method method="post" host="https://your.battlesnake.server.com" path="/start" %}
-{% api-method-summary %}
-/start
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://your.battlesnake.server.com" path="/start" method="post" summary="/start" %}
+{% swagger-description %}
 Your Battlesnake will receive this request when it has been entered into a new game. Every game has a unique ID that can be used to allocate resources or data you may need. Your response to this request will be ignored.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="game" type="object" required=true %}
+{% swagger-parameter in="body" name="game" type="object" %}
 Game Object describing the game being played.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="turn" type="integer" required=true %}
-Turn number of the game being played \(0 for new games\).
-{% endapi-method-parameter %}
+{% swagger-parameter in="body" name="turn" type="integer" %}
+Turn number of the game being played (0 for new games).
+{% endswagger-parameter %}
 
-{% api-method-parameter name="board" type="object" required=true %}
+{% swagger-parameter in="body" name="board" type="object" %}
 Board Object describing the initial state of the game board.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="you" type="object" required=true %}
+{% swagger-parameter in="body" name="you" type="object" %}
 Battlesnake Object describing your Battlesnake.
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Responses to this command are ignored by the game engine.
-{% endapi-method-response-example-description %}
-
-```text
-
+{% swagger-response status="200" description="Responses to this command are ignored by the game engine." %}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+```
+{% endswagger-response %}
+{% endswagger %}
 
 **Response Properties**
 
 Responses to this request are ignored by the game engine.
 
-{% api-method method="post" host="https://your.battlesnake.server.com" path="/move" %}
-{% api-method-summary %}
-/move
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://your.battlesnake.server.com" path="/move" method="post" summary="/move" %}
+{% swagger-description %}
 This request will be sent for every turn of the game. Use the information provided to determine how your Battlesnake will move on that turn, either up, down, left, or right.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="game" type="object" required=true %}
+{% swagger-parameter in="body" name="game" type="object" %}
 Game Object describing the game being played.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="turn" type="integer" required=true %}
+{% swagger-parameter in="body" name="turn" type="integer" %}
 Turn number for this move.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="board" type="object" required=true %}
+{% swagger-parameter in="body" name="board" type="object" %}
 Board Object describing the game board on this turn.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="you" type="object" required=true %}
+{% swagger-parameter in="body" name="you" type="object" %}
 Battlesnake Object describing your Battlesnake.
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-application/json
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="application/json" %}
 ```javascript
 {
   "move": "up",
   "shout": "I am moving up!"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
 **Response Properties**
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Parameter</b>
-      </th>
-      <th style="text-align:left"><b>Type</b>
-      </th>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>move</b>
-      </td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">
-        <p>Your Battlesnake&apos;s move for this turn. Valid moves are up, down,
-          left, or right.</p>
-        <p><em>Example: &quot;up&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>shout</b>
-      </td>
-      <td style="text-align:left">string <em>(optional)</em>
-      </td>
-      <td style="text-align:left">
-        <p>An optional message sent to all other Battlesnakes on the next turn. Must
-          be 256 characters or less.</p>
-        <p><em>Example: &quot;I am moving up!&quot;</em>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| **Parameter** | **Type**            | **Description**                                                                                                                                       |
+| ------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **move**      | string              | <p>Your Battlesnake's move for this turn. Valid moves are up, down, left, or right.</p><p><em>Example: "up"</em></p>                                  |
+| **shout**     | string _(optional)_ | <p>An optional message sent to all other Battlesnakes on the next turn. Must be 256 characters or less.</p><p><em>Example: "I am moving up!"</em></p> |
 
-{% api-method method="post" host="https://your.battlesnake.server.com" path="/end" %}
-{% api-method-summary %}
-/end
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://your.battlesnake.server.com" path="/end" method="post" summary="/end" %}
+{% swagger-description %}
 Your Battlesnake will receive this request whenever a game it was playing has ended. Use it to learn how your Battlesnake won or lost and deallocated any server-side resources. Your response to this request will be ignored.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-body-parameters %}
-{% api-method-parameter name="game" type="object" required=true %}
+{% swagger-parameter in="body" name="game" type="object" %}
 Game Object describing the game being played.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="turn" type="integer" required=true %}
+{% swagger-parameter in="body" name="turn" type="integer" %}
 Turn number for the last turn of this game.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="board" type="object" required=true %}
+{% swagger-parameter in="body" name="board" type="object" %}
 Board Object describing the final turn of this game.
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="you" type="object" required=true %}
+{% swagger-parameter in="body" name="you" type="object" %}
 Battlesnake Object describing your Battlesnake.
-{% endapi-method-parameter %}
-{% endapi-method-body-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Responses to this command are ignored by the game engine.
-{% endapi-method-response-example-description %}
-
-```text
-
+{% swagger-response status="200" description="Responses to this command are ignored by the game engine." %}
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+```
+{% endswagger-response %}
+{% endswagger %}
 
 **Response Properties**
 
@@ -362,56 +193,18 @@ The Battlesnake API uses the following object definitions when communicating wit
       "name": "standard",
       "version": "v1.2.3"
     },
-  "timeout": 500
+  "timeout": 500,
+  "source": "league"
 }
 ```
 {% endcode %}
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Property</b>
-      </th>
-      <th style="text-align:left"><b>Type</b>
-      </th>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>id</b>
-      </td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">
-        <p>A unique identifier for this Game.</p>
-        <p><em>Example: &quot;totally-unique-game-id&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>ruleset</b>
-      </td>
-      <td style="text-align:left">object</td>
-      <td style="text-align:left">
-        <p>Information about the ruleset being used to run this game.</p>
-        <p><em>Example: {&quot;name&quot;: &quot;standard&quot;, &quot;version&quot;: &quot;v1.2.3&quot;}</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>timeout</b>
-      </td>
-      <td style="text-align:left">integer <em>(milliseconds)</em>
-      </td>
-      <td style="text-align:left">
-        <p>How much time your snake has to respond to requests for this Game.</p>
-        <p><em>Example: 500</em>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| **Property** | **Type**                 | **Description**                                                                                                                      |
+| ------------ | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **id**       | string                   | <p>A unique identifier for this Game.</p><p><em>Example: "totally-unique-game-id"</em></p>                                           |
+| **ruleset**  | object                   | <p>Information about the ruleset being used to run this game. </p><p><em>Example: {"name": "standard", "version": "v1.2.3"}</em></p> |
+| **timeout**  | integer _(milliseconds)_ | <p>How much time your snake has to respond to requests for this Game.</p><p><em>Example: 500</em></p>                                |
+| **source**   | string                   | <p>The source of this game, e.g. "league" or "custom".</p><p>The values for this field may change in the near future.</p>            |
 
 ### Ruleset
 
@@ -426,50 +219,11 @@ example-ruleset-object.json
 
 ```
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Property</b>
-      </th>
-      <th style="text-align:left"><b>Type</b>
-      </th>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>name</b>
-      </td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">
-        <p>Name of the ruleset being used to run this game. Possible values include:
-          standard, solo, royale, squad, constrictor. See <a href="../game-modes.md">Game Modes</a> for
-          more information on each ruleset.</p>
-        <p><em>Example: &quot;standard&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>version</b>
-      </td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">
-        <p>The release version of the <a href="https://github.com/BattlesnakeOfficial/rules">Rules</a> module
-          used in this game.</p>
-        <p><em>Example: &quot;version&quot;: &quot;v1.2.3&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>settings</b>
-      </td>
-      <td style="text-align:left">object</td>
-      <td style="text-align:left">A collection of <a href="./#rulesetsettings">specific settings</a> being
-        used by the current game that control how the rules are applied.</td>
-    </tr>
-  </tbody>
-</table>
+| **Property** | **Type** | **Description**                                                                                                                                                                                                                                     |
+| ------------ | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **name**     | string   | <p>Name of the ruleset being used to run this game. Possible values include: standard, solo, royale, squad, constrictor. See <a href="../game-modes.md">Game Modes</a> for more information on each ruleset.</p><p><em>Example: "standard"</em></p> |
+| **version**  | string   | <p>The release version of the <a href="https://github.com/BattlesnakeOfficial/rules">Rules</a> module used in this game.</p><p><em>Example: "version": "v1.2.3"</em></p>                                                                            |
+| **settings** | object   | A collection of [specific settings](./#rulesetsettings) being used by the current game that control how the rules are applied.                                                                                                                      |
 
 ### RulesetSettings
 
@@ -493,19 +247,19 @@ example-ruleset-settings-object.json
 ```
 
 {% hint style="info" %}
-All ruleset settings will always be passed, but ruleset-specific settings \(e.g. under `royale`, `squad`\) will only take effect when the associated ruleset is in effect. For example, in a standard game, the value for **royale.shrinkEveryNTurns** isn't used in the game rules, but your Battlesnake server can still read it.
+All ruleset settings will always be passed, but ruleset-specific settings (e.g. under `royale`, `squad`) will only take effect when the associated ruleset is in effect. For example, in a standard game, the value for **royale.shrinkEveryNTurns** isn't used in the game rules, but your Battlesnake server can still read it.
 {% endhint %}
 
-| **Property** | **Type** | **Description** |
-| :--- | :--- | :--- |
-| **foodSpawnChance** | integer | Percentage chance of spawning a new food every round. |
-| **minimumFood** | integer | Minimum food to keep on the board every turn. |
-| **hazardDamagePerTurn** | integer | Health damage a snake will take when ending its turn in a hazard. This stacks on top of the regular 1 damage a snake takes per turn. |
-| _royale_.**shrinkEveryNTurns** | integer | In Royale mode, the number of turns between generating new hazards \(shrinking the safe board space\). |
-| _squad_.**allowBodyCollisions** | boolean | In Squad mode, allow members of the same squad to move over each other without dying. |
-| _squad_.**sharedElimination** | boolean | In Squad mode, all squad members are eliminated when one is eliminated. |
-| _squad_.**sharedHealth** | boolean | In Squad mode, all squad members share health. |
-| _squad_.**sharedLength** | boolean | In Squad mode, all squad members share length. |
+| **Property**                    | **Type** | **Description**                                                                                                                      |
+| ------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **foodSpawnChance**             | integer  | Percentage chance of spawning a new food every round.                                                                                |
+| **minimumFood**                 | integer  | Minimum food to keep on the board every turn.                                                                                        |
+| **hazardDamagePerTurn**         | integer  | Health damage a snake will take when ending its turn in a hazard. This stacks on top of the regular 1 damage a snake takes per turn. |
+| _royale_.**shrinkEveryNTurns**  | integer  | In Royale mode, the number of turns between generating new hazards (shrinking the safe board space).                                 |
+| _squad_.**allowBodyCollisions** | boolean  | In Squad mode, allow members of the same squad to move over each other without dying.                                                |
+| _squad_.**sharedElimination**   | boolean  | In Squad mode, all squad members are eliminated when one is eliminated.                                                              |
+| _squad_.**sharedHealth**        | boolean  | In Squad mode, all squad members share health.                                                                                       |
+| _squad_.**sharedLength**        | boolean  | In Squad mode, all squad members share length.                                                                                       |
 
 ### Battlesnake
 
@@ -529,119 +283,21 @@ All ruleset settings will always be passed, but ruleset-specific settings \(e.g.
 ```
 {% endcode %}
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Property</b>
-      </th>
-      <th style="text-align:left"><b>Type</b>
-      </th>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>id</b>
-      </td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">
-        <p>Unique identifier for this Battlesnake in the context of the current Game.</p>
-        <p><em>Example: &quot;totally-unique-snake-id&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>name</b>
-      </td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">
-        <p>Name given to this Battlesnake by its author.</p>
-        <p><em>Example: &quot;Sneky McSnek Face&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>health</b>
-      </td>
-      <td style="text-align:left">integer</td>
-      <td style="text-align:left">
-        <p>Health value of this Battlesnake, between 0 and 100 inclusively.</p>
-        <p><em>Example: 54</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>body</b>
-      </td>
-      <td style="text-align:left">array</td>
-      <td style="text-align:left">
-        <p>Array of coordinates representing this Battlesnake&apos;s location on
-          the game board. This array is ordered from head to tail.</p>
-        <p><em>Example: [{&quot;x&quot;: 0, &quot;y&quot;: 0}, ..., {&quot;x&quot;: 2, &quot;y&quot;: 0}]</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>latency</b>
-      </td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">
-        <p>The previous response time of this Battlesnake, in milliseconds. &quot;0&quot;
-          means the Battlesnake timed out and failed to respond.</p>
-        <p><em>Example: &quot;450&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>head</b>
-      </td>
-      <td style="text-align:left">object</td>
-      <td style="text-align:left">
-        <p>Coordinates for this Battlesnake&apos;s head. Equivalent to the first
-          element of the body array.</p>
-        <p><em>Example: {&quot;x&quot;: 0, &quot;y&quot;: 0}</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>length</b>
-      </td>
-      <td style="text-align:left">integer</td>
-      <td style="text-align:left">
-        <p>Length of this Battlesnake from head to tail. Equivalent to the length
-          of the body array.</p>
-        <p><em>Example: 3</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>shout</b>
-      </td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">
-        <p>Message shouted by this Battlesnake on the previous turn.</p>
-        <p><em>Example: &quot;why are we shouting??&quot;</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>squad</b>
-      </td>
-      <td style="text-align:left">string</td>
-      <td style="text-align:left">
-        <p>The squad that the Battlesnake belongs to. Used to identify squad members
-          in Squad Mode games.</p>
-        <p><em>Example: &quot;1&quot;</em>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| **Property** | **Type** | **Description**                                                                                                                                                                                    |
+| ------------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **id**       | string   | <p>Unique identifier for this Battlesnake in the context of the current Game.</p><p><em>Example: "totally-unique-snake-id"</em></p>                                                                |
+| **name**     | string   | <p>Name given to this Battlesnake by its author.</p><p><em>Example: "Sneky McSnek Face"</em></p>                                                                                                   |
+| **health**   | integer  | <p>Health value of this Battlesnake, between 0 and 100 inclusively.</p><p><em>Example: 54</em></p>                                                                                                 |
+| **body**     | array    | <p>Array of coordinates representing this Battlesnake's location on the game board. This array is ordered from head to tail.</p><p><em>Example: [{"x": 0, "y": 0}, ..., {"x": 2, "y": 0}]</em></p> |
+| **latency**  | string   | <p>The previous response time of this Battlesnake, in milliseconds. "0" means the Battlesnake timed out and failed to respond.</p><p><em>Example: "450"</em></p>                                   |
+| **head**     | object   | <p>Coordinates for this Battlesnake's head. Equivalent to the first element of the body array.</p><p><em>Example: {"x": 0, "y": 0}</em></p>                                                        |
+| **length**   | integer  | <p>Length of this Battlesnake from head to tail. Equivalent to the length of the body array.</p><p><em>Example: 3</em></p>                                                                         |
+| **shout**    | string   | <p>Message shouted by this Battlesnake on the previous turn.</p><p><em>Example: "why are we shouting??"</em></p>                                                                                   |
+| **squad**    | string   | <p>The squad that the Battlesnake belongs to. Used to identify squad members in Squad Mode games.</p><p><em>Example: "1"</em></p>                                                                  |
 
 ### Board
 
-The game board is represented by a standard 2D grid, oriented with \(0,0\) in the bottom left. The Y-Axis is positive in the up direction, and X-Axis is positive to the right. Coordinates begin at zero, such that a board that is 11x11 will have coordinates ranging from \[0, 10\].
+The game board is represented by a standard 2D grid, oriented with (0,0) in the bottom left. The Y-Axis is positive in the up direction, and X-Axis is positive to the right. Coordinates begin at zero, such that a board that is 11x11 will have coordinates ranging from \[0, 10].
 
 ![Battlesnake Coordinate System](../../.gitbook/assets/10-full.png)
 
@@ -669,71 +325,10 @@ The game board is represented by a standard 2D grid, oriented with \(0,0\) in th
 ```
 {% endcode %}
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><b>Property</b>
-      </th>
-      <th style="text-align:left"><b>Type</b>
-      </th>
-      <th style="text-align:left"><b>Description</b>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>height</b>
-      </td>
-      <td style="text-align:left">integer</td>
-      <td style="text-align:left">
-        <p>The number of rows in the y-axis of the game board.</p>
-        <p><em>Example: 11</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>width</b>
-      </td>
-      <td style="text-align:left">integer</td>
-      <td style="text-align:left">
-        <p>The number of columns in the x-axis of the game board.</p>
-        <p><em>Example: 11</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>food</b>
-      </td>
-      <td style="text-align:left">array</td>
-      <td style="text-align:left">
-        <p>Array of coordinates representing food locations on the game board.</p>
-        <p><em>Example: [{&quot;x&quot;: 5, &quot;y&quot;: 5}, ..., {&quot;x&quot;: 2, &quot;y&quot;: 6}]</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>hazards</b>
-      </td>
-      <td style="text-align:left">array</td>
-      <td style="text-align:left">
-        <p>Array of coordinates representing hazardous locations on the game board.
-          These will only appear in some <a href="../game-modes.md">game modes</a>.</p>
-        <p><em>Example: [{&quot;x&quot;: 0, &quot;y&quot;: 0}, ..., {&quot;x&quot;: 0, &quot;y&quot;: 1}]</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>snakes</b>
-      </td>
-      <td style="text-align:left">array</td>
-      <td style="text-align:left">
-        <p>Array of <a href="./#battlesnake">Battlesnake Objects</a> representing all
-          Battlesnakes remaining on the game board (including yourself if you haven&apos;t
-          been eliminated).</p>
-        <p><em>Example: [{&quot;id&quot;: &quot;snake-one&quot;, ...}, ...]</em>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
+| **Property** | **Type** | **Description**                                                                                                                                                                                                                         |
+| ------------ | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **height**   | integer  | <p>The number of rows in the y-axis of the game board.</p><p><em>Example: 11</em></p>                                                                                                                                                   |
+| **width**    | integer  | <p>The number of columns in the x-axis of the game board.</p><p><em>Example: 11</em></p>                                                                                                                                                |
+| **food**     | array    | <p>Array of coordinates representing food locations on the game board.</p><p><em>Example: [{"x": 5, "y": 5}, ..., {"x": 2, "y": 6}]</em></p>                                                                                            |
+| **hazards**  | array    | <p>Array of coordinates representing hazardous locations on the game board. These will only appear in some <a href="../game-modes.md">game modes</a>.</p><p><em>Example: [{"x": 0, "y": 0}, ..., {"x": 0, "y": 1}]</em></p>             |
+| **snakes**   | array    | <p>Array of <a href="./#battlesnake">Battlesnake Objects</a> representing all Battlesnakes remaining on the game board (including yourself if you haven't been eliminated).</p><p><em>Example: [{"id": "snake-one", ...}, ...]</em></p> |
