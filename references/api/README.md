@@ -30,31 +30,33 @@ In the event of a request timeout, the Battlesnake engine will repeat the last m
 
 The Battlesnake API consists of four commands. Your Battlesnake server must implement all four HTTP calls to play the game. These commands are called at different times during each game and your response to these command controls how your Battlesnake appears and behaves on the game board.
 
-[**Command: Get Battlesnake**](./#undefined)\
+****[**Command: Get Battlesnake**](./#get)\
 This command is called periodically by the game engine and the Battlesnake platform. It should return information about your Battlesnake, including who created it and what it looks like.
 
-[**Command: Start Game**](./#start)\
+****[**Command: Start Game**](./#post-start)\
 This command is called once at the beginning of every game to let your Battlesnake know that a new game is about to start.
 
-[**Command: Move**](./#move)\
-This command is called once per turn of each game, providing information about the game board to your Battlesnake and asking for its next move. Your response to this command determines how your Battlesnake behaves and will be the primary focus of your game logic programming.
+****[**Command: Move**\
+](./#post-move)This command is called once per turn of each game, providing information about the game board to your Battlesnake and asking for its next move. Your response to this command determines how your Battlesnake behaves and will be the primary focus of your game logic programming.
 
-[**Command: End Game**](./#end)\
+****[**Command: End Game**](./#post-end)\
 This command is called once after each game has been completed to let your Battlesnake know that the game is over.
 
-{% swagger baseUrl="https://your.battlesnake.server.com" path="/" method="get" summary="/" %}
-{% swagger-description %}
-An empty GET request made to the top-level URL of your Battlesnake, used for customization, checking latency, and verifying successful communication between the Battlesnake and the Battlesnake Engine.
-{% endswagger-description %}
+### <mark style="color:blue;"><mark style="color:green;">**GET**<mark style="color:green;"></mark> <mark style="color:blue;"></mark> /
 
-{% swagger-response status="200" description="" %}
-```
-```
-{% endswagger-response %}
-{% endswagger %}
+`https://your.battlesnake.com`**`/`**
+
+An empty GET request made to the top-level URL of your Battlesnake, used for customization, checking latency, and verifying successful communications between the Battlesnake and the Battlesnake Engine.
+
+#### Parameters
+
+| Responses             |                  |
+| --------------------- | ---------------- |
+|  :green\_circle:  200 | application/json |
+
+
 
 ```javascript
-example-battlesnake-customization.json
 
 {
  "apiversion": "1",
@@ -79,67 +81,62 @@ example-battlesnake-customization.json
 
 See [Personalization Reference](../personalization.md) for available colors, heads, and tails.
 
-{% swagger baseUrl="https://your.battlesnake.server.com" path="/start" method="post" summary="/start" %}
-{% swagger-description %}
-Your Battlesnake will receive this request when it has been entered into a new game. Every game has a unique ID that can be used to allocate resources or data you may need. Your response to this request will be ignored.
-{% endswagger-description %}
+### <mark style="color:green;">POST</mark> <mark style="color:blue;"></mark> /start
 
-{% swagger-parameter in="body" name="game" type="object" %}
-Game Object describing the game being played.
-{% endswagger-parameter %}
+`https://your.battlesnake.com`**`/start`**
 
-{% swagger-parameter in="body" name="turn" type="integer" %}
-Turn number of the game being played (0 for new games).
-{% endswagger-parameter %}
+Your Battlesnake will receive this request when it has been entered into a new game. Every game has a unique ID that can be used to allocated resources or data you may need. Your response to this request will be ignored.
 
-{% swagger-parameter in="body" name="board" type="object" %}
-Board Object describing the initial state of the game board.
-{% endswagger-parameter %}
+#### Parameters
 
-{% swagger-parameter in="body" name="you" type="object" %}
-Battlesnake Object describing your Battlesnake.
-{% endswagger-parameter %}
+| Body                        |         |                                                              |
+| --------------------------- | ------- | ------------------------------------------------------------ |
+|  [`game`](./#game)``        | object  | Game Object describing the game being played.                |
+| `turn`                      | integer | Turn number of the game being played (0 for new games).      |
+| ``[`board`](./#board)``     | object  | Board Object describing the initial state of the game board. |
+| ``[`you`](./#battlesnake)`` | object  | Battlesnake Object describing your Battlesnake.              |
 
-{% swagger-response status="200" description="Responses to this command are ignored by the game engine." %}
-```
-```
-{% endswagger-response %}
-{% endswagger %}
+
+
+| Responses             |                                                           |
+| --------------------- | --------------------------------------------------------- |
+|  :green\_circle:  200 | Responses to this command are ignored by the game engine. |
+
+
 
 **Response Properties**
 
 Responses to this request are ignored by the game engine.
 
-{% swagger baseUrl="https://your.battlesnake.server.com" path="/move" method="post" summary="/move" %}
-{% swagger-description %}
+### <mark style="color:green;">POST</mark> <mark style="color:blue;"></mark> /move
+
+`https://your.battlesnake.com`**`/move`**
+
 This request will be sent for every turn of the game. Use the information provided to determine how your Battlesnake will move on that turn, either up, down, left, or right.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="game" type="object" %}
-Game Object describing the game being played.
-{% endswagger-parameter %}
+#### Parameters
 
-{% swagger-parameter in="body" name="turn" type="integer" %}
-Turn number for this move.
-{% endswagger-parameter %}
+| Body                        |         |                                                      |
+| --------------------------- | ------- | ---------------------------------------------------- |
+|  [`game`](./#game)``        | object  | Game Object describing the game being played.        |
+| `turn`                      | integer | Turn number for this move.                           |
+| ``[`board`](./#board)``     | object  | Board Object describing the game board on this turn. |
+| ``[`you`](./#battlesnake)`` | object  | Battlesnake Object describing your Battlesnake.      |
 
-{% swagger-parameter in="body" name="board" type="object" %}
-Board Object describing the game board on this turn.
-{% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="you" type="object" %}
-Battlesnake Object describing your Battlesnake.
-{% endswagger-parameter %}
 
-{% swagger-response status="200" description="application/json" %}
+| Responses             |                  |
+| --------------------- | ---------------- |
+|  :green\_circle:  200 | application/json |
+
 ```javascript
 {
   "move": "up",
-  "shout": "I am moving up!"
+  "shout": "Moving up!"
 }
 ```
-{% endswagger-response %}
-{% endswagger %}
+
+
 
 **Response Properties**
 
@@ -148,32 +145,28 @@ Battlesnake Object describing your Battlesnake.
 | **move**      | string              | <p>Your Battlesnake's move for this turn. Valid moves are up, down, left, or right.</p><p><em>Example: "up"</em></p>                                  |
 | **shout**     | string _(optional)_ | <p>An optional message sent to all other Battlesnakes on the next turn. Must be 256 characters or less.</p><p><em>Example: "I am moving up!"</em></p> |
 
-{% swagger baseUrl="https://your.battlesnake.server.com" path="/end" method="post" summary="/end" %}
-{% swagger-description %}
-Your Battlesnake will receive this request whenever a game it was playing has ended. Use it to learn how your Battlesnake won or lost and deallocated any server-side resources. Your response to this request will be ignored.
-{% endswagger-description %}
+### <mark style="color:green;">POST</mark> <mark style="color:blue;"></mark> /end
 
-{% swagger-parameter in="body" name="game" type="object" %}
-Game Object describing the game being played.
-{% endswagger-parameter %}
+`https://your.battlesnake.com`**`/end`**
 
-{% swagger-parameter in="body" name="turn" type="integer" %}
-Turn number for the last turn of this game.
-{% endswagger-parameter %}
+Your Battlesnake will receive this request whenever a game it was playing has ended. Use it to learn how your Battlesnake won or lost and deallocate any server-side resources. Your response to this request will be ignored.
 
-{% swagger-parameter in="body" name="board" type="object" %}
-Board Object describing the final turn of this game.
-{% endswagger-parameter %}
+#### Parameters
 
-{% swagger-parameter in="body" name="you" type="object" %}
-Battlesnake Object describing your Battlesnake.
-{% endswagger-parameter %}
+| Body                        |         |                                                            |
+| --------------------------- | ------- | ---------------------------------------------------------- |
+|  [`game`](./#game)``        | object  | Game Object describing the game being played.              |
+| `turn`                      | integer | Turn number for the last turn of the game.                 |
+| ``[`board`](./#board)``     | object  | Board Object describing the final state of the game board. |
+| ``[`you`](./#battlesnake)`` | object  | Battlesnake Object describing your Battlesnake.            |
 
-{% swagger-response status="200" description="Responses to this command are ignored by the game engine." %}
-```
-```
-{% endswagger-response %}
-{% endswagger %}
+
+
+| Responses             |                                                           |
+| --------------------- | --------------------------------------------------------- |
+|  :green\_circle:  200 | Responses to this command are ignored by the game engine. |
+
+
 
 **Response Properties**
 
