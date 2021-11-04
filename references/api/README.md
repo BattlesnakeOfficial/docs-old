@@ -50,7 +50,7 @@ An empty GET request made to the top-level URL of your Battlesnake, used for cus
 
 #### Parameters
 
-| Responses             |                  |
+| Responses             | Type             |
 | --------------------- | ---------------- |
 |  :green\_circle:  200 | application/json |
 
@@ -89,7 +89,7 @@ Your Battlesnake will receive this request when it has been entered into a new g
 
 #### Parameters
 
-| Body                        |         |                                                              |
+| Body                        | Type    | Description                                                  |
 | --------------------------- | ------- | ------------------------------------------------------------ |
 |  [`game`](./#game)``        | object  | Game Object describing the game being played.                |
 | `turn`                      | integer | Turn number of the game being played (0 for new games).      |
@@ -98,7 +98,7 @@ Your Battlesnake will receive this request when it has been entered into a new g
 
 
 
-| Responses             |                                                           |
+| Responses             | Type                                                      |
 | --------------------- | --------------------------------------------------------- |
 |  :green\_circle:  200 | Responses to this command are ignored by the game engine. |
 
@@ -116,7 +116,7 @@ This request will be sent for every turn of the game. Use the information provid
 
 #### Parameters
 
-| Body                        |         |                                                      |
+| Body                        | Type    | Description                                          |
 | --------------------------- | ------- | ---------------------------------------------------- |
 |  [`game`](./#game)``        | object  | Game Object describing the game being played.        |
 | `turn`                      | integer | Turn number for this move.                           |
@@ -125,7 +125,7 @@ This request will be sent for every turn of the game. Use the information provid
 
 
 
-| Responses             |                  |
+| Responses             | Type             |
 | --------------------- | ---------------- |
 |  :green\_circle:  200 | application/json |
 
@@ -153,7 +153,7 @@ Your Battlesnake will receive this request whenever a game it was playing has en
 
 #### Parameters
 
-| Body                        |         |                                                            |
+| Body                        | Type    | Description                                                |
 | --------------------------- | ------- | ---------------------------------------------------------- |
 |  [`game`](./#game)``        | object  | Game Object describing the game being played.              |
 | `turn`                      | integer | Turn number for the last turn of the game.                 |
@@ -162,7 +162,7 @@ Your Battlesnake will receive this request whenever a game it was playing has en
 
 
 
-| Responses             |                                                           |
+| Responses             | Type                                                      |
 | --------------------- | --------------------------------------------------------- |
 |  :green\_circle:  200 | Responses to this command are ignored by the game engine. |
 
