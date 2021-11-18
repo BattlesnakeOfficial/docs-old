@@ -110,7 +110,7 @@ Once you have your screen share ready, simply select it from the preview bar at 
 
 ![](<../.gitbook/assets/image (15).png>)
 
-#### Run of Show  <a href="step-5-create-your-first-game" id="step-5-create-your-first-game"></a>
+#### RUN OF SHOW <a href="step-5-create-your-first-game" id="step-5-create-your-first-game"></a>
 
 While there is no one right way to structure the flow of your first stream, we do have a general "Run of Show" which we think will help to make the experience goes smoothly for everyone watching.
 
@@ -151,9 +151,9 @@ Just like we do on the official Battlesnake channel, we recommend that you consi
 
 #### Some examples of stream content might include, but are not limited to, the following:
 
-#### Game Replay
+#### GAME REPLAY FORMAT
 
-**Have you ever thought you would be an amazing eSports Shout caster?**
+_Have you ever thought you would be an amazing eSports Shout caster?_
 
 In the style of Snake Pit Live! this type of stream is a great way to showcase both your Battlesnake in action as well as some of your favorite battles of all time.
 
@@ -161,9 +161,9 @@ Check out an episode of Snake Pit Live! from the official Battlesnake Channel fo
 
 {% embed url="https://www.twitch.tv/videos/1191386850" %}
 
-#### Live Coding
+#### LIVE CODING FORMAT
 
-**Do you enjoy live coding streams and might want to build your Battlesnake project in public?**
+_Do you enjoy live coding streams and might want to build your Battlesnake project in public?_
 
 In the style of Coding Badly, this type of stream is an awesome way to showcase your skills as a developer and to help your fellow Battlesnake Developers in their learning process.&#x20;
 
@@ -171,9 +171,9 @@ Check out an episode of Coding Badly from the official Battlesnake Channel for i
 
 {% embed url="https://www.twitch.tv/videos/1177428515" %}
 
-#### Guest Interviews & Q\&As
+#### GUEST INTERVIEWS / Q\&A FORMAT&#x20;
 
-**Would you like to ask other Battlesnake Developers about their strategy?**
+_Would you like to ask other Battlesnake Developers about their strategy?_
 
 In the style of Deep Learning, this type of stream is a great way to not only gain valuable skills and knowledge to improve your own Battlesnake in competition, but to help to build your following through shared marketing.&#x20;
 
@@ -201,7 +201,7 @@ We also encourage you to check out some of our favorite Battlesnake streamers li
 
 {% embed url="http://twitch.tv/penelope_zone" %}
 
-#### Using Media on Stream
+#### USING MEDIA ON STREAM
 
 In order to avoid Digital Millennium Copyright Act (DMCA) notices from the Twitch team for using media which is under copyright, you can use audio from a few great free sources including:
 
@@ -215,6 +215,6 @@ Also note that sharing audio is a bit more difficult that on some video sharing 
 
 {% embed url="https://www.youtube.com/watch?v=iNyMzEYeSbA" %}
 
-#### Are you streaming about Battlesnake on Twitch? 🎥
+#### ARE YOU STREAMING ABOUT BATTLESNAKE ON TWITCH?
 
 Fill out this form to let us know, & so we can send you some Battlesnake Swag for the stream.
