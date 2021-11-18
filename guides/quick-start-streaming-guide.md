@@ -54,7 +54,7 @@ While at this point you are almost ready to get started with your stream, below 
 
 While streaming can use include more advanced software like [OBS](https://obsproject.com), [Streamlabs](https://streamlabs.com) and [xSplit](https://www.xsplit.com), one of the great things about [StreamYard](https://streamyard.com) is that it runs completely in your browser and is absolutely free!
 
-### **Even the Battlesnake team uses StreamYard for some streams!**
+**Even the Battlesnake team uses StreamYard for some streams!**
 
 To get started with [StreamYard](https://streamyard.com), the first thing you will need to do is head over to [https://streamyard.com/signup](https://streamyard.com/signup) to create an account and receive your login code.
 
@@ -68,23 +68,19 @@ Did you land on the "Broadcasts" tab when you logged in? Be sure to switch over 
 
 Once you have connected to Twitch, it's time to setup your first stream by selecting the "Create a broadcast" button, and filling in the relevant details in the popup modal.&#x20;
 
-![](<../.gitbook/assets/Blog Posts Add Battlesnake.png>)
-
-{% hint style="danger" %}
-Important note: To have your Twitch stream show up on https://play.battlesnake.com/live you will need to ensure that you have "Battlesnake" somewhere in the stream title.
-{% endhint %}
-
 ![](<../.gitbook/assets/image (14).png>)
 
 Once you have entered all of the details, go ahead and select the "Create broadcast" button, this won't start your stream but it will allow for you to enter the [StreamYard](https://streamyard.com) Studio you will need.
+
+![](<../.gitbook/assets/Blog Posts Add Battlesnake.png>)
 
 Before moving forward you will need to grant access to the relevant camera and microphone and to add your name after, after which you should see the "Enter Studio" button appear.
 
 ![](<../.gitbook/assets/image (16).png>) ![](<../.gitbook/assets/image (12).png>)
 
-### Congratulations! You are almost ready to stream.&#x20;
+**Congratulations Battlesnake Streamer! You are almost ready to go live! **
 
-
+****
 
 But before you do, you will need to add a few things to your stream window, most importantly your camera and audio feeds along with your awesome Battlesnake content screen share.
 
@@ -155,7 +151,7 @@ Just like we do on the official Battlesnake channel, we recommend that you consi
 
 #### Some examples of stream content might include, but are not limited to, the following:
 
-### Game Replay
+#### Game Replay
 
 **Have you ever thought you would be an amazing eSports Shout caster?**
 
@@ -165,7 +161,7 @@ Check out an episode of Snake Pit Live! from the official Battlesnake Channel fo
 
 {% embed url="https://www.twitch.tv/videos/1191386850" %}
 
-### Live Coding
+#### Live Coding
 
 **Do you enjoy live coding streams and might want to build your Battlesnake project in public?**
 
@@ -175,7 +171,7 @@ Check out an episode of Coding Badly from the official Battlesnake Channel for i
 
 {% embed url="https://www.twitch.tv/videos/1177428515" %}
 
-### Guest Interviews & Q\&As
+#### Guest Interviews & Q\&As
 
 **Would you like to ask other Battlesnake Developers about their strategy?**
 
@@ -205,7 +201,7 @@ We also encourage you to check out some of our favorite Battlesnake streamers li
 
 {% embed url="http://twitch.tv/penelope_zone" %}
 
-### Using Media on Stream
+#### Using Media on Stream
 
 In order to avoid Digital Millennium Copyright Act (DMCA) notices from the Twitch team for using media which is under copyright, you can use audio from a few great free sources including:
 
@@ -219,6 +215,6 @@ Also note that sharing audio is a bit more difficult that on some video sharing 
 
 {% embed url="https://www.youtube.com/watch?v=iNyMzEYeSbA" %}
 
-### Are you streaming about Battlesnake on Twitch? 🎥
+#### Are you streaming about Battlesnake on Twitch? 🎥
 
 Fill out this form to let us know, & so we can send you some Battlesnake Swag for the stream.
