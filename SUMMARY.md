@@ -5,6 +5,7 @@
 
 ## Guides
 
+* [Quick Start Streaming Guide](guides/quick-start-streaming-guide.md)
 * [Quick Start Coding Guide](guides/getting-started.md)
 * [Developer Tips](guides/tips.md)
 * [League Guide](guides/quick-start-league-guide.md)
@@ -20,6 +21,7 @@
 * [Game Modes](references/game-modes.md)
 * [Hosting Suggestions](references/hosting-suggestions/README.md)
   * [Heroku](references/hosting-suggestions/heroku.md)
+* [Choosing an Engine Region](references/engine-regions.md)
 
 ## Community
 
@@ -37,4 +39,3 @@
 * [Diversity](policies/diversity.md)
 * [Privacy Policy](policies/privacy.md)
 * [Terms of Service](policies/terms.md)
-

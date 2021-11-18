@@ -1,6 +1,6 @@
 # Code of Conduct
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/BattlesnakeOfficial/docs/tree/8f1f979f7a8bd74d48422c0ed8dff238c1110ba1/policies/code_of_conduct.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](https://github.com/BattlesnakeOfficial/docs/tree/8f1f979f7a8bd74d48422c0ed8dff238c1110ba1/policies/code\_of\_conduct.md)
 
 We created Battlesnake as a way to have fun programming with friends, learn new skills and technologies, and build the communities around us. We firmly believe that encouraging more people to experience and enjoy programming at all levels will make the world a better place. To this end we have created a Community with a focus on building experiences which are:
 
@@ -33,30 +33,27 @@ Examples of behavior that contributes to a positive environment for our communit
 * Demonstrating empathy and kindness toward other people
 * Being respectful of differing opinions, viewpoints, and experiences
 * Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
+*   Accepting responsibility and apologizing to those affected by our mistakes,
 
-  and learning from the experience
+    and learning from the experience
+*   Focusing on what is best not just for us as individuals, but for the
 
-* Focusing on what is best not just for us as individuals, but for the
-
-  overall community
+    overall community
 
 Examples of unacceptable behavior include:
 
-* The use of sexualized language or imagery, and sexual attention or
+*   The use of sexualized language or imagery, and sexual attention or
 
-  advances of any kind
-
+    advances of any kind
 * Trolling, insulting or derogatory comments, and personal or political attacks
 * Public or private harassment
-* Publishing others' private information, such as a physical or email
+*   Publishing others' private information, such as a physical or email
 
-  address, without their explicit permission
-
+    address, without their explicit permission
 * Interference with another persons Battlesnake, including, but not limited to, denial-of-service-attacks or exploiting the Battlesnake Engine or API with the intent to interfere with the performance of another persons Battlesnake
-* Other conduct which could reasonably be considered inappropriate in a
+*   Other conduct which could reasonably be considered inappropriate in a
 
-  professional setting
+    professional setting
 
 ## Our Responsibilities
 
@@ -70,7 +67,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement. If you feel uncomfortable or think there may be a potential violation of the code of conduct, please report it immediately using one of the following methods. All reporters have the right to remain anonymous. 
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement. If you feel uncomfortable or think there may be a potential violation of the code of conduct, please report it immediately using one of the following methods. All reporters have the right to remain anonymous.&#x20;
 
 * Email: [**incidents@battlesnake.com**](mailto:incidents@battlesnake.com)
 * Anonymous Reporting Form: [**Code of Conduct Report Form**](https://o37gr3zwx6a.typeform.com/to/jCCbzC6F)\*\*\*\*
@@ -79,7 +76,6 @@ All community leaders are obligated to respect the privacy and security of the r
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code_of_conduct.html), version 2.0.
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code\_of\_conduct.html), version 2.0.
 
-_Battlesnake Inc. reserves the right to revise, make exceptions to, or otherwise amend these policies in whole or in part. If you have any questions regarding these policies, please contact Battlesnake Inc. by e-mail at_ [_us@battlesnake.com_](mailto:us@battlesnake.com)
-
+_Battlesnake Inc. reserves the right to revise, make exceptions to, or otherwise amend these policies in whole or in part. If you have any questions regarding these policies, please contact Battlesnake Inc. by e-mail at _[_us@battlesnake.com_](mailto:us@battlesnake.com)

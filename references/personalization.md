@@ -26,17 +26,17 @@ This configuration will display your Battlesnake like this:
 
 ## Choosing a Color
 
-Your Battlesnake can choose any valid six-digit hex color code to represent it on the game board. This value is provided in response to the [GET /](api/#undefined) command of the [Battlesnake API](api/) and should be a 7 character string starting with "\#" that looks similar to "\#33CC00".
+Your Battlesnake can choose any valid six-digit hex color code to represent it on the game board. This value is provided in response to the [GET /](api/#undefined) command of the [Battlesnake API](api/) and should be a 7 character string starting with "#" that looks similar to "#33CC00".
 
-You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors_picker.asp) to help you find the exact color you're looking for.
+You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors\_picker.asp) to help you find the exact color you're looking for.
 
 #### **Some Example Battlesnake Colors**
 
-![\#E80978](../.gitbook/assets/screenshot-2020-05-13-09.19.33.png)
+![#E80978](../.gitbook/assets/screenshot-2020-05-13-09.19.33.png)
 
-![\#3E338F](../.gitbook/assets/screenshot-2020-05-13-09.19.58.png)
+![#3E338F](../.gitbook/assets/screenshot-2020-05-13-09.19.58.png)
 
-![\#4C89C8](../.gitbook/assets/screenshot-2020-05-13-09.20.29.png)
+![#4C89C8](../.gitbook/assets/screenshot-2020-05-13-09.20.29.png)
 
 ## Choosing a Head and Tail
 
@@ -44,7 +44,7 @@ Several personalization options are available for how your Battlesnake's head an
 
 Just like [choosing a color](personalization.md#color), your head and tail are provided in response to the [GET /](api/#undefined) command of the [Battlesnake API](api/). Each value is a string, matching one of the available options shown below.
 
-If an invalid value is returned \(or no value at all\) the `default` options will be displayed.
+If an invalid value is returned (or no value at all) the `default` options will be displayed.
 
 ### **Default Theme**
 
@@ -53,9 +53,8 @@ If your Battlesnake doesn't specify a head or tail these default options will be
 ![default head and tail](../.gitbook/assets/defaultsnake.png)
 
 {% hint style="success" %}
-**New Theme Releases**  
-We regularly release new head and tail options, often as part of specific Battlesnake events and competitions.
+**New Theme Releases**\
+****We regularly release new head and tail options, often as part of specific Battlesnake events and competitions.
 {% endhint %}
 
-### For a complete list of customizations you can use, check out the ****[**Battlesnake Heads and Tails Guide**](https://play.battlesnake.com/references/customizations/).
-
+### For a complete list of customizations you can use, check out the** **[**Battlesnake Heads and Tails Guide**](https://play.battlesnake.com/references/customizations/).

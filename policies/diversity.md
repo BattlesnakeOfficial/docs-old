@@ -7,11 +7,10 @@ We're actively seeking to increase the diversity of our users, event attendees, 
 ### Ways you can help us build a more diverse community:
 
 * Share Battlesnake with your community, with the message that we welcome all people to join us.
-* Use inclusive language including gender-neutral pronouns, people-first language, and avoid terms based in systems of discrimination \(racism, sexism, and ableism\).
+* Use inclusive language including gender-neutral pronouns, people-first language, and avoid terms based in systems of discrimination (racism, sexism, and ableism).
 * Organize Battlesnake meetups and events for your communities and let us know - we want to help!
 * Report all breaches of our [Code of Conduct](conduct.md) to us via [email](mailto:report@battlesnake.com), [Discord](https://play.battlesnake.com/discord/), or in person to any Battlesnake volunteer.
 * [Suggest](mailto:hello@battlesnake.com) ways that Battlesnake can be more welcoming, supportive, and free from intimidation and marginalization to you and your communities.
 
-_Credit for the original version of this statement goes to_ [_O'Reilly Media_](http://assets.en.oreilly.com/1/eventprovider/1/ConfDiversity.pdf)_.  
-Thank you to_ [_Pycon_](https://us.pycon.org/2019/about/diversity/) _for helping us to strengthen our message about the importance of diversity._
-
+_Credit for the original version of this statement goes to _[_O'Reilly Media_](http://assets.en.oreilly.com/1/eventprovider/1/ConfDiversity.pdf)_._\
+_Thank you to _[_Pycon_](https://us.pycon.org/2019/about/diversity/)_ for helping us to strengthen our message about the importance of diversity._
