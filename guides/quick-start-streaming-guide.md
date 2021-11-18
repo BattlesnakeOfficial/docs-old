@@ -110,7 +110,7 @@ Once you have your screen share ready, simply select it from the preview bar at 
 
 ![](<../.gitbook/assets/image (15).png>)
 
-### Run of Show  <a href="step-5-create-your-first-game" id="step-5-create-your-first-game"></a>
+#### Run of Show  <a href="step-5-create-your-first-game" id="step-5-create-your-first-game"></a>
 
 While there is no one right way to structure the flow of your first stream, we do have a general "Run of Show" which we think will help to make the experience goes smoothly for everyone watching.
 
