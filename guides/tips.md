@@ -26,7 +26,7 @@ Start thinking about this early, and use the Game ID in the [Start](../reference
 
 ## Keep Your Battlesnake Server Running
 
-Some hosting services like [Heroku](https://www.heroku.com/), [Replit](https://repl.it), and even [AWS](https://aws.amazon.com/) will de-provision or turn off servers when they're at low usage. For example, free Heroku apps will sleep automatically after 30 minutes of inactivity.
+Some hosting services like [Heroku](https://www.heroku.com), [Replit](https://repl.it), and even [AWS](https://aws.amazon.com) will de-provision or turn off servers when they're at low usage. For example, free Heroku apps will sleep automatically after 30 minutes of inactivity.
 
 Think about strategies you can deploy to make sure your Battlesnake is awake and running at full speed when you need it most.
 
@@ -42,6 +42,8 @@ The amount of time you have to respond is provided in each API request sent. In 
 
 For most Battlesnake developers this won't be a problem. However top competitors will optimize their Battlesnakes to use as much compute time as possible.
 
+If you're seeing latency from where your Battlesnake is hosted geographically (i.e. far from the main Battlesnake game engine servers), check out [engine-regions.md](../references/engine-regions.md "mention")to optimize how we communicate with your server.
+
 {% hint style="info" %}
 **Tip:** Response time includes round-trip latency. The Battlesnake game engine timeouts also include the time it takes to send the request to your server and receive the response back. Consider this extra response time when optimizing your Battlesnake.
 {% endhint %}
@@ -55,4 +57,3 @@ Install the [Battlesnake Rules CLI](https://github.com/BattlesnakeOfficial/rules
 {% hint style="info" %}
 **Tip:** Running games locally can speed up your development cycles significantly, but can also be more complex than using the Battlesnake platform.
 {% endhint %}
-

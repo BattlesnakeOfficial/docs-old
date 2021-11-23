@@ -215,6 +215,18 @@ Also note that sharing audio is a bit more difficult that on some video sharing 
 
 {% embed url="https://www.youtube.com/watch?v=iNyMzEYeSbA" %}
 
-#### ARE YOU STREAMING ABOUT BATTLESNAKE ON TWITCH?
+## Bonus Battlesnake Resources
 
-Fill out this form to let us know, & so we can send you some Battlesnake Swag for the stream.
+#### ARE YOU ALREADY STREAMING ABOUT BATTLESNAKE?
+
+**Streamer Asset Pack**
+
+Click the link below** **to download backgrounds, logos and more than you can use on your stream.
+
+{% file src="../.gitbook/assets/Battlesnake-Streamer-Pack.zip" %}
+
+**Streamer SWAG Pack**
+
+Fill out the form below and we will be in touch about some Battlesnake Swag for the stream.
+
+{% embed url="https://o37gr3zwx6a.typeform.com/to/N8kTDzmt" %}
