@@ -5,7 +5,6 @@
 
 ## Guides
 
-* [Quick Start Streaming Guide](guides/quick-start-streaming-guide.md)
 * [Quick Start Coding Guide](guides/getting-started.md)
 * [Developer Tips](guides/tips.md)
 * [League Guide](guides/quick-start-league-guide.md)

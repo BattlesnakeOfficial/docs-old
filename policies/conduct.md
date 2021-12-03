@@ -78,4 +78,4 @@ All community leaders are obligated to respect the privacy and security of the r
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/version/2/0/code\_of\_conduct.html), version 2.0.
 
-_Battlesnake Inc. reserves the right to revise, make exceptions to, or otherwise amend these policies in whole or in part. If you have any questions regarding these policies, please contact Battlesnake Inc. by e-mail at _[_us@battlesnake.com_](mailto:us@battlesnake.com)
+_Battlesnake Inc. reserves the right to revise, make exceptions to, or otherwise amend these policies in whole or in part. If you have any questions regarding these policies, please contact Battlesnake Inc. by e-mail at_ [_us@battlesnake.com_](mailto:us@battlesnake.com)

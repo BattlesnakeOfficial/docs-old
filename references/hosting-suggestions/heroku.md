@@ -8,9 +8,9 @@ description: >-
 
 ## Prerequisites
 
-* A free** **[**Battlesnake Account**](https://play.battlesnake.com)****
-* **A **[**GitHub Account**](https://github.com)** **and [**Git Command Line**](https://www.atlassian.com/git/tutorials/install-git)****
-* A free** **[**Heroku Account**](https://signup.heroku.com) and [**Heroku Command Line**](https://devcenter.heroku.com/categories/command-line)****
+* A free **** [**Battlesnake Account**](https://play.battlesnake.com)****
+* **A** [**GitHub Account**](https://github.com) **** and [**Git Command Line**](https://www.atlassian.com/git/tutorials/install-git)****
+* A free **** [**Heroku Account**](https://signup.heroku.com) and [**Heroku Command Line**](https://devcenter.heroku.com/categories/command-line)****
 
 These instructions assume you have already installed the Git Command Line and Heroku Command Line tools.
 
@@ -20,7 +20,7 @@ Choose from the complete list of [**Starter Projects**](../starter-projects.md).
 
 For whichever Starter Project you choose, you will need to:
 
-* Click the green **'Use This template' **button (or if unavailable, make a [**fork of the repo**](https://docs.github.com/en/get-started/quickstart/fork-a-repo)).
+* Click the green **'Use This template'** button (or if unavailable, make a [**fork of the repo**](https://docs.github.com/en/get-started/quickstart/fork-a-repo)).
 
 !['Use this template' will create a new repository on your GitHub account with the contents of the repo](../../.gitbook/assets/use\_this\_template.png)
 
@@ -29,12 +29,12 @@ For whichever Starter Project you choose, you will need to:
 `git clone git@github.com:[YOUR-GITHUB-USERNAME]/starter-snake-[LANGUAGE].git`
 
 {% hint style="info" %}
-If you are using a Community Starter Project, the name of the repository may be different, and might not start with `starter-snake-LANGUAGE. `Check the project repository to confirm the correct name for your command!
+If you are using a Community Starter Project, the name of the repository may be different, and might not start with `starter-snake-LANGUAGE.` Check the project repository to confirm the correct name for your command!
 {% endhint %}
 
 ## Step 2: Create and run a Heroku App
 
-To run your Battlesnake, [**Create a new Heroku App**](https://devcenter.heroku.com/articles/creating-apps)** **by running the following in the console on your local computer:
+To run your Battlesnake, [**Create a new Heroku App**](https://devcenter.heroku.com/articles/creating-apps) **** by running the following in the console on your local computer:
 
 &#x20;`heroku create [YOUR-APP-NAME]`
 
@@ -62,7 +62,7 @@ If everything was successful, you should see response text that looks like this:
 {"apiversion": "1", "author": "", "color": "#ff0000", "head": "default", "tail": "default"}
 ```
 
-Optionally, you can view your server logs using the Heroku log command. The `--tail `option will show a live feed of your logs in real-time.
+Optionally, you can view your server logs using the Heroku log command. The `--tail` option will show a live feed of your logs in real-time.
 
 `heroku logs --tail`
 
@@ -70,7 +70,7 @@ Optionally, you can view your server logs using the Heroku log command. The `--t
 
 Using the URL from Step 2, follow the instructions to [**Register your Battlesnake**](../../guides/getting-started.md#step-4-register-your-battlesnake) on the Battlesnake website. With Heroku, that URL will look something like `https://my-app-name.herokuapp.com/` where _my-app-name_ is the name you used in Step 2.
 
-Once your Battlesnake is registered, you should also follow the instructions to [**Create your First Game**](../../guides/getting-started.md#step-5-create-your-first-game) to test and verify that your Battlesnake is communicating successfully. Be sure to watch the logs of your server by running the `heroku logs --tail `command.
+Once your Battlesnake is registered, you should also follow the instructions to [**Create your First Game**](../../guides/getting-started.md#step-5-create-your-first-game) to test and verify that your Battlesnake is communicating successfully. Be sure to watch the logs of your server by running the `heroku logs --tail` command.
 
 ## Step 4: Making Changes and Updating your Battlesnake with Heroku
 

@@ -35,7 +35,7 @@ Here are some tips for common hosting setups:
 * Otherwise, you should pick the region that's closest to you geographically.
 * If you're traveling, or using a VPN, Replit might not detect your location accurately. In that case, test out the other regions and see if you get a better result.
 
-**Running locally with **[**Ngrok**](https://ngrok.com)****
+**Running locally with** [**Ngrok**](https://ngrok.com)****
 
 * Choose a region that's close to what Ngrok shows in the "Region" field in your terminal.
 * You can force Ngrok to use a different region for a tunnel with the `--region` option.

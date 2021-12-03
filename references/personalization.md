@@ -57,4 +57,4 @@ If your Battlesnake doesn't specify a head or tail these default options will be
 ****We regularly release new head and tail options, often as part of specific Battlesnake events and competitions.
 {% endhint %}
 
-### For a complete list of customizations you can use, check out the** **[**Battlesnake Heads and Tails Guide**](https://play.battlesnake.com/references/customizations/).
+### For a complete list of customizations you can use, check out the **** [**Battlesnake Heads and Tails Guide**](https://play.battlesnake.com/references/customizations/).

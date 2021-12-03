@@ -40,7 +40,7 @@ There are a number of online hosting solutions that can be used with your Battle
 ### Heroku
 
 **Website**: [Heroku](https://www.heroku.com)\
-**Instructions: **[**Deploy your Battlesnake with Heroku**](heroku.md)****
+**Instructions:** [**Deploy your Battlesnake with Heroku**](heroku.md)****
 
 * **Advantages**
   * Handles the hosting for you.
