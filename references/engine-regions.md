@@ -59,3 +59,12 @@ Here are some tips for common hosting setups:
   * GCP US-EAST4 (Virginia)
   * GCP EUROPE-WEST4 (Netherlands)
   * GCP ASIA-SOUTH1 (Mumbai)
+
+### IPv6 Support
+
+Currently the default AWS region (`AWS US-WEST-2`) does not support IPv6 Battlesnakes. If you need support for IPv6, you'll need to use one of the new GCP regions.
+
+You can enter your Battlesnake's URL in one of two ways:
+
+* With a regular hostname: `https://my-battlesnake-url.com`, where `my-battlesnake-url.com` has a AAAA DNS record pointing to your server's IPv6 address
+* With an IPv6 address: `http://[b513:e52a:d9cd:d5fd:eeb2:fbed:d24c:b12a]` (Note the square brackets around the address)
