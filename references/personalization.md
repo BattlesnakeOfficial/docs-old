@@ -22,7 +22,7 @@ Each Battlesnake can choose a color, head, and tail to represent it on the game 
 
 This configuration will display your Battlesnake like this:
 
-![](../.gitbook/assets/samplesnake.png)
+![](../.gitbook/assets/SampleSnake.png)
 
 ## Choosing a Color
 
@@ -32,11 +32,11 @@ You can use an [HTML Color Picker Tool](https://www.w3schools.com/colors/colors\
 
 #### **Some Example Battlesnake Colors**
 
-![#E80978](../.gitbook/assets/screenshot-2020-05-13-09.19.33.png)
+![#E80978](<../.gitbook/assets/Screenshot 2020-05-13 09.19.33.png>)
 
-![#3E338F](../.gitbook/assets/screenshot-2020-05-13-09.19.58.png)
+![#3E338F](<../.gitbook/assets/Screenshot 2020-05-13 09.19.58.png>)
 
-![#4C89C8](../.gitbook/assets/screenshot-2020-05-13-09.20.29.png)
+![#4C89C8](<../.gitbook/assets/Screenshot 2020-05-13 09.20.29.png>)
 
 ## Choosing a Head and Tail
 
@@ -50,7 +50,7 @@ If an invalid value is returned (or no value at all) the `default` options will 
 
 If your Battlesnake doesn't specify a head or tail these default options will be used.
 
-![default head and tail](../.gitbook/assets/defaultsnake.png)
+![default head and tail](../.gitbook/assets/DefaultSnake.png)
 
 {% hint style="success" %}
 **New Theme Releases**\

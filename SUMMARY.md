@@ -21,6 +21,7 @@
 * [Hosting Suggestions](references/hosting-suggestions/README.md)
   * [Heroku](references/hosting-suggestions/heroku.md)
 * [Choosing an Engine Region](references/engine-regions.md)
+* [Useful Algorithms](references/useful-algorithms.md)
 
 ## Community
 

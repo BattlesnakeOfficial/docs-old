@@ -18,15 +18,15 @@ On every turn your Battlesnake will choose to move in a direction, one of _up_, 
 
 In order to restore the health your Battlesnake needs to survive, it must consume the traditional food of Battlesnakes: brightly colored nutritional discs.
 
-![](../.gitbook/assets/kapture-2020-05-16-at-11.28.27.gif)
+![](<../.gitbook/assets/Kapture 2020-05-16 at 11.28.27.gif>)
 
 These flavorful discs will appear throughout the game and remain on the game board until consumed. Battlesnakes that enter the same square as a piece of food will immediately consume it, filling their health to maximum. But ravenous consumption comes at a cost...
 
-Every time a Battlesnake consumes food it will grow longer, making it more difficult for itself \(and others!\) to survive. Consuming food costs no health, meaning a Battlesnake can safely eat at one health point and be rejuventated in time to keep moving.
+Every time a Battlesnake consumes food it will grow longer, making it more difficult for itself (and others!) to survive. Consuming food costs no health, meaning a Battlesnake can safely eat at one health point and be rejuventated in time to keep moving.
 
 ### Food Spawn
 
-At the beginning of each game some amount of food will be placed around the board. On each subsequent turn additional food may be added \(according to our Super Secret Proprietary Algorithm\*\). It's also possible for multiple pieces of food to appear on any single turn.
+At the beginning of each game some amount of food will be placed around the board. On each subsequent turn additional food may be added (according to our Super Secret Proprietary Algorithm\*). It's also possible for multiple pieces of food to appear on any single turn.
 
 \_\_[_\*the algorithm is neither secret or proprietary, but it is arguably super_](https://github.com/BattlesnakeOfficial/rules)\_\_
 
@@ -66,7 +66,7 @@ Each turn in every game is divided into three steps.
 
 ### 1. Identical requests are sent to every Battlesnake.
 
-The game engine will send to each Battlesnake in parallel a request containing information about the current state of the game board. This request includes location of all food, as well as the health and location of all Battlesnakes \(including themselves\). Details are available in the [Battlesnake API Reference](api/).
+The game engine will send to each Battlesnake in parallel a request containing information about the current state of the game board. This request includes location of all food, as well as the health and location of all Battlesnakes (including themselves). Details are available in the [Battlesnake API Reference](api/).
 
 Every Battlesnake will have the same amount of time to respond to this request.
 
@@ -76,7 +76,7 @@ After receiving the request, each Battlesnake responds with a move of _up_, _dow
 
 Note that moves are always with respect to the game board and not the direction of the snake's head. For example, _up_ always corresponds to moving towards the top of the board.
 
-If a Battlesnake's cybernetic brain fails to provide a valid response or respond in time, momentum takes over and they will continue moving in the same direction and the previous turn - even if that means certain doom. If this happens on the first turn of a game, the Battlesnake will naturally move up \(as all Battlesnakes are inclined to do\).
+If a Battlesnake's cybernetic brain fails to provide a valid response or respond in time, momentum takes over and they will continue moving in the same direction and the previous turn - even if that means certain doom. If this happens on the first turn of a game, the Battlesnake will naturally move up (as all Battlesnakes are inclined to do).
 
 ### 3. Moves are resolved by the game engine.
 
@@ -84,11 +84,11 @@ After all moves have been received by the game engine, it will update the game b
 
 1. Each Battlesnake will have its chosen move applied:
    * A new body part is added to the board in the direction they moved.
-   * Last body part \(their tail\) is removed from the board.
+   * Last body part (their tail) is removed from the board.
    * Health is reduced by 1.
 2. Any Battlesnake that has found food will consume it:
    * Health reset set maximum.
-   * Additional body part placed on top of current tail \(this will extend their visible length by one on the next turn\).
+   * Additional body part placed on top of current tail (this will extend their visible length by one on the next turn).
    * The food is removed from the board.
 3. Any new food spawning will be placed in empty squares on the board.
 4. Any Battlesnake that has been eliminated is removed from the game board:
@@ -103,7 +103,6 @@ After all moves have been received by the game engine, it will update the game b
 
 The code responsible for implementing these game rules is completely open source. We encourage all Battlesnake developers to review the rules code base to better understand the game mechanics and make any suggestions for new game modes.
 
-{% embed url="https://github.com/BattlesnakeOfficial/rules" caption="" %}
+{% embed url="https://github.com/BattlesnakeOfficial/rules" %}
 
 [https://github.com/BattlesnakeOfficial/rules](https://github.com/BattlesnakeOfficial/rules)
-

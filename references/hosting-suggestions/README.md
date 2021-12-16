@@ -6,7 +6,7 @@ description: Tips and common patterns for hosting your Battlesnake
 
 Battlesnakes must be deployed to a publicly accessible web server so they can interact with the Battlesnake Game Engine.&#x20;
 
-![The Game Engine makes API calls to each Battlesnake, rendering the results on the Game Board](../../.gitbook/assets/simple\_server\_diagram.png)
+![The Game Engine makes API calls to each Battlesnake, rendering the results on the Game Board](../../.gitbook/assets/Simple\_Server\_Diagram.png)
 
 Most of the [Starter Projects](https://docs.battlesnake.com/starter-snakes) have instructions for using [Heroku](https://heroku.com) or [Replit](https://replit.com), which are great options if you are new to web development or uncomfortable deploying code to a live server on your own.
 

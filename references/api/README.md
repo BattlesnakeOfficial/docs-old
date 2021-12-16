@@ -42,7 +42,7 @@ This command is called once at the beginning of every game to let your Battlesna
 ****[**Command: End Game**](./#post-end)\
 This command is called once after each game has been completed to let your Battlesnake know that the game is over.
 
-### <mark style="color:blue;"><mark style="color:green;">**GET**<mark style="color:green;"></mark> <mark style="color:blue;"></mark> /
+### <mark style="color:blue;"><mark style="color:green;">**GET**<mark style="color:green;"></mark> <mark style="color:blue;"></mark><mark style="color:blue;"></mark> /
 
 `https://your.battlesnake.com`**`/`**
 
@@ -292,7 +292,7 @@ All ruleset settings will always be passed, but ruleset-specific settings (e.g. 
 
 The game board is represented by a standard 2D grid, oriented with (0,0) in the bottom left. The Y-Axis is positive in the up direction, and X-Axis is positive to the right. Coordinates begin at zero, such that a board that is 11x11 will have coordinates ranging from \[0, 10].
 
-![Battlesnake Coordinate System](../../.gitbook/assets/10-full.png)
+![Battlesnake Coordinate System](<../../.gitbook/assets/10 full.png>)
 
 {% code title="example-board-object.json" %}
 ```javascript
