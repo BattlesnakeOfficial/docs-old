@@ -30,23 +30,29 @@ Registration for the League and the League Ladders will remain open up until a f
 
 Throughout the entire League there will be a variety of [Twitch Shows](https://www.twitch.tv/battlesnakeofficial) where tutorials, special content, and League news will be streamed. Keep an eye on the Schedule on the League page for what and when streams are happening.
 
+You can see the complete Battlesnake schedule, with all Streams and Events on the [Community Calendar.](https://play.battlesnake.com/schedule/)
+
 ### Tournaments
 
 At the end of the League, tournaments will be run and live-streamed on [Twitch](https://www.twitch.tv/battlesnakeofficial). Tournament placement is determined by rankings in the League Ladders. Tournaments have an additional prize structure posted on the Prizes section of the League page. Be sure to tune in to cheer on your Battlesnake!
 
 ## When is the next League?
 
-The planned Leagues for the 2021 season are:
+The planned Leagues for the 2022 season are:
 
-* [Spring League](https://play.battlesnake.com/spring-league/)&#x20;
-  * February 18th - April 17th 2021
+* [Spring League ](https://play.battlesnake.com/spring-league/)
+  * Pre-Registration Opens January 28th 2022
+  * February 11th - March 26th 2022
 * [Summer League](https://play.battlesnake.com/summer-league/)&#x20;
-  * Pre-Registration Opens May 24th 2021
-  * June 11th - July 31st 2021
+  * Pre-Registration Opens June 3rd 2022
+  * June 17th - July 30th 2022
 * [Fall League](https://play.battlesnake.com/fall-league/)&#x20;
-  * Pre-Registration Opens August 30th 2021
-  * Sept 24th - Nov 20th 2021
+  * Pre-Registration Opens September 16th 2022
+  * Sept 30th - Nov 12th 2022
 * [Winter Classic](https://play.battlesnake.com/winter-classic/)
-  * &#x20;December 2021
+  * &#x20;December 2022
 
-![2021 Battlesnake Leagues](../.gitbook/assets/2021\_league\_badges.png)
+You can see the complete Battlesnake schedule on the [Community Calendar.](https://play.battlesnake.com/schedule/)
+
+![2022 Battlesnake Leagues](../.gitbook/assets/2022LeagueBadges.png)
+
