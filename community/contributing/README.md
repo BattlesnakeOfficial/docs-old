@@ -4,7 +4,7 @@ description: Looking to get involved? Awesome. Here's how.
 
 # Contributing
 
-We believe strongly that collaboration helps makes software great. We've got documentation that needs updating, bugs that need squashing, UI that needs designing, and more. 
+We believe strongly that collaboration helps makes software great. We've got documentation that needs updating, bugs that need squashing, UI that needs designing, and more.&#x20;
 
 If you are interested in helping make Battlesnake better for everyone, here are some ways to you can help.
 
@@ -22,17 +22,16 @@ Rules is a Go module that plugs into our primary game engine. It controls how th
 
 #### [Documentation](https://github.com/BattlesnakeOfficial/docs)
 
-The docs repository is where this website is generated. Most of our docs use standard [Markdown](https://daringfireball.net/projects/markdown/syntax) pages and are rendered with [GitBook](https://www.gitbook.com/). If you see documentation that could be better, please feel free to send us a pull request.
+The docs repository is where this website is generated. Most of our docs use standard [Markdown](https://daringfireball.net/projects/markdown/syntax) pages and are rendered with [GitBook](https://www.gitbook.com). If you see documentation that could be better, please feel free to send us a pull request.
 
-#### [Starter Projects](../references/starter-projects.md)
+#### [Starter Projects](../../references/starter-projects.md)
 
 All of the officially maintained Starter Projects are open source and open for pull requests. Keep in mind that these repositories should remain as simple as possible for someone new to Battlesnake development.
 
 ## Creating New Starter Projects
 
-Although we have several different [Starter Projects](../references/starter-projects.md) demonstrating how to build your first Battlesnake, there are several more technologies and stacks that could be represented. 
+Although we have several different [Starter Projects](../../references/starter-projects.md) demonstrating how to build your first Battlesnake, there are several more technologies and stacks that could be represented.&#x20;
 
-We are always looking for new Community Starter Projects that can help users who are developing their first Battlesnake. 
+We are always looking for new Community Starter Projects that can help users who are developing their first Battlesnake.&#x20;
 
-If you choose to create a Starter Project, be sure to explore the existing ones first, to get an idea of what should \(and should not be\) included. Try your best to follow the examples given to ensure your contribution will be accepted.
-
+If you choose to create a Starter Project, be sure to explore the existing ones first, to get an idea of what should (and should not be) included. Try your best to follow the examples given to ensure your contribution will be accepted.
