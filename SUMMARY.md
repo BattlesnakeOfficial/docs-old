@@ -26,7 +26,9 @@
 ## Community
 
 * [Contributing](community/contributing/README.md)
-  * [Roles & Responsibilities](community/contributing/roles-and-responsibilities.md)
+  * [📜 Roles & Responsibilities](community/contributing/roles-and-responsibilities/README.md)
+    * [⚖ Moderator Guidelines](community/contributing/roles-and-responsibilities/moderator-guidelines.md)
+    * [🤝 Helper Guidelines](community/contributing/roles-and-responsibilities/helper-guidelines.md)
 * [GitHub](https://play.battlesnake.com/github)
 * [Discord](https://play.battlesnake.com/discord)
 * [Twitch](https://play.battlesnake.com/twitch)

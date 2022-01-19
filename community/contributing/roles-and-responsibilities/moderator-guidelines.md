@@ -1,14 +1,12 @@
 ---
 description: >-
-  This page describes guidelines for performing your duties as Moderator and
-  Helper in the Battlesnake Community.
+  This page describes guidelines for performing your duties as Moderator in the
+  Battlesnake Community on Discord and Twitch.
 ---
 
-# Roles & Responsibilities
+# ⚖ Moderator Guidelines
 
-## Moderators
-
-Welcome to the Battlesnake moderation team!&#x20;
+**Welcome to the Battlesnake moderation team!**&#x20;
 
 This section serves to describe some moderation guidelines for performing your moderator duties.
 
@@ -18,7 +16,9 @@ Please always keep these in mind when interacting with other users, resolving co
 
 ### Guideline 1: Lead by Example
 
-Users learn how to act from their moderators. As such, you should be very familiar terms of the Battlesnake Community [Code of Conduct](https://docs.battlesnake.com/policies/conduct) and exemplify them to the highest degree at all times. If you think to yourself “Is this really ok?” then you should consider not doing whatever you are considering, or ask an administrator first. However, it is encouraged to be regularly active and chatting with server members about Battlesnake. Being a part of the community is one of the most important things a moderator can do.
+Users learn how to act from their moderators. As such, you should be very familiar terms of the Battlesnake Community [Code of Conduct](https://docs.battlesnake.com/policies/conduct) and exemplify them to the highest degree at all times.&#x20;
+
+If you think to yourself “Is this really ok?” then you should consider not doing whatever you are considering, or ask an administrator first. However, it is encouraged to be regularly active and chatting with server members about Battlesnake. Being a part of the community is one of the most important things a moderator can do.
 
 This professionalism should also extend to your interactions with your fellow moderators and the usage of the #moderators-only channel on Discord. Moderators should be open and honest with each other in regards to their opinions of the server management and each other as open communication is key to creating a healthy mod team.&#x20;
 
@@ -26,9 +26,11 @@ However, criticism should always be constructive and never used to demean anothe
 
 ### Guideline 2: De-escalation is Key
 
-The most important thing is to treat other users with respect and patience and always de-escalate a situation before applying harsh punitive measures when possible. It is easy to lose one’s cool and use one’s authority as a moderator to instantly silence anyone who is starting to break the rules, but everyone else on Discord and Twitch is a member of the Battlesnake community just like you and should be dealt with tactfully.
+The most important thing is to treat other users with respect and patience and always de-escalate a situation before applying harsh punitive measures when possible.&#x20;
 
-In most cases, users should be officially warned for all offenses. However, exceptions can be made for cases where user behavior is non-malicious **and** borderline or “group” behavior such as:&#x20;
+It is easy to lose one’s cool and use one’s authority as a moderator to instantly silence anyone who is starting to break the rules, but everyone else on Discord and Twitch is a member of the Battlesnake community just like you and should be dealt with tactfully.
+
+In most cases, users should be officially warned for all offenses (_see note below on communication channels for warnings_). However, exceptions can be made for cases where user behavior is non-malicious **and** borderline or “group” behavior such as:&#x20;
 
 1. the on topic chat starts to go off topic (give them 10-20 messages and/or a couple minutes to get back on topic before interfering)
 2. two people start arguing and it begins to get heated (without devolving into a full on cursing shouting match)
@@ -36,7 +38,15 @@ In most cases, users should be officially warned for all offenses. However, exce
 
 In these cases, the offending party or parties can be gently reminded to steer away from the rule-breaking behavior without issuing an official warning. Please do not hesitate tag moderators in the #moderators-only channel on Discord to request backup if need be, especially if your personal bias towards users in chat may prevent you from moderating fairly.
 
+#### Communication of Warnings & Corrective Actions&#x20;
+
 If someone does need to be warned, calmly and clearly explain the reason for their warning without any malice or belittlement and remind them of the proper appeal process if they want to appeal their warning.&#x20;
+
+_Communication channels for warnings and actions should be based on the situation and nature of the actions, and is generally at the discretion of the moderator._&#x20;
+
+For example, if the warning related to a borderline action which was directed at a group of users, a moderator might choose to post a message in the associated channel and link to the [Code of Conduct](https://docs.battlesnake.com/policies/conduct), whereas if an action is being taken directly against a user for a specific action which contravens the [Code of Conduct](https://docs.battlesnake.com/policies/conduct), a moderator might choose to contact the user by DM.&#x20;
+
+**In cases where action is being taken in DM, it is especially important for moderators to ensure that the actions are logged in the #moderators-log channel.**
 
 Users that continue to argue or exhibit the warned behavior can be muted for 24 hours.
 
@@ -94,7 +104,7 @@ As a moderator, accountability is key to ensure respect and cooperation from the
 2. How they broke that rule
 3. A picture with proof of them breaking the rule. Any relevant DM conversations should also be included.
 
-Please note that if someone breaks Discord's terms of service with their message that you should use the "delete and report" function to **manually** report the message to Discord (and delete it) in addition to logging the warning/ban.
+Please note that if someone breaks Discord's terms of service with their message that you should use the "delete and report" function to [manually report](https://support.discord.com/hc/en-us/requests/new?ticket\_form\_id=360000029731) the message to Discord (and delete it) in addition to logging the warning/ban.
 
 ### Guideline 8: Remember Your Position
 
