@@ -35,6 +35,7 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 | **Project** | Developer |
 | :--- | :--- |
 | [Java Starter Project](https://github.com/battlesnakeofficial/starter-snake-java) | [BattlesnakeOfficial](https://github.com/BattlesnakeOfficial) |
+| [Java Starter Project with JBang and Quarkus](https://github.com/jbangdev/jbang-battlesnake) | [Max Rydahl Andersen](https://github.com/maxandersen) |
 | [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) | [BattlesnakeOfficial](https://github.com/BattlesnakeOfficial) |
 | [Rust Starter Snake](https://github.com/mcraealex/rustysnake) | [McRaeAlex](https://github.com/McRaeAlex) |
 | [Battlesnake Quickstart for Kotlin and Java](https://github.com/pambrose/battlesnake-quickstart) | [Paul Ambrose](https://github.com/pambrose) |
