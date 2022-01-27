@@ -45,7 +45,12 @@ description: >-
         "head": {"x": 0, "y": 0},
         "length": 3,
         "shout": "why are we shouting??",
-        "squad": ""
+        "squad": "",
+        "customizations":{
+               "color":"#FF0000",
+               "head":"pixel",
+               "tail":"pixel"
+            }
       }, 
       {
         "id": "snake-b67f4906-94ae-11ea-bb37",
@@ -61,7 +66,12 @@ description: >-
         "head": {"x": 5, "y": 4},
         "length": 4,
         "shout": "I'm not really sure...",
-        "squad": ""
+        "squad": "",
+        "customizations":{
+               "color":"#26CF04",
+               "head":"silly",
+               "tail":"curled"
+            }
       }
     ]
   },
@@ -79,6 +89,11 @@ description: >-
     "length": 3,
     "shout": "why are we shouting??",
     "squad": ""
+    "customizations":{
+               "color":"#FF0000",
+               "head":"pixel",
+               "tail":"pixel"
+            }
   }
 }
 ```
@@ -94,4 +109,3 @@ description: >-
 }
 ```
 {% endcode %}
-

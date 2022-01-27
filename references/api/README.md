@@ -271,22 +271,28 @@ All ruleset settings will always be passed, but ruleset-specific settings (e.g. 
   "head": {"x": 0, "y": 0},
   "length": 3,
   "shout": "why are we shouting??",
-  "squad": "1"
+  "squad": "1",
+  "customizations":{
+               "color":"#26CF04",
+               "head":"smile",
+               "tail":"bolt"
+            }
 }
 ```
 {% endcode %}
 
-| **Property** | **Type** | **Description**                                                                                                                                                                                    |
-| ------------ | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **id**       | string   | <p>Unique identifier for this Battlesnake in the context of the current Game.</p><p><em>Example: "totally-unique-snake-id"</em></p>                                                                |
-| **name**     | string   | <p>Name given to this Battlesnake by its author.</p><p><em>Example: "Sneky McSnek Face"</em></p>                                                                                                   |
-| **health**   | integer  | <p>Health value of this Battlesnake, between 0 and 100 inclusively.</p><p><em>Example: 54</em></p>                                                                                                 |
-| **body**     | array    | <p>Array of coordinates representing this Battlesnake's location on the game board. This array is ordered from head to tail.</p><p><em>Example: [{"x": 0, "y": 0}, ..., {"x": 2, "y": 0}]</em></p> |
-| **latency**  | string   | <p>The previous response time of this Battlesnake, in milliseconds. "0" means the Battlesnake timed out and failed to respond.</p><p><em>Example: "450"</em></p>                                   |
-| **head**     | object   | <p>Coordinates for this Battlesnake's head. Equivalent to the first element of the body array.</p><p><em>Example: {"x": 0, "y": 0}</em></p>                                                        |
-| **length**   | integer  | <p>Length of this Battlesnake from head to tail. Equivalent to the length of the body array.</p><p><em>Example: 3</em></p>                                                                         |
-| **shout**    | string   | <p>Message shouted by this Battlesnake on the previous turn.</p><p><em>Example: "why are we shouting??"</em></p>                                                                                   |
-| **squad**    | string   | <p>The squad that the Battlesnake belongs to. Used to identify squad members in Squad Mode games.</p><p><em>Example: "1"</em></p>                                                                  |
+| **Property**       | **Type** | **Description**                                                                                                                                                                                                           |
+| ------------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **id**             | string   | <p>Unique identifier for this Battlesnake in the context of the current Game.</p><p><em>Example: "totally-unique-snake-id"</em></p>                                                                                       |
+| **name**           | string   | <p>Name given to this Battlesnake by its author.</p><p><em>Example: "Sneky McSnek Face"</em></p>                                                                                                                          |
+| **health**         | integer  | <p>Health value of this Battlesnake, between 0 and 100 inclusively.</p><p><em>Example: 54</em></p>                                                                                                                        |
+| **body**           | array    | <p>Array of coordinates representing this Battlesnake's location on the game board. This array is ordered from head to tail.</p><p><em>Example: [{"x": 0, "y": 0}, ..., {"x": 2, "y": 0}]</em></p>                        |
+| **latency**        | string   | <p>The previous response time of this Battlesnake, in milliseconds. "0" means the Battlesnake timed out and failed to respond.</p><p><em>Example: "450"</em></p>                                                          |
+| **head**           | object   | <p>Coordinates for this Battlesnake's head. Equivalent to the first element of the body array.</p><p><em>Example: {"x": 0, "y": 0}</em></p>                                                                               |
+| **length**         | integer  | <p>Length of this Battlesnake from head to tail. Equivalent to the length of the body array.</p><p><em>Example: 3</em></p>                                                                                                |
+| **shout**          | string   | <p>Message shouted by this Battlesnake on the previous turn.</p><p><em>Example: "why are we shouting??"</em></p>                                                                                                          |
+| **squad**          | string   | <p>The squad that the Battlesnake belongs to. Used to identify squad members in Squad Mode games.</p><p><em>Example: "1"</em></p>                                                                                         |
+| **customizations** | object   | The collection of customizations applied to this Battlesnake that represent how it is viewed. Follows the same rules as in the [GET request](./#get). _Example: {"color":"#888888", "head":"default", "tail":"default" }_ |
 
 ### Board
 
