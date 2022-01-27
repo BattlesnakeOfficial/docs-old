@@ -8,7 +8,7 @@ Battlesnake has several game modes all built on the same foundational [game rule
 
 To play a specific mode, select the game mode at the top of the [Play Game](https://play.battlesnake.com/account/games/create/) page.
 
-![Game modes available to play](../.gitbook/assets/Game\_modes.png)
+![Game modes available to play](<../.gitbook/assets/Screen Shot 2022-01-27 at 11.16.22 AM.png>)
 
 ## Standard
 
@@ -53,3 +53,12 @@ When one Battlesnake in a squad consumes food, all Battlesnakes in that squad be
 ![Example Constrictor Game](../.gitbook/assets/Constrictor\_Game.png)
 
 In Constrictor mode, Battlesnake tails are 'pinned' at their starting location. The Battlesnake grows by one length every turn automatically, and its health points do not decrease. No food is spawned on the board during a constrictor game.
+
+## Wrapped
+
+![Example Wrapped Game](<../.gitbook/assets/Screen Shot 2022-01-27 at 10.58.20 AM.png>)
+
+Wrapped mode games expand the game board by removing the edges of the board and allowing snakes to wrap from one side of the board to the other. During a wrapped mode game, it is impossible for a Battlesnake to collide with the walls. While wrapped, a Battlesnake does not occupy any space outside of the board, the edges of the board are considered next to each other.
+
+Food, hazards and Battlesnake collision rules will all apply normally as per standard rules of the game. If a Battlesnake moves to the other side of the board but that square is occupied by a Battlesnake, the collision will resolve normally.
+

@@ -212,11 +212,11 @@ example-ruleset-object.json
 
 ```
 
-| **Property** | **Type** | **Description**                                                                                                                                                                                                                                     |
-| ------------ | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **name**     | string   | <p>Name of the ruleset being used to run this game. Possible values include: standard, solo, royale, squad, constrictor. See <a href="../game-modes.md">Game Modes</a> for more information on each ruleset.</p><p><em>Example: "standard"</em></p> |
-| **version**  | string   | <p>The release version of the <a href="https://github.com/BattlesnakeOfficial/rules">Rules</a> module used in this game.</p><p><em>Example: "version": "v1.2.3"</em></p>                                                                            |
-| **settings** | object   | A collection of [specific settings](./#rulesetsettings) being used by the current game that control how the rules are applied.                                                                                                                      |
+| **Property** | **Type** | **Description**                                                                                                                                                                                                                                              |
+| ------------ | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **name**     | string   | <p>Name of the ruleset being used to run this game. Possible values include: standard, solo, royale, squad, constrictor, wrapped. See <a href="../game-modes.md">Game Modes</a> for more information on each ruleset.</p><p><em>Example: "standard"</em></p> |
+| **version**  | string   | <p>The release version of the <a href="https://github.com/BattlesnakeOfficial/rules">Rules</a> module used in this game.</p><p><em>Example: "version": "v1.2.3"</em></p>                                                                                     |
+| **settings** | object   | A collection of [specific settings](./#rulesetsettings) being used by the current game that control how the rules are applied.                                                                                                                               |
 
 ### RulesetSettings
 
@@ -227,6 +227,7 @@ example-ruleset-settings-object.json
   "foodSpawnChance": 25,
   "minimumFood": 1,
   "hazardDamagePerTurn": 14,
+  "map": "hz_spiral",
   "royale": {
     "shrinkEveryNTurns": 5
   },
@@ -248,6 +249,7 @@ All ruleset settings will always be passed, but ruleset-specific settings (e.g. 
 | **foodSpawnChance**             | integer  | Percentage chance of spawning a new food every round.                                                                                |
 | **minimumFood**                 | integer  | Minimum food to keep on the board every turn.                                                                                        |
 | **hazardDamagePerTurn**         | integer  | Health damage a snake will take when ending its turn in a hazard. This stacks on top of the regular 1 damage a snake takes per turn. |
+| **map**                         | string   | A string identifier that describes the type of hazard map that is used in the game.                                                  |
 | _royale_.**shrinkEveryNTurns**  | integer  | In Royale mode, the number of turns between generating new hazards (shrinking the safe board space).                                 |
 | _squad_.**allowBodyCollisions** | boolean  | In Squad mode, allow members of the same squad to move over each other without dying.                                                |
 | _squad_.**sharedElimination**   | boolean  | In Squad mode, all squad members are eliminated when one is eliminated.                                                              |
