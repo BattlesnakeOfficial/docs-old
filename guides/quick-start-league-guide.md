@@ -24,7 +24,7 @@ The League Ladders will automatically run games in one or more of our possible [
 
 ![Example of Battlesnake customizations from the 2020 Stay Home and Code event](../.gitbook/assets/SHAC\_2020\_Heads.png)
 
-Registration for the League and the League Ladders will remain open up until a few days before the Tournament. Check the League Schedule for the exact date for any specific League.
+Registration for the League and the League Ladders will remain open up until a few days before the Tournament. Check the League Schedule for the exact dates for any specific League.
 
 ### Ongoing Special Content
 
@@ -49,7 +49,7 @@ The planned Leagues for the 2022 season are:
 * [Fall League](https://play.battlesnake.com/fall-league/)&#x20;
   * Pre-Registration Opens September 16th 2022
   * Sept 30th - Nov 12th 2022
-* [Winter Classic](https://play.battlesnake.com/winter-classic/)
+* [Winter Championship](https://play.battlesnake.com/winter-classic/)
   * &#x20;December 2022
 
 You can see the complete Battlesnake schedule on the [Community Calendar.](https://play.battlesnake.com/schedule/)
