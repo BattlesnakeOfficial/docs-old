@@ -28,7 +28,7 @@ You can choose from the complete list of [Starter Projects](../references/starte
 {% endhint %}
 
 * [Open the Python Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-python)
-* [Open the Go Starter Project in Replit](https://github.com/battlesnakeofficial/starter-snake-go)
+* [Open the Go Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-go)
 * [Open the JavaScript Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-javascript)
 * [Open the TypeScript Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-typescript)
 * [Open the Rust Starter Project in Replit](https://replit.com/github/BattlesnakeOfficial/starter-snake-rust)
