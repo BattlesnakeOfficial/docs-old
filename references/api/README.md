@@ -227,7 +227,8 @@ example-ruleset-settings-object.json
   "foodSpawnChance": 25,
   "minimumFood": 1,
   "hazardDamagePerTurn": 14,
-  "map": "hz_spiral",
+  "hazardMap": "hz_spiral",
+  "hazardMapAuthor": "altersaddle",
   "royale": {
     "shrinkEveryNTurns": 5
   },
@@ -249,7 +250,8 @@ All ruleset settings will always be passed, but ruleset-specific settings (e.g. 
 | **foodSpawnChance**             | integer  | Percentage chance of spawning a new food every round.                                                                                |
 | **minimumFood**                 | integer  | Minimum food to keep on the board every turn.                                                                                        |
 | **hazardDamagePerTurn**         | integer  | Health damage a snake will take when ending its turn in a hazard. This stacks on top of the regular 1 damage a snake takes per turn. |
-| **map**                         | string   | A string identifier that describes the type of hazard map that is used in the game.                                                  |
+| **hazardMap**                   | string   | A string identifier that describes the type of hazard map that is used in the game.                                                  |
+| **hazardMapAuthor**             | string   | A string with the username of the hazard map's author.                                                                               |
 | _royale_.**shrinkEveryNTurns**  | integer  | In Royale mode, the number of turns between generating new hazards (shrinking the safe board space).                                 |
 | _squad_.**allowBodyCollisions** | boolean  | In Squad mode, allow members of the same squad to move over each other without dying.                                                |
 | _squad_.**sharedElimination**   | boolean  | In Squad mode, all squad members are eliminated when one is eliminated.                                                              |
