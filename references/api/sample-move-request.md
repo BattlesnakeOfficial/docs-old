@@ -15,8 +15,25 @@ description: >-
     "id": "game-00fe20da-94ad-11ea-bb37",
     "ruleset": {
       "name": "standard",
-      "version": "v.1.2.3"
+      "version": "v.1.2.3",
+      "settings": {
+        "foodSpawnChance": 25,
+        "minimumFood": 1,
+        "hazardDamagePerTurn": 14,
+        "hazardMap": "hz_spiral",
+        "hazardMapAuthor": "altersaddle",
+        "royale": {
+          "shrinkEveryNTurns": 5
+        },
+        "squad": {
+          "allowBodyCollisions": true,
+          "sharedElimination": true,
+          "sharedHealth": true,
+          "sharedLength": true
+        }
+      }
     },
+    "source": "league",
     "timeout": 500
   },
   "turn": 14,
@@ -47,10 +64,10 @@ description: >-
         "shout": "why are we shouting??",
         "squad": "",
         "customizations":{
-               "color":"#FF0000",
-               "head":"pixel",
-               "tail":"pixel"
-            }
+          "color":"#FF0000",
+          "head":"pixel",
+          "tail":"pixel"
+        }
       }, 
       {
         "id": "snake-b67f4906-94ae-11ea-bb37",
@@ -68,10 +85,10 @@ description: >-
         "shout": "I'm not really sure...",
         "squad": "",
         "customizations":{
-               "color":"#26CF04",
-               "head":"silly",
-               "tail":"curled"
-            }
+          "color":"#26CF04",
+          "head":"silly",
+          "tail":"curled"
+        }
       }
     ]
   },
@@ -90,10 +107,10 @@ description: >-
     "shout": "why are we shouting??",
     "squad": ""
     "customizations":{
-               "color":"#FF0000",
-               "head":"pixel",
-               "tail":"pixel"
-            }
+      "color":"#FF0000",
+      "head":"pixel",
+      "tail":"pixel"
+    }
   }
 }
 ```
