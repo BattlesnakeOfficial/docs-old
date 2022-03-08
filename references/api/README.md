@@ -89,12 +89,12 @@ Your Battlesnake will receive this request when it has been entered into a new g
 
 #### Parameters
 
-| Body                        | Type    | Description                                                  |
-| --------------------------- | ------- | ------------------------------------------------------------ |
-|  [`game`](./#game)``        | object  | Game Object describing the game being played.                |
-| `turn`                      | integer | Turn number of the game being played (0 for new games).      |
-| ``[`board`](./#board)``     | object  | Board Object describing the initial state of the game board. |
-| ``[`you`](./#battlesnake)`` | object  | Battlesnake Object describing your Battlesnake.              |
+| Body                        | Type    | Description                                                                                       |
+| --------------------------- | ------- | ------------------------------------------------------------------------------------------------- |
+|  [`game`](./#game)``        | object  | [Game Object](./#game) describing the game being played.                                          |
+| `turn`                      | integer | Turn number of the game being played (0 for new games).                                           |
+| ``[`board`](./#board)``     | object  | <p></p><p><a href="./#board">Board Object</a> describing the initial state of the game board.</p> |
+| ``[`you`](./#battlesnake)`` | object  | [Battlesnake Object](./#battlesnake) describing your Battlesnake.                                 |
 
 
 
@@ -116,12 +116,12 @@ This request will be sent for every turn of the game. Use the information provid
 
 #### Parameters
 
-| Body                        | Type    | Description                                          |
-| --------------------------- | ------- | ---------------------------------------------------- |
-|  [`game`](./#game)``        | object  | Game Object describing the game being played.        |
-| `turn`                      | integer | Turn number for this move.                           |
-| ``[`board`](./#board)``     | object  | Board Object describing the game board on this turn. |
-| ``[`you`](./#battlesnake)`` | object  | Battlesnake Object describing your Battlesnake.      |
+| Body                        | Type    | Description                                                       |
+| --------------------------- | ------- | ----------------------------------------------------------------- |
+|  [`game`](./#game)``        | object  | [Game Object](./#game) describing the game being played.          |
+| `turn`                      | integer | Turn number for this move.                                        |
+| ``[`board`](./#board)``     | object  | [Board Object](./#board) describing the game board on this turn.  |
+| ``[`you`](./#battlesnake)`` | object  | [Battlesnake Object](./#battlesnake) describing your Battlesnake. |
 
 
 
@@ -153,12 +153,12 @@ Your Battlesnake will receive this request whenever a game it was playing has en
 
 #### Parameters
 
-| Body                        | Type    | Description                                                |
-| --------------------------- | ------- | ---------------------------------------------------------- |
-|  [`game`](./#game)``        | object  | Game Object describing the game being played.              |
-| `turn`                      | integer | Turn number for the last turn of the game.                 |
-| ``[`board`](./#board)``     | object  | Board Object describing the final state of the game board. |
-| ``[`you`](./#battlesnake)`` | object  | Battlesnake Object describing your Battlesnake.            |
+| Body                        | Type    | Description                                                            |
+| --------------------------- | ------- | ---------------------------------------------------------------------- |
+|  [`game`](./#game)``        | object  | [Game Object](./#game) describing the game being played.               |
+| `turn`                      | integer | Turn number for the last turn of the game.                             |
+| ``[`board`](./#board)``     | object  | [Board Object](./#board) describing the final state of the game board. |
+| ``[`you`](./#battlesnake)`` | object  | [Battlesnake Object](./#battlesnake) describing your Battlesnake.      |
 
 
 
@@ -300,7 +300,7 @@ All ruleset settings will always be passed, but ruleset-specific settings (e.g. 
 
 The game board is represented by a standard 2D grid, oriented with (0,0) in the bottom left. The Y-Axis is positive in the up direction, and X-Axis is positive to the right. Coordinates begin at zero, such that a board that is 11x11 will have coordinates ranging from \[0, 10].
 
-![Battlesnake Coordinate System](<../../.gitbook/assets/10 full.png>)
+![Battlesnake Coordinate System](../../.gitbook/assets/10-full.png)
 
 {% code title="example-board-object.json" %}
 ```javascript
