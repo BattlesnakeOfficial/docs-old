@@ -12,7 +12,7 @@ To play a specific mode, select the game mode at the top of the [Play Game](http
 
 ## Standard
 
-![Example Standard Game with four Battlesnakes](../.gitbook/assets/Standard\_Game.png)
+![Example Standard Game with four Battlesnakes](../.gitbook/assets/standard\_game.png)
 
 A Standard Game is the original Battlesnake following the [game rules](rules.md) without modification.
 
@@ -22,25 +22,26 @@ There is a special type of standard game called 'solo', which consists of a (usu
 
 ## Royale
 
-![Example Royale Game with Hazard Sauce on three sides](../.gitbook/assets/Royale\_Game.png)
+![Example Royale Game with Hazard Sauce on three sides](../.gitbook/assets/royale\_game.png)
 
 In a Royale Game, a new danger is introduced, commonly called 'Hazard Sauce'. The Hazard Sauce slowly enters on a random edge of the board consuming an entire row or column every few turns, shrinking the 'safe' zone. If the head of a Battlesnake is within the Hazard Sauce after it moves, its health points will more rapidly decline, losing 16 health each turn. Food can and will spawn both inside and outside of the Hazard Sauce. If a snake consumes a food on a hazardous square, the hazard will not affect its health on that turn, and its health will be restored to full (100). The default hazard damage is 15, which currently adds to the normal 1 health damage per turn.
 
 Specific scenarios and how hazards take effect:
 
-| Scenario                                          | Health Effect    |
-| ------------------------------------------------- | ---------------- |
-| Snake moves from empty square to empty square     | -1               |
-| Snake moves from empty square to hazard square    | -16              |
-| Snake moves from hazard square to empty square    | -1               |
-| Snake moves from hazard square to hazard square   | -16              |
-| Snake moves to hazard square also containing food | Restored to 100  |
+| Scenario                                                        | Health Effect                                                                                                                                                                             |
+| --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Snake moves from empty square to empty square                   | -1                                                                                                                                                                                        |
+| Snake moves from empty square to hazard square                  | -16                                                                                                                                                                                       |
+| Snake moves from hazard square to empty square                  | -1                                                                                                                                                                                        |
+| Snake moves from hazard square to hazard square                 | -16                                                                                                                                                                                       |
+| Snake moves to hazard square also containing food               | Restored to 100                                                                                                                                                                           |
+| Hazard square spawns on a snake's head at the start of the turn | <p>No effect. </p><p></p><p>Hazard damage is only applied in squares that appeared on the previous turn. The snake will have an opportunity to leave the square before taking damage.</p> |
 
 The location of hazardous squares are found in the API on the [board object](api/#board) listed under `hazards`, and are visible on the board as a darker-grey square.
 
 ## Squad
 
-![Example Squad Game with the purple squad overlapping at the head and tail](../.gitbook/assets/Squads\_Game.png)
+![Example Squad Game with the purple squad overlapping at the head and tail](../.gitbook/assets/squads\_game.png)
 
 Squad Games have two or more Battlesnakes operating as a team against at least one other squad. At minimum there must be two Battlesnakes per Squad, and two Squads per game. Squads can consist of the same Battlesnake multiple times, or different Battlesnakes. Squads will be automatically colour-matched, but other customizations, such as head and tail, will remain.
 
@@ -50,7 +51,7 @@ When one Battlesnake in a squad consumes food, all Battlesnakes in that squad be
 
 ## Constrictor
 
-![Example Constrictor Game](../.gitbook/assets/Constrictor\_Game.png)
+![Example Constrictor Game](../.gitbook/assets/constrictor\_game.png)
 
 In Constrictor mode, Battlesnake tails are 'pinned' at their starting location. The Battlesnake grows by one length every turn automatically, and its health points do not decrease. No food is spawned on the board during a constrictor game.
 
