@@ -6,7 +6,7 @@ description: Tips and common patterns for hosting your Battlesnake
 
 Battlesnakes must be deployed to a publicly accessible web server so they can interact with the Battlesnake Game Engine.&#x20;
 
-![The Game Engine makes API calls to each Battlesnake, rendering the results on the Game Board](../../.gitbook/assets/Simple\_Server\_Diagram.png)
+![The Game Engine makes API calls to each Battlesnake, rendering the results on the Game Board](../../.gitbook/assets/simple\_server\_diagram.png)
 
 Most of the [Starter Projects](https://docs.battlesnake.com/starter-snakes) have instructions for using [Heroku](https://heroku.com) or [Replit](https://replit.com), which are great options if you are new to web development or uncomfortable deploying code to a live server on your own.
 
@@ -19,6 +19,10 @@ Successfully deploying your Battlesnake should provide you with a unique URL. Op
 {% endcode %}
 
 There are a number of online hosting solutions that can be used with your Battlesnake. Many of these services provide a free tier for new accounts. Some popular ones in the Battlesnake community include:
+
+## Easy to Get Started
+
+We recommend the following hosting options if you're just getting started, aren't familiar with managing your own servers, or just want to get your Battlesnake live as quickly as possible!
 
 ### Replit
 
@@ -37,6 +41,24 @@ There are a number of online hosting solutions that can be used with your Battle
   * You are just getting started and want to test out Battlesnake without too much commitment or setup.
   * You don't want to have to manage your own hosting yet.
 
+### DigitalOcean App Platform
+
+App Platform is a Platform-as-a-Service (PaaS) that allows you to deploy your Battlesnake server without needing to handle the underlying infrastructure yourself.
+
+**Website:** [App Platform Docs](https://docs.digitalocean.com/products/app-platform/)\
+**Instructions**: [How to create apps](https://docs.digitalocean.com/products/app-platform/how-to/create-apps/)\
+**Quick Start Guide**: [Getting Started with DigitalOcean and Battlesnake](https://blog.battlesnake.com/p/373ee072-815e-4138-b216-80908655309d/)
+
+* **Advantages**
+  * Handles the hosting for you - no need to set up or maintain servers.
+  * There are [dedicated guides for different languages and tech stacks](https://docs.digitalocean.com/products/app-platform/languages-frameworks/).
+  * Can pull your code directly from source control on Github / GitLab and auto-deploy from a branch without needing to setup any special deploy tools.
+* **Gotchas**
+  * The free plan only covers static sites - you'll need at least a Basic plan to host a Battlesnake.
+* **You should probably use App Platform if...**
+  * You want full control over your IDE and local development environment.
+  * You don't want to have to manage your own hosting yet.
+
 ### Heroku
 
 **Website**: [Heroku](https://www.heroku.com)\
@@ -51,6 +73,39 @@ There are a number of online hosting solutions that can be used with your Battle
 * **You should probably use Heroku if...**
   * You want full control over your IDE and local development environment.
   * You don't want to have to manage your own hosting yet.
+
+## League Ready - Most Competitive Options
+
+&#x20;The following options are for more advanced users that want to get more performance out of their snake, or are looking for a more cost-effective hosting when scaling up resources.
+
+### DigitalOcean Droplets
+
+Droplets are Linux-based virtual machines that give you full access to a server which you can configure however you prefer.
+
+**Website**: [Droplets Docs](https://docs.digitalocean.com/products/droplets/)
+
+* **Advantages**
+  * Totally customize the software and network setup on your own Linux-based virtual machine.
+  * Shell access to the VM running your code for debugging or performance monitoring
+  * Lower cost for the same resources than App Platform, Heroku and other PaaS services.
+* **Gotchas**
+  * Paid options only.
+  * You're responsible for the configuration and security of your own server.
+* **You should probably use Droplets if....**
+  * You want full control over the hosting and deployment of your app.
+  * You are already experienced or want to become more experienced with configuring your own Linux servers.
+
+### DigitalOcean Kubernetes
+
+DigitalOcean Kubernetes is a managed service that allows you to run a Kubernetes cluster in the cloud without having to configure or manage the cluster itself.
+
+Website: [Kubernetes on DigitalOcean Docs](https://docs.digitalocean.com/products/kubernetes/)
+
+* **Advantages**
+  * Compatible with Kubernetes tools, allowing you to deploy more complex applications in a standardized way.
+  * Integrates with DigitalOcean load balancers and block storage automatically through standard Kubernetes configuration
+* **You should probably use DigitalOcean Kubernetes if....**
+  * You are already experienced or want to become more experienced with Kubernetes.
 
 ### AWS
 
@@ -70,8 +125,9 @@ There are a number of online hosting solutions that can be used with your Battle
 
 ### Local
 
+You can run your Battlesnake on your own hardware, as long as you have a way to expose a public URL on the Internet.
+
 * **Advantages**
-  * Local hosting, a more advanced choice.
   * Run your Battlesnake locally on your own computer for no extra cost!
 * **Gotchas**
   * Where you and your computer live can have a big impact on your server latency. The closer to the Pacific Northwest you are, the better.
