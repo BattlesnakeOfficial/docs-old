@@ -18,9 +18,11 @@ Using these alternate regions does not affect which Battlesnakes you can play ag
 
 Go to your profile at [http://play.battlesnake.com/me](http://play.battlesnake.com/me), find the Battlesnake you want to change, and click "Edit". You'll see a dropdown called "Engine Region", which will default to the primary region in AWS US-WEST-2 (Oregon).
 
-![Editing your Battlesnake](<../.gitbook/assets/Screen Shot 2021-11-18 at 3.00.17 PM.png>) ![Options for a Battlesnake's Engine Region](<../.gitbook/assets/Screen Shot 2021-11-18 at 3.00.24 PM.png>)
+![Editing your Battlesnake](<../.gitbook/assets/Screen Shot 2021-11-18 at 3.00.17 PM.png>) ![Options for a Battlesnake's Engine Region](<../.gitbook/assets/Screen Shot 2022-04-08 at 12.34.08 PM.png>)
 
 Selecting one of the other regions and clicking "Save" will refresh your Battlesnake's metadata through the region. If it's reachable and returns a valid response, you'll be able to see the new latency next to your Battlesnake. Hover your cursor over the "Latency" element to see the exact number in milliseconds. From now on, all [Battlesnake API requests](api/) will go through the new engine region, hopefully giving your Battlesnake more time to think!
+
+**Note**: Sometimes persistent HTTP connections, DNS lookups, and other factors can cause the first request to a snake from a region to be slower than subsequent requests. If the latency seems higher than expected, try refreshing your Battlesnake again to get a more realistic estimate of the latency for most of the turns in a game.
 
 ### How should I choose an Engine Region?
 
@@ -31,7 +33,7 @@ Here are some tips for common hosting setups:
 #### Running on [Replit](https://replit.com)
 
 * Replit decides where to run your repl based on your geographic location. They have several datacenters around the world, and pick one automatically for you when you create the repl.
-* If you're in North America, Replit currently seems to deploy in a region on the east coast. As a result, the "GCP US-EAST4" region may have lower latency.
+* If you're in North America, Replit currently seems to deploy in a region on the east coast. As a result, the "GCP US-EAST4" or "DigitalOcean TOR" regions may have lower latency.
 * Otherwise, you should pick the region that's closest to you geographically.
 * If you're traveling, or using a VPN, Replit might not detect your location accurately. In that case, test out the other regions and see if you get a better result.
 
@@ -40,10 +42,11 @@ Here are some tips for common hosting setups:
 * Choose a region that's close to what Ngrok shows in the "Region" field in your terminal.
 * You can force Ngrok to use a different region for a tunnel with the `--region` option.
 
-#### Running on AWS, GCP, etc.
+#### Running on AWS, GCP, DigitalOcean
 
 * Pick the region that's closest to the cloud provider's location/region you've deployed your code into.
 * e.g. for AWS us-east-1, use "GCP US-EAST4".
+* for DigitalOcean TOR1, use "DigitalOcean TOR (Toronto)"
 
 #### Running on Heroku
 
@@ -53,16 +56,19 @@ Here are some tips for common hosting setups:
 ### Currently supported engine regions
 
 * **Amazon Web Services (AWS)**
-  * US-WEST-2 (Oregon)
-    * This is the default region
+  * US-WEST-2 (Oregon) - **This is the default region**
 * **Google Cloud Platform (GCP)**
   * GCP US-EAST4 (Virginia)
   * GCP EUROPE-WEST4 (Netherlands)
   * GCP ASIA-SOUTH1 (Mumbai)
+* **Digital Ocean**
+  * DigitalOcean FRA (Frankfurt, Germany)
+  * DigitalOcean SGP (Singapore)
+  * DigitalOcean TOR (Toronto, Canada)
 
 ### IPv6 Support
 
-Currently the default AWS region (`AWS US-WEST-2`) does not support IPv6 Battlesnakes. If you need support for IPv6, you'll need to use one of the new GCP regions.
+Currently the default AWS region (`AWS US-WEST-2`) and DigitalOcean regions do not yet support IPv6 Battlesnakes. If you need support for IPv6, you'll need to use one of the GCP regions.
 
 You can enter your Battlesnake's URL in one of two ways:
 
