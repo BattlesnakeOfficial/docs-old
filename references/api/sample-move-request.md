@@ -105,8 +105,8 @@ description: >-
     "head": {"x": 0, "y": 0},
     "length": 3,
     "shout": "why are we shouting??",
-    "squad": ""
-    "customizations":{
+    "squad": "",
+    "customizations": {
       "color":"#FF0000",
       "head":"pixel",
       "tail":"pixel"
