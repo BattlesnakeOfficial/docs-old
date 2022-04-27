@@ -192,12 +192,12 @@ The Battlesnake API uses the following object definitions when communicating wit
 ```
 {% endcode %}
 
-| **Property** | **Type**                 | **Description**                                                                                                                      |
-| ------------ | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **id**       | string                   | <p>A unique identifier for this Game.</p><p><em>Example: "totally-unique-game-id"</em></p>                                           |
-| **ruleset**  | object                   | <p>Information about the ruleset being used to run this game. </p><p><em>Example: {"name": "standard", "version": "v1.2.3"}</em></p> |
-| **timeout**  | integer _(milliseconds)_ | <p>How much time your snake has to respond to requests for this Game.</p><p><em>Example: 500</em></p>                                |
-| **source**   | string                   | <p>The source of this game, e.g. "league" or "custom".</p><p>The values for this field may change in the near future.</p>            |
+| **Property** | **Type**                 | **Description**                                                                                                                                                                                                                                                                                      |
+| ------------ | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **id**       | string                   | <p>A unique identifier for this Game.</p><p><em>Example: "totally-unique-game-id"</em></p>                                                                                                                                                                                                           |
+| **ruleset**  | object                   | <p>Information about the ruleset being used to run this game. </p><p><em>Example: {"name": "standard", "version": "v1.2.3"}</em></p>                                                                                                                                                                 |
+| **timeout**  | integer _(milliseconds)_ | <p>How much time your snake has to respond to requests for this Game.</p><p><em>Example: 500</em></p>                                                                                                                                                                                                |
+| **source**   | string                   | <p>The source of this game. One of:</p><ul><li>tournament</li><li>league <em>(for League Arenas)</em></li><li>arena <em>(for all other Arenas)</em></li><li>challenge</li><li>custom <em>(for all other games sources)</em></li></ul><p>The values for this field may change in the near future.</p> |
 
 ### Ruleset
 
@@ -302,7 +302,7 @@ All ruleset settings will always be passed, but ruleset-specific settings (e.g. 
 
 The game board is represented by a standard 2D grid, oriented with (0,0) in the bottom left. The Y-Axis is positive in the up direction, and X-Axis is positive to the right. Coordinates begin at zero, such that a board that is 11x11 will have coordinates ranging from \[0, 10].
 
-![Battlesnake Coordinate System](../../.gitbook/assets/10-full.png)
+![Battlesnake Coordinate System](<../../.gitbook/assets/10 full.png>)
 
 {% code title="example-board-object.json" %}
 ```javascript
