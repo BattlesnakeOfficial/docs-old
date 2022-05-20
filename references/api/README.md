@@ -182,9 +182,10 @@ The Battlesnake API uses the following object definitions when communicating wit
 {
   "id": "totally-unique-game-id",
   "ruleset": {
-      "name": "standard",
-      "version": "v1.2.3"
-    },
+    "name": "standard",
+    "version": "v1.2.3"
+  },
+  "map": "standard",
   "timeout": 500,
   "source": "league"
 }
@@ -195,6 +196,8 @@ The Battlesnake API uses the following object definitions when communicating wit
 | ------------ | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **id**       | string                   | <p>A unique identifier for this Game.</p><p><em>Example: "totally-unique-game-id"</em></p>                                                                                                                                                                                                           |
 | **ruleset**  | object                   | <p>Information about the ruleset being used to run this game. </p><p><em>Example: {"name": "standard", "version": "v1.2.3"}</em></p>                                                                                                                                                                 |
+| **map**      | string                   | The name of the map used to populate the game board with snakes, food, and hazards.                                                                                                                                                                                                                  |
+|              |                          | _Example: "standard"_                                                                                                                                                                                                                                                                                |
 | **timeout**  | integer _(milliseconds)_ | <p>How much time your snake has to respond to requests for this Game.</p><p><em>Example: 500</em></p>                                                                                                                                                                                                |
 | **source**   | string                   | <p>The source of this game. One of:</p><ul><li>tournament</li><li>league <em>(for League Arenas)</em></li><li>arena <em>(for all other Arenas)</em></li><li>challenge</li><li>custom <em>(for all other games sources)</em></li></ul><p>The values for this field may change in the near future.</p> |
 

@@ -33,6 +33,7 @@ description: >-
         }
       }
     },
+    "map": "standard",
     "source": "league",
     "timeout": 500
   },
