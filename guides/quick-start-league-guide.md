@@ -22,7 +22,7 @@ When the League starts, participants will be able to enter their Battlesnake int
 
 The League Ladders will automatically run games in one or more of our possible [game modes](../references/game-modes.md). How many Ladders, and in which game mode depends on the League. All participants enter the Ladders at the bottom rung, and the system will automatically play games against other Battlesnakes in the ladder, tracking your Battlesnakes score as it rises up the ranks. We encourage you to make updates and changes to your Battlesnake as it competes. Progression in the Ladder is often rewarded with prizes, such as [custom heads and tails](https://play.battlesnake.com/references/customizations/) for your Battlesnake.
 
-![Example of Battlesnake customizations from the 2020 Stay Home and Code event](../.gitbook/assets/shac\_2020\_heads.png)
+![Example of Battlesnake customizations from the 2020 Stay Home and Code event](../.gitbook/assets/SHAC\_2020\_Heads.png)
 
 Registration for the League and the League Ladders will remain open up until a few days before the Tournament. Check the League Schedule for the exact dates for any specific League.
 

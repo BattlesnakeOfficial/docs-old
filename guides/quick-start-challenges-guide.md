@@ -12,7 +12,7 @@ Challenges are pre-defined Battlesnake games with specific win conditions. You c
 
 Often challenges are grouped together, with increasing levels of difficulty which will require you to modify and improve your Battlesnake code so that the challenge can be beaten.
 
-![Training Program Challenges, great for getting started with Battlesnake](../.gitbook/assets/screen-shot-2021-10-07-at-8.58.50-am.png)
+![Training Program Challenges, great for getting started with Battlesnake](<../.gitbook/assets/Screen Shot 2021-10-07 at 8.58.50 AM.png>)
 
 Challenges often have unusual game attributes, such as having a very small or very large board size, or a lot or very little food available. Each challenge is unique, so check them out to see what strange conditions the challenge gives you!&#x20;
 
@@ -22,10 +22,10 @@ On the [challenges](https://play.battlesnake.com/challenges/) page, you can clic
 
 Some challenges are locked until you have completed earlier challenges. Those challenges will be greyed out with the word **'Locked'**.
 
-![Challenges can be completed, locked, or available to try](../.gitbook/assets/screen-shot-2021-10-07-at-9.00.28-am.png)
+![Challenges can be completed, locked, or available to try](<../.gitbook/assets/Screen Shot 2021-10-07 at 9.00.28 AM.png>)
 
 ## What do I get for completing Challenges?
 
 Besides the satisfaction of a job well done, and the knowledge that your Battlesnake is getting better and better, you might notice some unlocked goodies on your profile. Check the notification on your Battlesnake account when you complete each challenge!
 
-![Challenge Completed!](../.gitbook/assets/screen-shot-2021-10-07-at-9.04.17-am.png)
+![Challenge Completed!](<../.gitbook/assets/Screen Shot 2021-10-07 at 9.04.17 AM.png>)

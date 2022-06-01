@@ -22,7 +22,7 @@ Rules is a Go module that plugs into our primary game engine. It controls how th
 
 #### [Documentation](https://github.com/BattlesnakeOfficial/docs)
 
-The docs repository is where this website is generated. Most of our docs use standard [Markdown](https://daringfireball.net/projects/markdown/syntax) pages and are rendered with [GitBook](https://www.gitbook.com). If you see documentation that could be better, please feel free to send us a pull request.
+The docs repository is where this website is generated. Most of our docs use standard [Markdown](https://daringfireball.net/projects/markdown/syntax) pages and are rendered with [GitBook](https://www.gitbook.com/). If you see documentation that could be better, please feel free to send us a pull request.
 
 #### [Starter Projects](../../references/starter-projects.md)
 

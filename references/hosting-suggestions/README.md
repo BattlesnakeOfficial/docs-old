@@ -6,9 +6,9 @@ description: Tips and common patterns for hosting your Battlesnake
 
 Battlesnakes must be deployed to a publicly accessible web server so they can interact with the Battlesnake Game Engine.&#x20;
 
-![The Game Engine makes API calls to each Battlesnake, rendering the results on the Game Board](../../.gitbook/assets/simple\_server\_diagram.png)
+![The Game Engine makes API calls to each Battlesnake, rendering the results on the Game Board](../../.gitbook/assets/Simple\_Server\_Diagram.png)
 
-Most of the [Starter Projects](https://docs.battlesnake.com/starter-snakes) have instructions for using [Heroku](https://heroku.com) or [Replit](https://replit.com), which are great options if you are new to web development or uncomfortable deploying code to a live server on your own.
+Most of the [Starter Projects](https://docs.battlesnake.com/starter-snakes) have instructions for using [Heroku](https://heroku.com) or [Replit](https://replit.com/), which are great options if you are new to web development or uncomfortable deploying code to a live server on your own.
 
 Successfully deploying your Battlesnake should provide you with a unique URL. Opening that URL in a browser should show your Battlesnake in action!
 
@@ -26,7 +26,7 @@ We recommend the following hosting options if you're just getting started, aren'
 
 ### Replit
 
-**Website**: [Replit](https://replit.com)\
+**Website**: [Replit](https://replit.com/)\
 **Instructions:** [**Deploy your Battlesnake with Replit**](../../guides/getting-started.md)****
 
 * **Advantages**
@@ -61,7 +61,7 @@ App Platform is a Platform-as-a-Service (PaaS) that allows you to deploy your Ba
 
 ### Heroku
 
-**Website**: [Heroku](https://www.heroku.com)\
+**Website**: [Heroku](https://www.heroku.com/)\
 **Instructions:** [**Deploy your Battlesnake with Heroku**](heroku.md)****
 
 * **Advantages**
@@ -109,7 +109,7 @@ Website: [Kubernetes on DigitalOcean Docs](https://docs.digitalocean.com/product
 
 ### AWS
 
-**Website**: [Amazon Web Services](https://aws.amazon.com)&#x20;
+**Website**: [Amazon Web Services](https://aws.amazon.com/)&#x20;
 
 * **Advantages**
   * Handles hosting, a more advanced choice.
@@ -131,7 +131,7 @@ You can run your Battlesnake on your own hardware, as long as you have a way to 
   * Run your Battlesnake locally on your own computer for no extra cost!
 * **Gotchas**
   * Where you and your computer live can have a big impact on your server latency. The closer to the Pacific Northwest you are, the better.
-  * You need to use a port forwarding tool like [ngrok](https://ngrok.com) to be able to create games on [play.battlesnake.com](https://play.battlesnake.com)
+  * You need to use a port forwarding tool like [ngrok](https://ngrok.com/) to be able to create games on [play.battlesnake.com](https://play.battlesnake.com)
 *   **You should probably use local if...**
 
     * You want full control over the hosting and deployment of your app.

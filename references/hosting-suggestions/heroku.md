@@ -8,9 +8,9 @@ description: >-
 
 ## Prerequisites
 
-* A free **** [**Battlesnake Account**](https://play.battlesnake.com)****
-* **A** [**GitHub Account**](https://github.com) **** and [**Git Command Line**](https://www.atlassian.com/git/tutorials/install-git)****
-* A free **** [**Heroku Account**](https://signup.heroku.com) and [**Heroku Command Line**](https://devcenter.heroku.com/categories/command-line)****
+* A free **** [**Battlesnake Account**](https://play.battlesnake.com/)****
+* **A** [**GitHub Account**](https://github.com/) **** and [**Git Command Line**](https://www.atlassian.com/git/tutorials/install-git)****
+* A free **** [**Heroku Account**](https://signup.heroku.com/) and [**Heroku Command Line**](https://devcenter.heroku.com/categories/command-line)****
 
 These instructions assume you have already installed the Git Command Line and Heroku Command Line tools.
 
