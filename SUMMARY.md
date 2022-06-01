@@ -40,6 +40,6 @@
 * [Mission and Values](policies/mission.md)
 * [Code of Conduct](policies/conduct.md)
 * [Diversity](policies/diversity.md)
-* [Privacy Policy](policies/privacy.md)
 * [Prize Policy](policies/prize-policy.md)
+* [Privacy Policy](policies/privacy.md)
 * [Terms of Service](policies/terms.md)
