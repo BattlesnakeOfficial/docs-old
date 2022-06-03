@@ -39,16 +39,6 @@ Specific scenarios and how hazards take effect:
 
 The location of hazardous squares are found in the API on the [board object](api/#board) listed under `hazards`, and are visible on the board as a darker-grey square.
 
-## Squad
-
-![Example Squad Game with the purple squad overlapping at the head and tail](../.gitbook/assets/Squads\_Game.png)
-
-Squad Games have two or more Battlesnakes operating as a team against at least one other squad. At minimum there must be two Battlesnakes per Squad, and two Squads per game. Squads can consist of the same Battlesnake multiple times, or different Battlesnakes. Squads will be automatically colour-matched, but other customizations, such as head and tail, will remain.
-
-Battlesnakes that are part of the same squad may overlap any part of their tail or body, but not their heads. Two snakes of the same squad with their heads in the same square will result in a head-on-head collision and the elimination of the squad.
-
-When one Battlesnake in a squad consumes food, all Battlesnakes in that squad benefit from that food, increasing their length and refilling their health. In the event that multiple Squad members consume food on the exact same turn, the entire Squad will only grow by one length. If any single Battlesnake in a squad is eliminated, the entire squad is eliminated.
-
 ## Constrictor
 
 ![Example Constrictor Game](../.gitbook/assets/Constrictor\_Game.png)
@@ -62,4 +52,48 @@ In Constrictor mode, Battlesnake tails are 'pinned' at their starting location. 
 Wrapped mode games expand the game board by removing the edges of the board and allowing snakes to wrap from one side of the board to the other. During a wrapped mode game, it is impossible for a Battlesnake to collide with the walls. While wrapped, a Battlesnake does not occupy any space outside of the board, the edges of the board are considered next to each other.
 
 Food, hazards and Battlesnake collision rules will all apply normally as per standard rules of the game. If a Battlesnake moves to the other side of the board but that square is occupied by a Battlesnake, the collision will resolve normally.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
