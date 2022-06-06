@@ -196,7 +196,7 @@ The Battlesnake API uses the following object definitions when communicating wit
 | ------------ | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **id**       | string                   | <p>A unique identifier for this Game.</p><p><em>Example: "totally-unique-game-id"</em></p>                                                                                                                                                                                                           |
 | **ruleset**  | object                   | <p>Information about the ruleset being used to run this game. </p><p><em>Example: {"name": "standard", "version": "v1.2.3"}</em></p>                                                                                                                                                                 |
-| **map**      | string                   | <p>The name of the map used to populate the game board with snakes, food, and hazards.<br><em>Example: "standard"</em></p>                                                                                                                                                                           |
+| **map**      | string                   | <p>The name of the map used to populate the game board with snakes, food, and hazards.<br><em>Example: "standard"</em></p><p>See [Game Maps](./#game-maps)</p> |
 | **timeout**  | integer _(milliseconds)_ | <p>How much time your snake has to respond to requests for this Game.</p><p><em>Example: 500</em></p>                                                                                                                                                                                                |
 | **source**   | string                   | <p>The source of this game. One of:</p><ul><li>tournament</li><li>league <em>(for League Arenas)</em></li><li>arena <em>(for all other Arenas)</em></li><li>challenge</li><li>custom <em>(for all other games sources)</em></li></ul><p>The values for this field may change in the near future.</p> |
 
@@ -332,3 +332,27 @@ The game board is represented by a standard 2D grid, oriented with (0,0) in the 
 | **food**     | array    | <p>Array of coordinates representing food locations on the game board.</p><p><em>Example: [{"x": 5, "y": 5}, ..., {"x": 2, "y": 6}]</em></p>                                                                                            |
 | **hazards**  | array    | <p>Array of coordinates representing hazardous locations on the game board. These will only appear in some <a href="../game-modes.md">game modes</a>.</p><p><em>Example: [{"x": 0, "y": 0}, ..., {"x": 0, "y": 1}]</em></p>             |
 | **snakes**   | array    | <p>Array of <a href="./#battlesnake">Battlesnake Objects</a> representing all Battlesnakes remaining on the game board (including yourself if you haven't been eliminated).</p><p><em>Example: [{"id": "snake-one", ...}, ...]</em></p> |
+
+### Game Maps
+Game maps are defined in the [BattlesnakeOfficial/rules](https://github.com/BattlesnakeOfficial/rules) repo, inside the [maps package](https://github.com/BattlesnakeOfficial/rules/tree/main/maps). Known maps currently include:
+  
+| **Map ID**                  | Description |
+| --------------------------- | ----------- |
+| [`standard`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/standard.go)  | Standard snake placement and food spawns |
+| [`empty`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/empty.go)  | Standard snake placement with no food spawns |
+| [`arcade_maze`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/arcade_maze.go)  | Arcade Maze |
+| [`royale`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/royale.go)  | Royale |
+| [`hz_inner_wall`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)  | Inner Border |
+| [`hz_rings`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)  | Concentric Rings |
+| [`hz_columns`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)  | Columns |
+| [`hz_rivers_bridges`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)  | Rivers and Bridges |
+| [`hz_spiral`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)  | Spiral |
+| [`hz_scatter`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)  | Scatter |
+| [`hz_grow_box`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)  | Directional Expanding Box |
+| [`hz_expand_box`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)  | Expanding Box |
+| [`hz_expand_scatter`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)  | Expanding Scatter |
+
+
+  
+  
+  
