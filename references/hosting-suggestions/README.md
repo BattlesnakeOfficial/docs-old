@@ -6,7 +6,7 @@ description: Tips and common patterns for hosting your Battlesnake
 
 Battlesnakes must be deployed to a publicly accessible web server so they can interact with the Battlesnake Game Engine.&#x20;
 
-![The Game Engine makes API calls to each Battlesnake, rendering the results on the Game Board](../../.gitbook/assets/Simple\_Server\_Diagram.png)
+![The Game Engine makes API calls to each Battlesnake, rendering the results on the Game Board](../../.gitbook/assets/simple\_server\_diagram.png)
 
 Most of the [Starter Projects](https://docs.battlesnake.com/starter-snakes) have instructions for using [Heroku](https://heroku.com) or [Replit](https://replit.com/), which are great options if you are new to web development or uncomfortable deploying code to a live server on your own.
 
@@ -59,10 +59,32 @@ App Platform is a Platform-as-a-Service (PaaS) that allows you to deploy your Ba
   * You want full control over your IDE and local development environment.
   * You don't want to have to manage your own hosting yet.
 
+### **Fly.io**
+
+Fly.io is a Platform-as-a-Service (PaaS)**,** running code in [Firecracker](https://firecracker-microvm.github.io/) microVMs around the world.
+
+**Website:** [Fly.io](https://fly.io/)\
+**Instructions:** [Hands-on with Fly](https://fly.io/docs/hands-on/start/)\
+**App Configuation:** [fly.io/docs/reference/configuration/](https://fly.io/docs/reference/configuration/)
+
+* **Advantages**
+  * Handles hosting for you, just bring a Dockerfile.&#x20;
+  * Generous free plan (enough to run 3 snakes) and more regions than Heroku.
+  * The support forums are great and the staff is very responsive/helpful even to free users.
+  * If you run multiple instances and configure the health checks correctly then you can do zero-downtime deploys mid-game without missing a move.
+* **Gotchas**
+  * Newer platform with less learning resources exist than the alternatives.
+  * The GUI/web interface is pretty bad, you have to use the CLI for most things.
+  * They require a credit card even if you're on a free plan (this is an anti-fraud measure).
+  * Takes more planning to control your latency due to how their backup regions work.
+* **You should probably use Fly.io if...**
+  * You want full control over your IDE and local development environment.
+  * You don't want to have to manage your own hosting yet.
+
 ### Heroku
 
 **Website**: [Heroku](https://www.heroku.com/)\
-**Instructions:** [**Deploy your Battlesnake with Heroku**](heroku.md)****
+**Instructions:** [Deploy your Battlesnake with Heroku](heroku.md)
 
 * **Advantages**
   * Handles the hosting for you.
