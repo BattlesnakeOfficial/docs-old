@@ -34,6 +34,7 @@ The Battlesnake community is all about collaboration and shared learning. Some o
 | [Kotlin Starter Project](https://github.com/770grappenmaker/starter-snake-kotlin) | [NotEvenJoking](https://github.com/770grappenmaker) |
 | [Kotlin and Java Battlesnake Quick Start](https://github.com/pambrose/battlesnake-quickstart) | [Paul Ambrose](https://github.com/pambrose) |
 | [PHP Starter Project](https://github.com/Nettogrof/starter-snake-php) | [Nettogrof](https://github.com/Nettogrof) |
+| [PowerShell Starter Project with Azure Functions](https://github.com/hestan-net/starter-snake-powershell) | [Hestan](https://github.com/hestan-net) |
 | [Node-RED Low-Code Starter Project](https://flows.nodered.org/flow/6cbf34b31e1890bb7a638005bcc4f54b) | [Sam Machin](https://github.com/sammachin) |
 | [Reinforcement Learning Battlesnake with AWS Sagemaker](https://github.com/awslabs/sagemaker-battlesnake-ai) | [Jonathan Chung](https://github.com/jonomon), AWS |
 | [Ruby Starter Project](https://github.com/battlesnakeofficial/starter-snake-ruby) | [BattlesnakeOfficial](https://github.com/BattlesnakeOfficial) |
