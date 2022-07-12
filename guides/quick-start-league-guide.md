@@ -36,6 +36,12 @@ You can see the complete Battlesnake schedule, with all Streams and Events on th
 
 At the end of the League, tournaments will be run and live-streamed on [Twitch](https://www.twitch.tv/battlesnakeofficial). Tournament placement is determined by rankings in the League Ladders. Tournaments have an additional prize structure posted on the Prizes section of the League page. Be sure to tune in to cheer on your Battlesnake!
 
+### Technical Considerations
+
+In order to do well in Leagues, you should have a Battlesnake that is capable of playing in multiple games at the same time.&#x20;
+
+If your Battlesnake is also competing in [Battlegrounds](https://play.battlesnake.com/battlegrounds/), it may end up in both Battleground Ladder games and League Qualifying Ladder games at the same time. You can utilize the `Game.source` provided data in the [Battlesnake API](https://docs.battlesnake.com/references/api#game), to prioritize how to handle games from different sources.
+
 ## When is the next League?
 
 The planned Leagues for the 2022 season are:
