@@ -30,16 +30,16 @@ In the event of a request timeout, the Battlesnake engine will repeat the last m
 
 The Battlesnake API consists of four commands. Your Battlesnake server must implement all four HTTP calls to play the game. These commands are called at different times during each game and your response to these command controls how your Battlesnake appears and behaves on the game board.
 
-\*\*\*\*[**Command: Get Battlesnake**](./#get)\
+[**Command: Get Battlesnake**](./#get)
 This command is called periodically by the game engine and the Battlesnake platform. It should return information about your Battlesnake, including who created it and what it looks like.
 
-\*\*\*\*[**Command: Start Game**](./#post-start)\
+[**Command: Start Game**](./#post-start)
 This command is called once at the beginning of every game to let your Battlesnake know that a new game is about to start.
 
-\*\*\*\*[**Command: Move**\
-](./#post-move)This command is called once per turn of each game, providing information about the game board to your Battlesnake and asking for its next move. Your response to this command determines how your Battlesnake behaves and will be the primary focus of your game logic programming.
+[**Command: Move**](./#post-move)
+This command is called once per turn of each game, providing information about the game board to your Battlesnake and asking for its next move. Your response to this command determines how your Battlesnake behaves and will be the primary focus of your game logic programming.
 
-\*\*\*\*[**Command: End Game**](./#post-end)\
+[**Command: End Game**](./#post-end)
 This command is called once after each game has been completed to let your Battlesnake know that the game is over.
 
 ### <mark style="color:green;"><mark style="color:blue;">**GET**<mark style="color:blue;"></mark> <mark style="color:green;"><mark style="color:blue;"> </mark><mark style="color:green;"><mark style="color:blue;">/<mark style="color:blue;"></mark>
@@ -90,8 +90,8 @@ Your Battlesnake will receive this request when it has been entered into a new g
 | --------------------------- | ------- | ------------------------------------------------------------------------ |
 | [`game`](./#game)           | object  | [Game Object](./#game) describing the game being played.                 |
 | `turn`                      | integer | Turn number of the game being played (0 for new games).                  |
-| ``[`board`](./#board)``     | object  | [Board Object](./#board) describing the initial state of the game board. |
-| ``[`you`](./#battlesnake)`` | object  | [Battlesnake Object](./#battlesnake) describing your Battlesnake.        |
+| [`board`](./#board)         | object  | [Board Object](./#board) describing the initial state of the game board. |
+| [`you`](./#battlesnake)     | object  | [Battlesnake Object](./#battlesnake) describing your Battlesnake.        |
 
 | Responses           | Type                                                      |
 | ------------------- | --------------------------------------------------------- |
@@ -113,8 +113,8 @@ This request will be sent for every turn of the game. Use the information provid
 | --------------------------- | ------- | ----------------------------------------------------------------- |
 | [`game`](./#game)           | object  | [Game Object](./#game) describing the game being played.          |
 | `turn`                      | integer | Turn number for this move.                                        |
-| ``[`board`](./#board)``     | object  | [Board Object](./#board) describing the game board on this turn.  |
-| ``[`you`](./#battlesnake)`` | object  | [Battlesnake Object](./#battlesnake) describing your Battlesnake. |
+| [`board`](./#board)         | object  | [Board Object](./#board) describing the game board on this turn.  |
+| [`you`](./#battlesnake)     | object  | [Battlesnake Object](./#battlesnake) describing your Battlesnake. |
 
 | Responses           | Type             |
 | ------------------- | ---------------- |
@@ -259,10 +259,10 @@ All ruleset settings will always be passed, but ruleset-specific settings (e.g. 
   "shout": "why are we shouting??",
   "squad": "1",
   "customizations":{
-               "color":"#26CF04",
-               "head":"smile",
-               "tail":"bolt"
-            }
+    "color":"#26CF04",
+    "head":"smile",
+    "tail":"bolt"
+  }
 }
 ```
 {% endcode %}
@@ -328,6 +328,7 @@ Game maps are defined in the [BattlesnakeOfficial/rules](https://github.com/Batt
 | [`empty`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/empty.go)               | Standard snake placement with no food spawns |
 | [`arcade_maze`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/arcade\_maze.go)  | Arcade Maze                                  |
 | [`royale`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/royale.go)             | Royale                                       |
+| [`solo_maze`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/solo_maze.go)       | Solo Maze where you need to find the food    |
 | [`hz_inner_wall`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)     | Inner Border                                 |
 | [`hz_rings`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)          | Concentric Rings                             |
 | [`hz_columns`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)        | Columns                                      |
@@ -337,3 +338,4 @@ Game maps are defined in the [BattlesnakeOfficial/rules](https://github.com/Batt
 | [`hz_grow_box`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)       | Directional Expanding Box                    |
 | [`hz_expand_box`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go)     | Expanding Box                                |
 | [`hz_expand_scatter`](https://github.com/BattlesnakeOfficial/rules/blob/main/maps/hazards.go) | Expanding Scatter                            |
+  
