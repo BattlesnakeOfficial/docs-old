@@ -146,8 +146,8 @@ Your Battlesnake will receive this request whenever a game it was playing has en
 | --------------------------- | ------- | ---------------------------------------------------------------------- |
 | [`game`](./#game)           | object  | [Game Object](./#game) describing the game being played.               |
 | `turn`                      | integer | Turn number for the last turn of the game.                             |
-| ``[`board`](./#board)``     | object  | [Board Object](./#board) describing the final state of the game board. |
-| ``[`you`](./#battlesnake)`` | object  | [Battlesnake Object](./#battlesnake) describing your Battlesnake.      |
+| [`board`](./#board)         | object  | [Board Object](./#board) describing the final state of the game board. |
+| [`you`](./#battlesnake)     | object  | [Battlesnake Object](./#battlesnake) describing your Battlesnake.      |
 
 | Responses           | Type                                                      |
 | ------------------- | --------------------------------------------------------- |
