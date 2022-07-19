@@ -16,13 +16,11 @@ Our mission is **to make it fun and accessible for anyone to become a better pro
 
 ## What can I do with my Battlesnake?
 
-**SOLO CHALLENGES**: Challenges are the “single-player campaign” of Battlesnake. It’s just you and a problem that needs solving. They're a great way to test and build up your skills in prep for Battlegrounds & Leagues. [See guide.](guides/quick-start-challenges-guide.md)
+**Solo Challenges**: Challenges are the “single-player campaign” of Battlesnake. It’s just you and a problem that needs solving. They're a great way to test and build up your skills. [See guide.](guides/quick-start-challenges-guide.md)
 
-**THE BATTLEGROUNDS:** Battlegrounds is a monthly cycling competition. Test your skills against other developers by putting your Battlesnakes into ladders, each with unique modes. Matches run between a set time each day, allowing you to make tweaks and changes to your code in-between matches. [See guide.](guides/battlegrounds-guide.md)****
+**The Battlegrounds:** A monthly cycling competition for testing your skills against other developers. Throw your Battlesnakes into ladders, each with unique modes. Matches run between a set time each day, allowing you to make tweaks to your code between matches. [See guide.](guides/battlegrounds-guide.md)****
 
-**COMPETE IN LEAGUES:** Leagues are limited-time competitions where the best of the best compete for title, prizes, and prestige! They’re only held 4 times a year and the finals are streamed live on Twitch. Has your Battlesnake got what it takes? [See guide.](guides/quick-start-league-guide.md)\
-\
-Championship tournaments are streamed and shout-casted live on Twitch each league!
+**Compete in Leagues:** Leagues are limited-time competitions where the best of the best compete for title, prizes, and prestige! They’re only held 4 times a year and the finals are streamed live on Twitch. Has your Battlesnake got what it takes? [See guide.](guides/quick-start-league-guide.md)
 
 ## Quick Start
 
