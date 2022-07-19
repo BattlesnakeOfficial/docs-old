@@ -27,7 +27,8 @@ You can choose from the complete list of [Starter Projects](../references/starte
 **Tip:** If you're unsure what language to choose, we suggest starting with [JavaScript](https://github.com/BattlesnakeOfficial/starter-snake-node) or [Python](https://github.com/BattlesnakeOfficial/starter-snake-python) as they're both widely supported and popular in the Battlesnake community.
 {% endhint %}
 
-* [Open the Python Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-python)
+* [Open the Python Starter Project in Replit](https://replit.com/@Battlesnake/starter-snakespython?v=1)
+    * __NOTE__: Importing Python projects from Github in Replit is currently not working, so you'll need to fork the template above to get started.
 * [Open the Go Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-go)
 * [Open the JavaScript Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-javascript)
 * [Open the TypeScript Starter Project in Replit](https://repl.it/github/BattlesnakeOfficial/starter-snake-typescript)
@@ -96,6 +97,10 @@ Tip: Keeping Replit open in a second window while games are running is helpful f
 Once your Battlesnake has a working URL, you can create it on the Battlesnake website and start playing games. You only need to create a Battlesnake once and can continue to update and change your Battlesnake code afterwards.
 
 Battlesnake creation happens in your profile. **Copy the Battlesnake server URL from Replit** (see Step 2) and put it in the 'URL' field. You can also fill in extra details such as 'Description' and 'Tags' to tell us a bit about your Battlesnake.
+
+{% hint style="warning" %}
+If you get an SSL error when loading your Replit Battlesnake server URL, try changing the `https://` to `http://`.
+{% endhint %}
 
 [**Click here to create a new Battlesnake in your account.**](https://play.battlesnake.com/account/snakes/create/)
 
