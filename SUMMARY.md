@@ -9,6 +9,7 @@
 * [Developer Tips](guides/tips.md)
 * [League Guide](guides/quick-start-league-guide.md)
 * [Challenges Guide](guides/quick-start-challenges-guide.md)
+* [Battlegrounds Guide](guides/battlegrounds-guide.md)
 
 ## References
 

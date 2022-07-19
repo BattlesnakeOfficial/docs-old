@@ -18,7 +18,7 @@ On every turn your Battlesnake will choose to move in a direction, one of _up_, 
 
 In order to restore the health your Battlesnake needs to survive, it must consume the traditional food of Battlesnakes: brightly colored nutritional discs.
 
-![](<../.gitbook/assets/Kapture 2020-05-16 at 11.28.27.gif>)
+![](../.gitbook/assets/kapture-2020-05-16-at-11.28.27.gif)
 
 These flavorful discs will appear throughout the game and remain on the game board until consumed. Battlesnakes that enter the same square as a piece of food will immediately consume it, filling their health to maximum. But ravenous consumption comes at a cost...
 

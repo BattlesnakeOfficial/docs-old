@@ -4,6 +4,14 @@ description: Questions frequently asked by Battlesnake developers.
 
 # FAQ
 
+## What can I do with my Battlesnake**?**
+
+**SOLO CHALLENGES**: Challenges are the “single-player campaign” of Battlesnake. It’s just you and the puzzle you need to solve. They're a great way to test and build up your skills in prep for Battlegrounds & Leagues. [See guide](guides/quick-start-challenges-guide.md).
+
+**THE BATTLEGROUNDS:** Battlegrounds is a monthly cycling competition. Test your skills against other developers by putting your Battlesnakes into ladders, each with unique modes. Matches run between a set time each day, allowing you to make tweaks and changes to your code in-between matches. [See guide.](guides/battlegrounds-guide.md)****
+
+**COMPETE IN LEAGUES:** Leagues are limited-time competitions where the best of the best compete for title, prizes, and prestige! They’re only held 4 times a year and the finals are streamed live on Twitch. Has your Battlesnake got what it takes? [See guide.](guides/quick-start-league-guide.md)
+
 ## Do I need to know how to program to play Battlesnake?
 
 Battlesnake is best for those with beginner-level programming skills and above. You'll have to know the basics of at least one popular programming language to get started.
@@ -46,4 +54,3 @@ Battlesnake Arenas and Leagues use a nearly vanilla implementation of [Microsoft
 ## How do I organize a Battlesnake Competition?
 
 Email us directly or fill out our [Partner Contact Form](https://play.battlesnake.com/partner/contact/). We'll be in touch!
-
