@@ -16,7 +16,7 @@ Our mission is **to make it fun and accessible for anyone to become a better pro
 
 ## What can I do with my Battlesnake?
 
-**SOLO CHALLENGES**: Challenges are the “single-player campaign” of Battlesnake. It’s just you and the puzzle you need to solve. They're a great way to test and build up your skills in prep for Battlegrounds & Leagues. [See guide.](guides/quick-start-challenges-guide.md)
+**SOLO CHALLENGES**: Challenges are the “single-player campaign” of Battlesnake. It’s just you and a problem that needs solving. They're a great way to test and build up your skills in prep for Battlegrounds & Leagues. [See guide.](guides/quick-start-challenges-guide.md)
 
 **THE BATTLEGROUNDS:** Battlegrounds is a monthly cycling competition. Test your skills against other developers by putting your Battlesnakes into ladders, each with unique modes. Matches run between a set time each day, allowing you to make tweaks and changes to your code in-between matches. [See guide.](guides/battlegrounds-guide.md)****
 
