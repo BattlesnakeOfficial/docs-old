@@ -20,21 +20,21 @@ For the purposes of prizes, we can only contact folks that are subscribed to **"
 
 ****
 
+**Shipping Physical Prizes**
+
+Currently, we can _only offer shipment of physical prizes to Canada and the United States._ Depending on your location, there are situations in which we can make exceptions to this rule, and we'll discuss these options with prize recipients directly at claim time.
+
+****
+
 **Prize Substitutions**
 
 In situations where inventory is limited, or demand for a specific prize exceeds expectation, a substitute item of similar value will be made available.
 
 ****
 
-**Shipping Physical Prizes**
-
-Currently, we can only offer shipment of physical prizes to Canada and the United States. Depending on your location, there are situations in which we can make exceptions to this rule, and we'll discuss these options with prize recipients directly at claim time.
-
-****
-
 **Deliverability**
 
-If the first attempt to ship is unsuccessful (package never arrives, return to sender, etc.), there is no guarantee we'll be able to resend a specific phsyical prize (however we will try our best in all situations that allow for this).
+If the first attempt to ship is unsuccessful (package never arrives, return to sender, etc.), there is no guarantee we'll be able to resend a specific physical prize (however we will try our best in all situations that allow for this).
 
 ****
 
