@@ -22,7 +22,7 @@ For the purposes of prizes, we can only contact folks that are subscribed to **"
 
 **Prize Substitutions**
 
-In situations where inventory is limited, or demand for a specific prize exceeds expectation, a substitute item of simialr value will be made available.
+In situations where inventory is limited, or demand for a specific prize exceeds expectation, a substitute item of similar value will be made available.
 
 ****
 
