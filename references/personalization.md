@@ -52,9 +52,27 @@ If your Battlesnake doesn't specify a head or tail these default options will be
 
 ![default head and tail](../.gitbook/assets/defaultsnake.png)
 
-{% hint style="success" %}
-**New Theme Releases**\
-****We regularly release new head and tail options, often as part of specific Battlesnake events and competitions.
-{% endhint %}
+## Collecting Heads and Tails
 
-### For a complete list of customizations you can use, check out the **** [**Battlesnake Heads and Tails Guide**](https://play.battlesnake.com/references/customizations/).
+All developers start with a base collection of head and tails to choose from.  Check out your [**Customizations Collections**](https://play.battlesnake.com/customizations) page for a complete list of the heads and tails you can use. There are over 100 customizations to collect, with new heads and tails being released regularly.
+
+### Unlocking Customizations
+
+New head and tail customizations are unlocked using **Battlesnake Points.**
+
+To unlock a customization, just find one that is not in your collection and click on the unlock button. If you have enough points, the head or tail will be added to your account and is ready to use on your Battlesnake!
+
+![Unlock a new customization with Battlesnake Points](<../.gitbook/assets/Customization Unlock.png>)
+
+### Earning Battlesnake Points
+
+Battlesnake Points are gained by participating in various Battlesnake activities. As you explore the Battlesnake platform and complete goals, you will automatically earn points.
+
+There are many ways to earn Battlesnake Points:
+
+* Create a Battlesnake
+* Complete challenges
+* Participate in Battlegrounds
+* Join a league
+* Compete in tournaments
+* Be active in the community
